@@ -1,0 +1,4217 @@
+{
+  "version": 1,
+  "title": "Geomoji",
+  "note": "Unicode emoji catalog. gap=true means there is no good emoji yet.",
+  "categories": [
+    {
+      "id": "travel",
+      "name": "Travel",
+      "symbol": "airplane",
+      "summary": "Getting there, luggage, lodging, and trip moments",
+      "subcategories": [
+        {
+          "id": "air-travel",
+          "name": "Air Travel",
+          "items": [
+            {
+              "id": "passenger-jet",
+              "name": "Passenger jet",
+              "keywords": [
+                "airplane",
+                "jet",
+                "plane",
+                "flight",
+                "airliner"
+              ],
+              "emoji": "✈️"
+            },
+            {
+              "id": "jet-takeoff",
+              "name": "Jet taking off",
+              "keywords": [
+                "departure",
+                "takeoff",
+                "airplane"
+              ],
+              "emoji": "🛫"
+            },
+            {
+              "id": "jet-landing",
+              "name": "Jet landing",
+              "keywords": [
+                "arrival",
+                "landing",
+                "airplane"
+              ],
+              "emoji": "🛬"
+            },
+            {
+              "id": "small-plane",
+              "name": "Private / small plane",
+              "keywords": [
+                "private jet",
+                "prop",
+                "cessna",
+                "small airplane"
+              ],
+              "emoji": "🛩️"
+            },
+            {
+              "id": "helicopter",
+              "name": "Helicopter",
+              "keywords": [
+                "chopper",
+                "heli"
+              ],
+              "emoji": "🚁"
+            },
+            {
+              "id": "seat",
+              "name": "Airplane seat",
+              "keywords": [
+                "window seat",
+                "cabin"
+              ],
+              "emoji": "💺"
+            },
+            {
+              "id": "parachute",
+              "name": "Parachute",
+              "keywords": [
+                "skydiving"
+              ],
+              "emoji": "🪂"
+            },
+            {
+              "id": "airport-shuttle",
+              "name": "Airport shuttle",
+              "keywords": [
+                "shuttle",
+                "bus",
+                "airport"
+              ],
+              "emoji": "🚌"
+            },
+            {
+              "id": "ticket",
+              "name": "Ticket / boarding pass",
+              "keywords": [
+                "boarding pass",
+                "boarding",
+                "gate pass"
+              ],
+              "emoji": "🎫"
+            },
+            {
+              "id": "airport-terminal",
+              "name": "Airport terminal",
+              "keywords": [
+                "airport",
+                "terminal",
+                "concourse"
+              ],
+              "gap": true
+            },
+            {
+              "id": "control-tower",
+              "name": "Control tower",
+              "keywords": [
+                "tower",
+                "atc",
+                "airport"
+              ],
+              "gap": true
+            },
+            {
+              "id": "boarding-gate",
+              "name": "Boarding gate",
+              "keywords": [
+                "gate",
+                "boarding"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "road-trips",
+          "name": "Road Trips",
+          "items": [
+            {
+              "id": "car",
+              "name": "Road-trip car",
+              "keywords": [
+                "car",
+                "auto",
+                "sedan",
+                "rental car"
+              ],
+              "emoji": "🚗"
+            },
+            {
+              "id": "suv",
+              "name": "SUV / family car",
+              "keywords": [
+                "suv",
+                "road trip"
+              ],
+              "emoji": "🚙"
+            },
+            {
+              "id": "pickup",
+              "name": "Pickup truck",
+              "keywords": [
+                "truck",
+                "pickup"
+              ],
+              "emoji": "🛻"
+            },
+            {
+              "id": "taxi",
+              "name": "Taxi / cab",
+              "keywords": [
+                "cab",
+                "taxi"
+              ],
+              "emoji": "🚕"
+            },
+            {
+              "id": "bus",
+              "name": "Bus",
+              "keywords": [
+                "coach",
+                "shuttle"
+              ],
+              "emoji": "🚌"
+            },
+            {
+              "id": "minibus",
+              "name": "Camper van / van",
+              "keywords": [
+                "van",
+                "camper van",
+                "sprinter"
+              ],
+              "emoji": "🚐"
+            },
+            {
+              "id": "motorway",
+              "name": "Open highway",
+              "keywords": [
+                "highway",
+                "freeway",
+                "interstate"
+              ],
+              "emoji": "🛣️"
+            },
+            {
+              "id": "fuel",
+              "name": "Fuel pump",
+              "keywords": [
+                "gas",
+                "petrol",
+                "station"
+              ],
+              "emoji": "⛽"
+            },
+            {
+              "id": "mountain-railway",
+              "name": "Scenic train",
+              "keywords": [
+                "scenic train",
+                "rail"
+              ],
+              "emoji": "🚞"
+            },
+            {
+              "id": "locomotive",
+              "name": "Locomotive",
+              "keywords": [
+                "steam",
+                "train"
+              ],
+              "emoji": "🚂"
+            },
+            {
+              "id": "passenger-train",
+              "name": "Passenger train",
+              "keywords": [
+                "train",
+                "rail"
+              ],
+              "emoji": "🚆"
+            },
+            {
+              "id": "high-speed-train",
+              "name": "High-speed train",
+              "keywords": [
+                "shinkansen",
+                "bullet"
+              ],
+              "emoji": "🚄"
+            },
+            {
+              "id": "bullet-train",
+              "name": "Bullet train",
+              "keywords": [
+                "shinkansen"
+              ],
+              "emoji": "🚅"
+            },
+            {
+              "id": "metro",
+              "name": "Metro / subway",
+              "keywords": [
+                "subway",
+                "underground"
+              ],
+              "emoji": "🚇"
+            },
+            {
+              "id": "station",
+              "name": "Train station",
+              "keywords": [
+                "depot",
+                "platform"
+              ],
+              "emoji": "🚉"
+            },
+            {
+              "id": "national-park-overlook",
+              "name": "Scenic overlook",
+              "keywords": [
+                "overlook",
+                "viewpoint"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "motor-scooter",
+              "name": "Motor scooter",
+              "keywords": [
+                "vespa"
+              ],
+              "emoji": "🛵"
+            },
+            {
+              "id": "motorcycle",
+              "name": "Motorcycle",
+              "keywords": [
+                "motorbike"
+              ],
+              "emoji": "🏍️"
+            },
+            {
+              "id": "rv-class-c",
+              "name": "Class C RV",
+              "keywords": [
+                "rv",
+                "motorhome",
+                "class c"
+              ],
+              "gap": true
+            },
+            {
+              "id": "travel-trailer",
+              "name": "Travel trailer",
+              "keywords": [
+                "trailer",
+                "carvan",
+                "caravan"
+              ],
+              "gap": true
+            },
+            {
+              "id": "teardrop-camper",
+              "name": "Teardrop camper",
+              "keywords": [
+                "teardrop",
+                "camper"
+              ],
+              "gap": true
+            },
+            {
+              "id": "roof-luggage",
+              "name": "Car with roof luggage",
+              "keywords": [
+                "roof box",
+                "thule",
+                "cargo box"
+              ],
+              "gap": true
+            },
+            {
+              "id": "rest-stop",
+              "name": "Highway rest stop",
+              "keywords": [
+                "rest area",
+                "rest stop"
+              ],
+              "gap": true
+            },
+            {
+              "id": "exit-sign",
+              "name": "Highway exit sign",
+              "keywords": [
+                "exit",
+                "off ramp"
+              ],
+              "gap": true
+            },
+            {
+              "id": "winding-road",
+              "name": "Winding mountain road",
+              "keywords": [
+                "switchback",
+                "hairpin"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "cruises",
+          "name": "Cruises",
+          "items": [
+            {
+              "id": "passenger-ship",
+              "name": "Cruise ship",
+              "keywords": [
+                "cruise",
+                "liner"
+              ],
+              "emoji": "🛳️"
+            },
+            {
+              "id": "ship",
+              "name": "Ship",
+              "keywords": [
+                "ocean liner"
+              ],
+              "emoji": "🚢"
+            },
+            {
+              "id": "ferry",
+              "name": "Ferry",
+              "keywords": [
+                "ferry"
+              ],
+              "emoji": "⛴️"
+            },
+            {
+              "id": "water-taxi",
+              "name": "Water taxi",
+              "keywords": [
+                "speedboat",
+                "water taxi"
+              ],
+              "emoji": "🚤"
+            },
+            {
+              "id": "sailboat",
+              "name": "Sailboat",
+              "keywords": [
+                "sail",
+                "yacht"
+              ],
+              "emoji": "⛵"
+            },
+            {
+              "id": "motor-boat",
+              "name": "Motor boat",
+              "keywords": [
+                "cabin cruiser"
+              ],
+              "emoji": "🛥️"
+            },
+            {
+              "id": "canoe",
+              "name": "Canoe",
+              "keywords": [
+                "canoe",
+                "paddle"
+              ],
+              "emoji": "🛶"
+            },
+            {
+              "id": "anchor",
+              "name": "Anchor",
+              "keywords": [
+                "harbor",
+                "mooring"
+              ],
+              "emoji": "⚓"
+            },
+            {
+              "id": "ring-buoy",
+              "name": "Ring buoy",
+              "keywords": [
+                "life preserver",
+                "safety"
+              ],
+              "emoji": "🛟"
+            }
+          ]
+        },
+        {
+          "id": "international",
+          "name": "International",
+          "items": [
+            {
+              "id": "globe-americas",
+              "name": "Globe (Americas)",
+              "keywords": [
+                "world",
+                "earth",
+                "americas"
+              ],
+              "emoji": "🌎"
+            },
+            {
+              "id": "globe-europe-africa",
+              "name": "Globe (Europe–Africa)",
+              "keywords": [
+                "world",
+                "earth",
+                "africa",
+                "europe"
+              ],
+              "emoji": "🌍"
+            },
+            {
+              "id": "globe-asia",
+              "name": "Globe (Asia–Australia)",
+              "keywords": [
+                "world",
+                "earth",
+                "asia"
+              ],
+              "emoji": "🌏"
+            },
+            {
+              "id": "world-map",
+              "name": "World map",
+              "keywords": [
+                "map",
+                "atlas"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "passport-control",
+              "name": "Passport control",
+              "keywords": [
+                "passport",
+                "immigration"
+              ],
+              "emoji": "🛂"
+            },
+            {
+              "id": "customs",
+              "name": "Customs",
+              "keywords": [
+                "customs",
+                "declaration"
+              ],
+              "emoji": "🛃"
+            },
+            {
+              "id": "baggage-claim",
+              "name": "Baggage claim",
+              "keywords": [
+                "carousel",
+                "luggage claim"
+              ],
+              "emoji": "🛄"
+            },
+            {
+              "id": "left-luggage",
+              "name": "Left luggage",
+              "keywords": [
+                "locker",
+                "storage"
+              ],
+              "emoji": "🛅"
+            },
+            {
+              "id": "id-card",
+              "name": "ID card",
+              "keywords": [
+                "identification",
+                "license"
+              ],
+              "emoji": "🪪"
+            },
+            {
+              "id": "currency-exchange",
+              "name": "Currency exchange",
+              "keywords": [
+                "forex",
+                "money"
+              ],
+              "emoji": "💱"
+            },
+            {
+              "id": "duty-free",
+              "name": "Shopping / duty-free",
+              "keywords": [
+                "souvenir",
+                "shop"
+              ],
+              "emoji": "🛍️"
+            },
+            {
+              "id": "postcard",
+              "name": "Mail / postcard",
+              "keywords": [
+                "postcard",
+                "letter"
+              ],
+              "emoji": "✉️"
+            },
+            {
+              "id": "window-seat-view",
+              "name": "Window view",
+              "keywords": [
+                "window seat",
+                "porthole"
+              ],
+              "emoji": "🪟"
+            },
+            {
+              "id": "selfie",
+              "name": "Vacation selfie",
+              "keywords": [
+                "photo",
+                "selfie"
+              ],
+              "emoji": "🤳"
+            },
+            {
+              "id": "camera",
+              "name": "Travel photography",
+              "keywords": [
+                "camera",
+                "photo"
+              ],
+              "emoji": "📷"
+            },
+            {
+              "id": "sunrise",
+              "name": "Sunrise destination",
+              "keywords": [
+                "sunrise",
+                "dawn"
+              ],
+              "emoji": "🌅"
+            },
+            {
+              "id": "sunrise-mountains",
+              "name": "Sunrise over mountains",
+              "keywords": [
+                "sunrise",
+                "alpenglow"
+              ],
+              "emoji": "🌄"
+            },
+            {
+              "id": "sunset",
+              "name": "Sunset destination",
+              "keywords": [
+                "sunset",
+                "dusk"
+              ],
+              "emoji": "🌇"
+            },
+            {
+              "id": "night-stars",
+              "name": "Night skyline",
+              "keywords": [
+                "night",
+                "city"
+              ],
+              "emoji": "🌃"
+            },
+            {
+              "id": "milky-way",
+              "name": "Milky Way",
+              "keywords": [
+                "stars",
+                "night"
+              ],
+              "emoji": "🌌"
+            },
+            {
+              "id": "star",
+              "name": "Star",
+              "keywords": [
+                "night",
+                "wish"
+              ],
+              "emoji": "⭐"
+            }
+          ]
+        },
+        {
+          "id": "luggage",
+          "name": "Luggage",
+          "items": [
+            {
+              "id": "suitcase",
+              "name": "Rolling suitcase",
+              "keywords": [
+                "suitcase",
+                "luggage",
+                "checked bag"
+              ],
+              "emoji": "🧳"
+            },
+            {
+              "id": "backpack",
+              "name": "Travel backpack",
+              "keywords": [
+                "backpack",
+                "daypack",
+                "rucksack"
+              ],
+              "emoji": "🎒"
+            },
+            {
+              "id": "handbag",
+              "name": "Carry bag",
+              "keywords": [
+                "bag",
+                "carry-on"
+              ],
+              "emoji": "👜"
+            },
+            {
+              "id": "label",
+              "name": "Luggage tag",
+              "keywords": [
+                "tag",
+                "label"
+              ],
+              "emoji": "🏷️"
+            },
+            {
+              "id": "closed-umbrella",
+              "name": "Travel umbrella",
+              "keywords": [
+                "umbrella",
+                "rain"
+              ],
+              "emoji": "🌂"
+            },
+            {
+              "id": "key",
+              "name": "Key / keycard",
+              "keywords": [
+                "key",
+                "keycard"
+              ],
+              "emoji": "🔑"
+            },
+            {
+              "id": "duffel",
+              "name": "Duffel bag",
+              "keywords": [
+                "duffel",
+                "weekender"
+              ],
+              "gap": true
+            },
+            {
+              "id": "neck-pillow",
+              "name": "Neck pillow",
+              "keywords": [
+                "pillow",
+                "travel pillow"
+              ],
+              "gap": true
+            },
+            {
+              "id": "packing-cubes",
+              "name": "Packing cubes",
+              "keywords": [
+                "organizer",
+                "cubes"
+              ],
+              "gap": true
+            },
+            {
+              "id": "toiletry-bag",
+              "name": "Toiletry bag",
+              "keywords": [
+                "dop kit",
+                "toiletries"
+              ],
+              "gap": true
+            },
+            {
+              "id": "camera-bag",
+              "name": "Camera bag",
+              "keywords": [
+                "camera bag"
+              ],
+              "gap": true
+            },
+            {
+              "id": "passport-wallet",
+              "name": "Passport wallet",
+              "keywords": [
+                "travel wallet",
+                "document holder"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "name": "Lodging",
+          "items": [
+            {
+              "id": "hotel",
+              "name": "Hotel",
+              "keywords": [
+                "hotel",
+                "inn"
+              ],
+              "emoji": "🏨"
+            },
+            {
+              "id": "bellhop",
+              "name": "Bellhop / room service",
+              "keywords": [
+                "concierge",
+                "service"
+              ],
+              "emoji": "🛎️"
+            },
+            {
+              "id": "bed",
+              "name": "Bed / hostel bunk",
+              "keywords": [
+                "bed",
+                "hostel",
+                "bunk"
+              ],
+              "emoji": "🛏️"
+            },
+            {
+              "id": "couch",
+              "name": "Couch / rental living room",
+              "keywords": [
+                "vacation rental",
+                "airbnb"
+              ],
+              "emoji": "🛋️"
+            },
+            {
+              "id": "hut",
+              "name": "Cabin / hut",
+              "keywords": [
+                "cabin",
+                "lodge",
+                "bungalow"
+              ],
+              "emoji": "🛖"
+            },
+            {
+              "id": "house",
+              "name": "House / vacation rental",
+              "keywords": [
+                "rental",
+                "home"
+              ],
+              "emoji": "🏠"
+            },
+            {
+              "id": "camping-lodging",
+              "name": "Camp lodging",
+              "keywords": [
+                "campground"
+              ],
+              "emoji": "🏕️"
+            },
+            {
+              "id": "tent-lodging",
+              "name": "Tent stay",
+              "keywords": [
+                "tent"
+              ],
+              "emoji": "⛺"
+            },
+            {
+              "id": "hot-springs",
+              "name": "Hot springs",
+              "keywords": [
+                "onsen",
+                "spa"
+              ],
+              "emoji": "♨️"
+            },
+            {
+              "id": "beach-umbrella",
+              "name": "Beach umbrella",
+              "keywords": [
+                "beach chair",
+                "shade"
+              ],
+              "emoji": "⛱️"
+            },
+            {
+              "id": "desert-island",
+              "name": "Island resort",
+              "keywords": [
+                "resort",
+                "atoll"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "beach",
+              "name": "Beach vacation",
+              "keywords": [
+                "beach"
+              ],
+              "emoji": "🏖️"
+            },
+            {
+              "id": "do-not-disturb",
+              "name": "Do Not Disturb hanger",
+              "keywords": [
+                "dnd",
+                "privacy"
+              ],
+              "gap": true
+            },
+            {
+              "id": "luggage-cart",
+              "name": "Luggage cart",
+              "keywords": [
+                "bell cart",
+                "trolley"
+              ],
+              "gap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "symbol": "globe.americas",
+      "summary": "Landforms, maps, weather, geology, and oceans",
+      "subcategories": [
+        {
+          "id": "landforms",
+          "name": "Landforms",
+          "items": [
+            {
+              "id": "mountain",
+              "name": "Mountain",
+              "keywords": [
+                "peak",
+                "range"
+              ],
+              "emoji": "⛰️"
+            },
+            {
+              "id": "snow-mountain",
+              "name": "Snow-capped mountain",
+              "keywords": [
+                "alps",
+                "summit"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "mount-fuji",
+              "name": "Mount Fuji",
+              "keywords": [
+                "fuji",
+                "stratovolcano"
+              ],
+              "emoji": "🗻"
+            },
+            {
+              "id": "volcano",
+              "name": "Volcano",
+              "keywords": [
+                "eruption",
+                "lava"
+              ],
+              "emoji": "🌋"
+            },
+            {
+              "id": "desert",
+              "name": "Desert",
+              "keywords": [
+                "dunes",
+                "arid"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "island",
+              "name": "Desert island",
+              "keywords": [
+                "atoll",
+                "cay"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "national-park",
+              "name": "National park",
+              "keywords": [
+                "park",
+                "valley"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "beach-landform",
+              "name": "Beach",
+              "keywords": [
+                "coast",
+                "shore"
+              ],
+              "emoji": "🏖️"
+            },
+            {
+              "id": "rock",
+              "name": "Rock / boulder",
+              "keywords": [
+                "stone",
+                "outcrop"
+              ],
+              "emoji": "🪨"
+            },
+            {
+              "id": "moai",
+              "name": "Moai / stone monument",
+              "keywords": [
+                "easter island",
+                "statue"
+              ],
+              "emoji": "🗿"
+            },
+            {
+              "id": "waterfall",
+              "name": "Waterfall",
+              "keywords": [
+                "falls",
+                "cascade"
+              ],
+              "gap": true
+            },
+            {
+              "id": "glacier",
+              "name": "Glacier",
+              "keywords": [
+                "icefield",
+                "ice"
+              ],
+              "gap": true
+            },
+            {
+              "id": "canyon",
+              "name": "Canyon",
+              "keywords": [
+                "gorge",
+                "grand canyon"
+              ],
+              "gap": true
+            },
+            {
+              "id": "cave",
+              "name": "Cave",
+              "keywords": [
+                "cavern",
+                "karst"
+              ],
+              "gap": true
+            },
+            {
+              "id": "geyser",
+              "name": "Geyser",
+              "keywords": [
+                "fumarole",
+                "hydrothermal"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "name": "Maps",
+          "items": [
+            {
+              "id": "world-map-geo",
+              "name": "World map",
+              "keywords": [
+                "map",
+                "atlas",
+                "topo"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "japan-map",
+              "name": "Map of Japan",
+              "keywords": [
+                "japan"
+              ],
+              "emoji": "🗾"
+            },
+            {
+              "id": "compass",
+              "name": "Compass",
+              "keywords": [
+                "bearing",
+                "orienteering",
+                "navigation"
+              ],
+              "emoji": "🧭"
+            },
+            {
+              "id": "pin",
+              "name": "Destination pin",
+              "keywords": [
+                "pin",
+                "marker",
+                "drop"
+              ],
+              "emoji": "📍"
+            },
+            {
+              "id": "round-pushpin",
+              "name": "Round pushpin",
+              "keywords": [
+                "pin"
+              ],
+              "emoji": "📌"
+            },
+            {
+              "id": "placard",
+              "name": "Signpost / placard",
+              "keywords": [
+                "sign",
+                "wayfinding"
+              ],
+              "emoji": "🪧"
+            },
+            {
+              "id": "straight-ruler",
+              "name": "Ruler / scale bar",
+              "keywords": [
+                "scale",
+                "measure"
+              ],
+              "emoji": "📏"
+            },
+            {
+              "id": "triangular-ruler",
+              "name": "Triangle ruler",
+              "keywords": [
+                "drafting"
+              ],
+              "emoji": "📐"
+            },
+            {
+              "id": "binoculars",
+              "name": "Binoculars",
+              "keywords": [
+                "binos",
+                "optics",
+                "spotting"
+              ],
+              "gap": true
+            },
+            {
+              "id": "topo-map",
+              "name": "Topo map",
+              "keywords": [
+                "contour",
+                "usgs",
+                "quad"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "weather",
+          "name": "Weather",
+          "items": [
+            {
+              "id": "sun",
+              "name": "Sun",
+              "keywords": [
+                "clear",
+                "sunny"
+              ],
+              "emoji": "☀️"
+            },
+            {
+              "id": "sun-behind-small-cloud",
+              "name": "Mostly sunny",
+              "keywords": [
+                "partly cloudy"
+              ],
+              "emoji": "🌤️"
+            },
+            {
+              "id": "cloud",
+              "name": "Cloud",
+              "keywords": [
+                "overcast"
+              ],
+              "emoji": "☁️"
+            },
+            {
+              "id": "rain-cloud",
+              "name": "Rain",
+              "keywords": [
+                "shower"
+              ],
+              "emoji": "🌧️"
+            },
+            {
+              "id": "storm",
+              "name": "Thunderstorm",
+              "keywords": [
+                "storm"
+              ],
+              "emoji": "⛈️"
+            },
+            {
+              "id": "lightning",
+              "name": "Lightning",
+              "keywords": [
+                "bolt",
+                "electric"
+              ],
+              "emoji": "⚡"
+            },
+            {
+              "id": "snowflake",
+              "name": "Snowflake",
+              "keywords": [
+                "snow",
+                "winter"
+              ],
+              "emoji": "❄️"
+            },
+            {
+              "id": "snowman",
+              "name": "Snowman",
+              "keywords": [
+                "snow"
+              ],
+              "emoji": "☃️"
+            },
+            {
+              "id": "tornado",
+              "name": "Tornado / cyclone",
+              "keywords": [
+                "twister"
+              ],
+              "emoji": "🌪️"
+            },
+            {
+              "id": "fog",
+              "name": "Fog",
+              "keywords": [
+                "mist"
+              ],
+              "emoji": "🌫️"
+            },
+            {
+              "id": "rainbow",
+              "name": "Rainbow",
+              "keywords": [
+                "prism"
+              ],
+              "emoji": "🌈"
+            },
+            {
+              "id": "thermometer",
+              "name": "Thermometer",
+              "keywords": [
+                "temperature",
+                "heat"
+              ],
+              "emoji": "🌡️"
+            },
+            {
+              "id": "wind-face",
+              "name": "Wind",
+              "keywords": [
+                "gust"
+              ],
+              "emoji": "💨"
+            },
+            {
+              "id": "cyclone",
+              "name": "Cyclone symbol",
+              "keywords": [
+                "hurricane",
+                "typhoon"
+              ],
+              "emoji": "🌀"
+            },
+            {
+              "id": "umbrella-rain",
+              "name": "Umbrella with rain",
+              "keywords": [
+                "rain"
+              ],
+              "emoji": "☔"
+            },
+            {
+              "id": "comet",
+              "name": "Comet",
+              "keywords": [
+                "meteor"
+              ],
+              "emoji": "☄️"
+            },
+            {
+              "id": "water-wave-weather",
+              "name": "Ocean wave",
+              "keywords": [
+                "swell",
+                "surf"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "droplet",
+              "name": "Droplet",
+              "keywords": [
+                "water",
+                "raindrop"
+              ],
+              "emoji": "💧"
+            }
+          ]
+        },
+        {
+          "id": "geology",
+          "name": "Geology",
+          "items": [
+            {
+              "id": "volcano-geo",
+              "name": "Volcano",
+              "keywords": [
+                "igneous",
+                "magma",
+                "eruption"
+              ],
+              "emoji": "🌋"
+            },
+            {
+              "id": "rock-geo",
+              "name": "Rock",
+              "keywords": [
+                "lithic",
+                "outcrop",
+                "clast"
+              ],
+              "emoji": "🪨"
+            },
+            {
+              "id": "gem",
+              "name": "Gem / crystal",
+              "keywords": [
+                "mineral",
+                "diamond",
+                "geode"
+              ],
+              "emoji": "💎"
+            },
+            {
+              "id": "bone",
+              "name": "Bone / fossil bone",
+              "keywords": [
+                "fossil",
+                "osteology"
+              ],
+              "emoji": "🦴"
+            },
+            {
+              "id": "sauropod",
+              "name": "Sauropod",
+              "keywords": [
+                "dinosaur",
+                "jurassic"
+              ],
+              "emoji": "🦕"
+            },
+            {
+              "id": "trex",
+              "name": "T-Rex",
+              "keywords": [
+                "dinosaur",
+                "cretaceous"
+              ],
+              "emoji": "🦖"
+            },
+            {
+              "id": "pick",
+              "name": "Pick / field hammer stand-in",
+              "keywords": [
+                "hammer",
+                "rock hammer",
+                "pickaxe"
+              ],
+              "emoji": "⛏️"
+            },
+            {
+              "id": "axe",
+              "name": "Axe",
+              "keywords": [
+                "hatchet",
+                "field tool"
+              ],
+              "emoji": "🪓"
+            },
+            {
+              "id": "test-tube",
+              "name": "Test tube",
+              "keywords": [
+                "lab",
+                "geochem"
+              ],
+              "emoji": "🧪"
+            },
+            {
+              "id": "microscope",
+              "name": "Microscope",
+              "keywords": [
+                "thin section",
+                "petrography"
+              ],
+              "emoji": "🔬"
+            },
+            {
+              "id": "telescope",
+              "name": "Telescope",
+              "keywords": [
+                "field glass"
+              ],
+              "emoji": "🔭"
+            },
+            {
+              "id": "magnet",
+              "name": "Magnet",
+              "keywords": [
+                "paleomag"
+              ],
+              "emoji": "🧲"
+            },
+            {
+              "id": "thermometer-geo",
+              "name": "Thermometer",
+              "keywords": [
+                "geotherm"
+              ],
+              "emoji": "🌡️"
+            },
+            {
+              "id": "collision",
+              "name": "Impact / eruption burst",
+              "keywords": [
+                "impact",
+                "shock"
+              ],
+              "emoji": "💥"
+            },
+            {
+              "id": "hot-springs-geo",
+              "name": "Hot springs",
+              "keywords": [
+                "hydrothermal",
+                "geothermal"
+              ],
+              "emoji": "♨️"
+            },
+            {
+              "id": "earth-americas",
+              "name": "Earth (Americas)",
+              "keywords": [
+                "planet",
+                "globe"
+              ],
+              "emoji": "🌎"
+            },
+            {
+              "id": "earth-africa",
+              "name": "Earth (Africa–Europe)",
+              "keywords": [
+                "planet"
+              ],
+              "emoji": "🌍"
+            },
+            {
+              "id": "earth-asia",
+              "name": "Earth (Asia)",
+              "keywords": [
+                "planet"
+              ],
+              "emoji": "🌏"
+            },
+            {
+              "id": "trilobite",
+              "name": "Trilobite",
+              "keywords": [
+                "trilobite",
+                "cambrian",
+                "fossil"
+              ],
+              "gap": true
+            },
+            {
+              "id": "geode",
+              "name": "Geode",
+              "keywords": [
+                "vug",
+                "crystal pocket"
+              ],
+              "gap": true
+            },
+            {
+              "id": "strata",
+              "name": "Rock strata / layers",
+              "keywords": [
+                "bedding",
+                "stratigraphy"
+              ],
+              "gap": true
+            },
+            {
+              "id": "core-sample",
+              "name": "Core sample",
+              "keywords": [
+                "core",
+                "drilling"
+              ],
+              "gap": true
+            },
+            {
+              "id": "amber",
+              "name": "Amber",
+              "keywords": [
+                "resin",
+                "inclusion"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "oceans",
+          "name": "Oceans",
+          "items": [
+            {
+              "id": "water-wave",
+              "name": "Ocean wave",
+              "keywords": [
+                "sea",
+                "swell"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "droplet-ocean",
+              "name": "Water",
+              "keywords": [
+                "h2o"
+              ],
+              "emoji": "💧"
+            },
+            {
+              "id": "spouting-whale",
+              "name": "Spouting whale",
+              "keywords": [
+                "whale"
+              ],
+              "emoji": "🐳"
+            },
+            {
+              "id": "whale",
+              "name": "Whale",
+              "keywords": [
+                "cetacean"
+              ],
+              "emoji": "🐋"
+            },
+            {
+              "id": "dolphin",
+              "name": "Dolphin",
+              "keywords": [
+                "porpoise"
+              ],
+              "emoji": "🐬"
+            },
+            {
+              "id": "shark",
+              "name": "Shark",
+              "keywords": [
+                "elasmobranch"
+              ],
+              "emoji": "🦈"
+            },
+            {
+              "id": "octopus",
+              "name": "Octopus",
+              "keywords": [
+                "cephalopod"
+              ],
+              "emoji": "🐙"
+            },
+            {
+              "id": "spiral-shell",
+              "name": "Seashell",
+              "keywords": [
+                "shell",
+                "mollusk"
+              ],
+              "emoji": "🐚"
+            },
+            {
+              "id": "coral",
+              "name": "Coral",
+              "keywords": [
+                "reef"
+              ],
+              "emoji": "🪸"
+            },
+            {
+              "id": "anchor-ocean",
+              "name": "Anchor",
+              "keywords": [
+                "mooring"
+              ],
+              "emoji": "⚓"
+            },
+            {
+              "id": "island-ocean",
+              "name": "Island",
+              "keywords": [
+                "atoll"
+              ],
+              "emoji": "🏝️"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoors",
+      "name": "Outdoors",
+      "symbol": "figure.hiking",
+      "summary": "Hiking, camping, climbing, paddling, and cycling",
+      "subcategories": [
+        {
+          "id": "hiking",
+          "name": "Hiking",
+          "items": [
+            {
+              "id": "hiking-boot",
+              "name": "Hiking boot",
+              "keywords": [
+                "boot",
+                "trail"
+              ],
+              "emoji": "🥾"
+            },
+            {
+              "id": "running-shoe",
+              "name": "Trail shoe",
+              "keywords": [
+                "sneaker"
+              ],
+              "emoji": "👟"
+            },
+            {
+              "id": "backpack-hike",
+              "name": "Daypack",
+              "keywords": [
+                "pack"
+              ],
+              "emoji": "🎒"
+            },
+            {
+              "id": "compass-hike",
+              "name": "Compass",
+              "keywords": [
+                "navigation"
+              ],
+              "emoji": "🧭"
+            },
+            {
+              "id": "map-hike",
+              "name": "Trail map",
+              "keywords": [
+                "map"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "evergreen",
+              "name": "Evergreen tree",
+              "keywords": [
+                "pine",
+                "fir",
+                "spruce"
+              ],
+              "emoji": "🌲"
+            },
+            {
+              "id": "deciduous",
+              "name": "Deciduous tree",
+              "keywords": [
+                "oak",
+                "maple"
+              ],
+              "emoji": "🌳"
+            },
+            {
+              "id": "fallen-leaf",
+              "name": "Fallen leaf",
+              "keywords": [
+                "trail"
+              ],
+              "emoji": "🍃"
+            },
+            {
+              "id": "maple-leaf",
+              "name": "Maple leaf",
+              "keywords": [
+                "autumn"
+              ],
+              "emoji": "🍁"
+            },
+            {
+              "id": "hiker",
+              "name": "Walker / hiker",
+              "keywords": [
+                "trek",
+                "hike"
+              ],
+              "emoji": "🚶"
+            },
+            {
+              "id": "person-walking",
+              "name": "Person walking",
+              "keywords": [
+                "hike"
+              ],
+              "emoji": "🚶‍♂️"
+            },
+            {
+              "id": "national-park-hike",
+              "name": "Park trail",
+              "keywords": [
+                "trail"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "flashlight-hike",
+              "name": "Flashlight",
+              "keywords": [
+                "torch",
+                "headlamp stand-in"
+              ],
+              "emoji": "🔦"
+            },
+            {
+              "id": "sun-hike",
+              "name": "Fair weather",
+              "keywords": [
+                "sunshine"
+              ],
+              "emoji": "☀️"
+            },
+            {
+              "id": "mountain-hike",
+              "name": "Mountain trail",
+              "keywords": [
+                "peak"
+              ],
+              "emoji": "⛰️"
+            },
+            {
+              "id": "snow-peak-hike",
+              "name": "Alpine peak",
+              "keywords": [
+                "alpine"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "star-hike",
+              "name": "Night hike star",
+              "keywords": [
+                "stargaze"
+              ],
+              "emoji": "⭐"
+            }
+          ]
+        },
+        {
+          "id": "camping",
+          "name": "Camping",
+          "items": [
+            {
+              "id": "campsite",
+              "name": "Camping",
+              "keywords": [
+                "campground"
+              ],
+              "emoji": "🏕️"
+            },
+            {
+              "id": "tent",
+              "name": "Tent",
+              "keywords": [
+                "shelter"
+              ],
+              "emoji": "⛺"
+            },
+            {
+              "id": "fire",
+              "name": "Campfire",
+              "keywords": [
+                "fire",
+                "bonfire"
+              ],
+              "emoji": "🔥"
+            },
+            {
+              "id": "wood",
+              "name": "Firewood",
+              "keywords": [
+                "log"
+              ],
+              "emoji": "🪵"
+            },
+            {
+              "id": "flashlight",
+              "name": "Flashlight",
+              "keywords": [
+                "lantern stand-in"
+              ],
+              "emoji": "🔦"
+            },
+            {
+              "id": "candle",
+              "name": "Candle / lantern glow",
+              "keywords": [
+                "lantern"
+              ],
+              "emoji": "🕯️"
+            },
+            {
+              "id": "cooking",
+              "name": "Camp cooking",
+              "keywords": [
+                "skillet",
+                "breakfast"
+              ],
+              "emoji": "🍳"
+            },
+            {
+              "id": "hot-beverage",
+              "name": "Camp coffee",
+              "keywords": [
+                "mug",
+                "coffee"
+              ],
+              "emoji": "☕"
+            },
+            {
+              "id": "hut-camp",
+              "name": "Camp cabin",
+              "keywords": [
+                "lean-to"
+              ],
+              "emoji": "🛖"
+            },
+            {
+              "id": "sleeping",
+              "name": "Sleeping / bedroll stand-in",
+              "keywords": [
+                "sleeping bag"
+              ],
+              "emoji": "🛏️"
+            },
+            {
+              "id": "mosquito",
+              "name": "Mosquito",
+              "keywords": [
+                "bug"
+              ],
+              "emoji": "🦟"
+            },
+            {
+              "id": "mushroom",
+              "name": "Mushroom",
+              "keywords": [
+                "forage"
+              ],
+              "emoji": "🍄"
+            },
+            {
+              "id": "herb",
+              "name": "Herb / understory",
+              "keywords": [
+                "plant"
+              ],
+              "emoji": "🌿"
+            },
+            {
+              "id": "four-leaf-clover",
+              "name": "Clover",
+              "keywords": [
+                "meadow"
+              ],
+              "emoji": "🍀"
+            }
+          ]
+        },
+        {
+          "id": "climbing",
+          "name": "Climbing",
+          "items": [
+            {
+              "id": "person-climbing",
+              "name": "Person climbing",
+              "keywords": [
+                "climber",
+                "boulder"
+              ],
+              "emoji": "🧗"
+            },
+            {
+              "id": "woman-climbing",
+              "name": "Climber",
+              "keywords": [
+                "lead",
+                "sport"
+              ],
+              "emoji": "🧗‍♀️"
+            },
+            {
+              "id": "mountain-climb",
+              "name": "Mountain",
+              "keywords": [
+                "trad",
+                "alpine"
+              ],
+              "emoji": "⛰️"
+            },
+            {
+              "id": "snow-mountain-climb",
+              "name": "Alpine face",
+              "keywords": [
+                "ice"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "knot",
+              "name": "Rope / knot",
+              "keywords": [
+                "rope",
+                "belay"
+              ],
+              "emoji": "🪢"
+            },
+            {
+              "id": "gloves",
+              "name": "Gloves",
+              "keywords": [
+                "crack gloves"
+              ],
+              "emoji": "🧤"
+            },
+            {
+              "id": "pick-climb",
+              "name": "Ice tool stand-in",
+              "keywords": [
+                "ice axe"
+              ],
+              "emoji": "⛏️"
+            }
+          ]
+        },
+        {
+          "id": "paddling",
+          "name": "Paddling",
+          "items": [
+            {
+              "id": "canoe-paddle",
+              "name": "Canoe",
+              "keywords": [
+                "paddle",
+                "canoe"
+              ],
+              "emoji": "🛶"
+            },
+            {
+              "id": "rowboat",
+              "name": "Rowboat / raft stand-in",
+              "keywords": [
+                "raft",
+                "row"
+              ],
+              "emoji": "🚣"
+            },
+            {
+              "id": "person-rowing",
+              "name": "Person rowing",
+              "keywords": [
+                "crew"
+              ],
+              "emoji": "🚣‍♂️"
+            },
+            {
+              "id": "sailboat-paddle",
+              "name": "Sailboat",
+              "keywords": [
+                "sail"
+              ],
+              "emoji": "⛵"
+            },
+            {
+              "id": "speedboat",
+              "name": "Speedboat",
+              "keywords": [
+                "runabout"
+              ],
+              "emoji": "🚤"
+            },
+            {
+              "id": "wave-paddle",
+              "name": "Waves",
+              "keywords": [
+                "whitewater"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "national-park-water",
+              "name": "Lake / park water",
+              "keywords": [
+                "lake"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "swimmer",
+              "name": "Swimmer",
+              "keywords": [
+                "swim"
+              ],
+              "emoji": "🏊"
+            },
+            {
+              "id": "person-surfing",
+              "name": "Surfing",
+              "keywords": [
+                "surf"
+              ],
+              "emoji": "🏄"
+            }
+          ]
+        },
+        {
+          "id": "cycling",
+          "name": "Cycling",
+          "items": [
+            {
+              "id": "bicycle",
+              "name": "Bicycle",
+              "keywords": [
+                "bike"
+              ],
+              "emoji": "🚲"
+            },
+            {
+              "id": "cyclist",
+              "name": "Cyclist",
+              "keywords": [
+                "road bike"
+              ],
+              "emoji": "🚴"
+            },
+            {
+              "id": "mountain-biker",
+              "name": "Mountain biker",
+              "keywords": [
+                "mtb",
+                "trail"
+              ],
+              "emoji": "🚵"
+            },
+            {
+              "id": "woman-mountain-biking",
+              "name": "Trail rider",
+              "keywords": [
+                "mtb"
+              ],
+              "emoji": "🚵‍♀️"
+            },
+            {
+              "id": "helmet",
+              "name": "Helmet stand-in",
+              "keywords": [
+                "lid"
+              ],
+              "emoji": "⛑️"
+            },
+            {
+              "id": "kick-scooter",
+              "name": "Kick scooter",
+              "keywords": [
+                "scooter"
+              ],
+              "emoji": "🛴"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunting",
+      "name": "Hunting",
+      "symbol": "hare",
+      "summary": "Big game, deer, waterfowl, turkey, upland, and field gear",
+      "subcategories": [
+        {
+          "id": "big-game",
+          "name": "Big Game",
+          "items": [
+            {
+              "id": "bear",
+              "name": "Bear",
+              "keywords": [
+                "black bear",
+                "grizzly",
+                "ursid"
+              ],
+              "emoji": "🐻"
+            },
+            {
+              "id": "moose",
+              "name": "Moose",
+              "keywords": [
+                "alces",
+                "bull moose"
+              ],
+              "emoji": "🫎"
+            },
+            {
+              "id": "bison",
+              "name": "Bison / buffalo",
+              "keywords": [
+                "buffalo"
+              ],
+              "emoji": "🦬"
+            },
+            {
+              "id": "boar",
+              "name": "Wild boar / hog",
+              "keywords": [
+                "hog",
+                "pig"
+              ],
+              "emoji": "🐗"
+            },
+            {
+              "id": "deer-big",
+              "name": "Deer (elk stand-in)",
+              "keywords": [
+                "elk",
+                "wapiti",
+                "caribou"
+              ],
+              "emoji": "🦌"
+            },
+            {
+              "id": "wolf",
+              "name": "Wolf",
+              "keywords": [
+                "canid"
+              ],
+              "emoji": "🐺"
+            },
+            {
+              "id": "goat",
+              "name": "Mountain goat stand-in",
+              "keywords": [
+                "goat",
+                "ibex"
+              ],
+              "emoji": "🐐"
+            },
+            {
+              "id": "ram",
+              "name": "Ram / sheep",
+              "keywords": [
+                "bighorn",
+                "sheep"
+              ],
+              "emoji": "🐏"
+            },
+            {
+              "id": "elk",
+              "name": "Elk",
+              "keywords": [
+                "wapiti",
+                "bugle"
+              ],
+              "gap": true
+            },
+            {
+              "id": "caribou",
+              "name": "Caribou / reindeer",
+              "keywords": [
+                "caribou",
+                "reindeer"
+              ],
+              "gap": true
+            },
+            {
+              "id": "pronghorn",
+              "name": "Pronghorn",
+              "keywords": [
+                "antelope"
+              ],
+              "gap": true
+            },
+            {
+              "id": "cougar",
+              "name": "Cougar / mountain lion",
+              "keywords": [
+                "puma",
+                "catamount"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "deer",
+          "name": "Deer",
+          "items": [
+            {
+              "id": "whitetail",
+              "name": "Whitetail / deer",
+              "keywords": [
+                "whitetail",
+                "mule deer",
+                "buck",
+                "doe"
+              ],
+              "emoji": "🦌"
+            },
+            {
+              "id": "mule-deer",
+              "name": "Mule deer",
+              "keywords": [
+                "muley"
+              ],
+              "gap": true
+            },
+            {
+              "id": "fawn",
+              "name": "Fawn",
+              "keywords": [
+                "young deer"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "waterfowl",
+          "name": "Waterfowl",
+          "items": [
+            {
+              "id": "duck",
+              "name": "Duck / mallard stand-in",
+              "keywords": [
+                "mallard",
+                "drake",
+                "hen",
+                "dabbler"
+              ],
+              "emoji": "🦆"
+            },
+            {
+              "id": "goose",
+              "name": "Goose",
+              "keywords": [
+                "canada goose",
+                "snow goose",
+                "honker"
+              ],
+              "emoji": "🪿"
+            },
+            {
+              "id": "swan",
+              "name": "Swan",
+              "keywords": [
+                "tundra swan"
+              ],
+              "emoji": "🦢"
+            },
+            {
+              "id": "feather",
+              "name": "Feather",
+              "keywords": [
+                "wing"
+              ],
+              "emoji": "🪶"
+            },
+            {
+              "id": "water-wave-fowl",
+              "name": "Marsh / water",
+              "keywords": [
+                "wetland"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "dog-retriever",
+              "name": "Retriever",
+              "keywords": [
+                "lab",
+                "retriever",
+                "dog"
+              ],
+              "emoji": "🐕"
+            },
+            {
+              "id": "mallard-drake",
+              "name": "Mallard drake",
+              "keywords": [
+                "mallard"
+              ],
+              "gap": true
+            },
+            {
+              "id": "mallard-hen",
+              "name": "Mallard hen",
+              "keywords": [
+                "hen"
+              ],
+              "gap": true
+            },
+            {
+              "id": "pintail",
+              "name": "Pintail",
+              "keywords": [
+                "sprig"
+              ],
+              "gap": true
+            },
+            {
+              "id": "wood-duck",
+              "name": "Wood duck",
+              "keywords": [
+                "woodie"
+              ],
+              "gap": true
+            },
+            {
+              "id": "canvasback",
+              "name": "Canvasback",
+              "keywords": [
+                "can"
+              ],
+              "gap": true
+            },
+            {
+              "id": "teal",
+              "name": "Teal",
+              "keywords": [
+                "greenwing",
+                "bluewing"
+              ],
+              "gap": true
+            },
+            {
+              "id": "canada-goose",
+              "name": "Canada goose",
+              "keywords": [
+                "honker"
+              ],
+              "gap": true
+            },
+            {
+              "id": "snow-goose",
+              "name": "Snow goose",
+              "keywords": [
+                "speck"
+              ],
+              "gap": true
+            },
+            {
+              "id": "decoy",
+              "name": "Decoy",
+              "keywords": [
+                "decoys",
+                "spread"
+              ],
+              "gap": true
+            },
+            {
+              "id": "duck-call",
+              "name": "Duck / goose call",
+              "keywords": [
+                "call",
+                "lanyard"
+              ],
+              "gap": true
+            },
+            {
+              "id": "layout-blind",
+              "name": "Blind",
+              "keywords": [
+                "layout blind",
+                "A-frame"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "turkey",
+          "name": "Turkey",
+          "items": [
+            {
+              "id": "wild-turkey",
+              "name": "Wild turkey",
+              "keywords": [
+                "gobbler",
+                "jake",
+                "hen turkey"
+              ],
+              "emoji": "🦃"
+            },
+            {
+              "id": "feather-turkey",
+              "name": "Turkey feather",
+              "keywords": [
+                "beard",
+                "fan"
+              ],
+              "emoji": "🪶"
+            },
+            {
+              "id": "evergreen-turkey",
+              "name": "Woods",
+              "keywords": [
+                "hardwoods",
+                "roost"
+              ],
+              "emoji": "🌲"
+            },
+            {
+              "id": "turkey-call",
+              "name": "Turkey call",
+              "keywords": [
+                "box call",
+                "slate",
+                "diaphragm"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "upland",
+          "name": "Upland",
+          "items": [
+            {
+              "id": "turkey-upland",
+              "name": "Turkey",
+              "keywords": [
+                "upland"
+              ],
+              "emoji": "🦃"
+            },
+            {
+              "id": "bird",
+              "name": "Upland bird stand-in",
+              "keywords": [
+                "pheasant",
+                "quail",
+                "grouse"
+              ],
+              "emoji": "🐦"
+            },
+            {
+              "id": "feather-upland",
+              "name": "Feather",
+              "keywords": [
+                "plume"
+              ],
+              "emoji": "🪶"
+            },
+            {
+              "id": "dog-upland",
+              "name": "Bird dog",
+              "keywords": [
+                "pointer",
+                "setter",
+                "spaniel"
+              ],
+              "emoji": "🐕"
+            },
+            {
+              "id": "deciduous-upland",
+              "name": "Cover / hedgerow",
+              "keywords": [
+                "crp",
+                "cover"
+              ],
+              "emoji": "🌳"
+            },
+            {
+              "id": "pheasant",
+              "name": "Pheasant",
+              "keywords": [
+                "ringneck",
+                "rooster"
+              ],
+              "gap": true
+            },
+            {
+              "id": "quail",
+              "name": "Quail",
+              "keywords": [
+                "bobwhite"
+              ],
+              "gap": true
+            },
+            {
+              "id": "grouse",
+              "name": "Grouse",
+              "keywords": [
+                "ruffed",
+                "sage"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "hunting-equipment",
+          "name": "Equipment",
+          "items": [
+            {
+              "id": "bow-arrow",
+              "name": "Bow and arrow",
+              "keywords": [
+                "bow",
+                "archery",
+                "compound"
+              ],
+              "emoji": "🏹"
+            },
+            {
+              "id": "direct-hit",
+              "name": "Target",
+              "keywords": [
+                "bullseye",
+                "sight"
+              ],
+              "emoji": "🎯"
+            },
+            {
+              "id": "flashlight-hunt",
+              "name": "Flashlight",
+              "keywords": [
+                "headlamp"
+              ],
+              "emoji": "🔦"
+            },
+            {
+              "id": "knife",
+              "name": "Knife",
+              "keywords": [
+                "skinning",
+                "blade"
+              ],
+              "emoji": "🔪"
+            },
+            {
+              "id": "axe-hunt",
+              "name": "Axe / hatchet",
+              "keywords": [
+                "camp axe"
+              ],
+              "emoji": "🪓"
+            },
+            {
+              "id": "camping-hunt",
+              "name": "Camp",
+              "keywords": [
+                "spike camp"
+              ],
+              "emoji": "🏕️"
+            },
+            {
+              "id": "tent-hunt",
+              "name": "Tent",
+              "keywords": [
+                "wall tent"
+              ],
+              "emoji": "⛺"
+            },
+            {
+              "id": "boot-hunt",
+              "name": "Boot",
+              "keywords": [
+                "pac boot"
+              ],
+              "emoji": "🥾"
+            },
+            {
+              "id": "coat",
+              "name": "Coat / jacket",
+              "keywords": [
+                "layer"
+              ],
+              "emoji": "🧥"
+            },
+            {
+              "id": "cap",
+              "name": "Cap",
+              "keywords": [
+                "hat"
+              ],
+              "emoji": "🧢"
+            },
+            {
+              "id": "gloves-hunt",
+              "name": "Gloves",
+              "keywords": [
+                "handwear"
+              ],
+              "emoji": "🧤"
+            },
+            {
+              "id": "dog-hunt",
+              "name": "Hunting dog",
+              "keywords": [
+                "hound"
+              ],
+              "emoji": "🐕"
+            },
+            {
+              "id": "telescope-hunt",
+              "name": "Spotting scope stand-in",
+              "keywords": [
+                "spotter",
+                "glass"
+              ],
+              "emoji": "🔭"
+            },
+            {
+              "id": "compass-hunt",
+              "name": "Compass",
+              "keywords": [
+                "nav"
+              ],
+              "emoji": "🧭"
+            },
+            {
+              "id": "map-hunt",
+              "name": "Map",
+              "keywords": [
+                "onx stand-in"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "treestand",
+              "name": "Treestand",
+              "keywords": [
+                "stand",
+                "saddle",
+                "hang-on"
+              ],
+              "gap": true
+            },
+            {
+              "id": "ground-blind",
+              "name": "Ground blind",
+              "keywords": [
+                "blind"
+              ],
+              "gap": true
+            },
+            {
+              "id": "game-call",
+              "name": "Game call",
+              "keywords": [
+                "grunt",
+                "bleat",
+                "call"
+              ],
+              "gap": true
+            },
+            {
+              "id": "binoculars-hunt",
+              "name": "Binoculars",
+              "keywords": [
+                "binos",
+                "10x42"
+              ],
+              "gap": true
+            },
+            {
+              "id": "rifle",
+              "name": "Rifle / shotgun",
+              "keywords": [
+                "firearm",
+                "slug"
+              ],
+              "gap": true
+            },
+            {
+              "id": "camouflage",
+              "name": "Camouflage",
+              "keywords": [
+                "camo",
+                "pattern"
+              ],
+              "gap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing",
+      "name": "Fishing",
+      "symbol": "fish",
+      "summary": "Freshwater, saltwater, fly fishing, species, and tackle",
+      "subcategories": [
+        {
+          "id": "freshwater",
+          "name": "Freshwater",
+          "items": [
+            {
+              "id": "fishing-pole-fw",
+              "name": "Fishing pole",
+              "keywords": [
+                "rod",
+                "reel",
+                "angler"
+              ],
+              "emoji": "🎣"
+            },
+            {
+              "id": "fish-fw",
+              "name": "Fish",
+              "keywords": [
+                "bass",
+                "trout",
+                "walleye",
+                "panfish"
+              ],
+              "emoji": "🐟"
+            },
+            {
+              "id": "canoe-fish",
+              "name": "Fishing canoe",
+              "keywords": [
+                "jon boat stand-in"
+              ],
+              "emoji": "🛶"
+            },
+            {
+              "id": "rowboat-fish",
+              "name": "Rowboat",
+              "keywords": [
+                "lake boat"
+              ],
+              "emoji": "🚣"
+            },
+            {
+              "id": "national-park-fish",
+              "name": "Lake / river park",
+              "keywords": [
+                "reservoir"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "worm",
+              "name": "Worm / bait",
+              "keywords": [
+                "nightcrawler",
+                "bait"
+              ],
+              "emoji": "🪱"
+            },
+            {
+              "id": "droplet-fw",
+              "name": "Fresh water",
+              "keywords": [
+                "river"
+              ],
+              "emoji": "💧"
+            }
+          ]
+        },
+        {
+          "id": "saltwater",
+          "name": "Saltwater",
+          "items": [
+            {
+              "id": "tropical-fish",
+              "name": "Tropical / inshore fish",
+              "keywords": [
+                "inshore",
+                "reef"
+              ],
+              "emoji": "🐠"
+            },
+            {
+              "id": "blowfish",
+              "name": "Puffer / blowfish",
+              "keywords": [
+                "puffer"
+              ],
+              "emoji": "🐡"
+            },
+            {
+              "id": "shark-fish",
+              "name": "Shark",
+              "keywords": [
+                "offshore"
+              ],
+              "emoji": "🦈"
+            },
+            {
+              "id": "whale-fish",
+              "name": "Whale",
+              "keywords": [
+                "bluewater"
+              ],
+              "emoji": "🐋"
+            },
+            {
+              "id": "wave-salt",
+              "name": "Ocean",
+              "keywords": [
+                "surf",
+                "jetty"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "ship-fish",
+              "name": "Charter boat stand-in",
+              "keywords": [
+                "head boat"
+              ],
+              "emoji": "🚢"
+            },
+            {
+              "id": "speedboat-fish",
+              "name": "Skiff / center console stand-in",
+              "keywords": [
+                "skiff"
+              ],
+              "emoji": "🚤"
+            },
+            {
+              "id": "anchor-fish",
+              "name": "Anchor",
+              "keywords": [
+                "flats"
+              ],
+              "emoji": "⚓"
+            },
+            {
+              "id": "island-fish",
+              "name": "Island / flats",
+              "keywords": [
+                "keys"
+              ],
+              "emoji": "🏝️"
+            }
+          ]
+        },
+        {
+          "id": "fly-fishing",
+          "name": "Fly Fishing",
+          "items": [
+            {
+              "id": "fishing-pole-fly",
+              "name": "Rod / fly rod stand-in",
+              "keywords": [
+                "fly rod",
+                "4-weight"
+              ],
+              "emoji": "🎣"
+            },
+            {
+              "id": "feather-fly",
+              "name": "Feather / fly material",
+              "keywords": [
+                "hackle",
+                "fly"
+              ],
+              "emoji": "🪶"
+            },
+            {
+              "id": "worm-fly",
+              "name": "Bait (not fly)",
+              "keywords": [
+                "nymph stand-in"
+              ],
+              "emoji": "🪱"
+            },
+            {
+              "id": "fish-fly",
+              "name": "Trout stand-in",
+              "keywords": [
+                "trout",
+                "steelhead"
+              ],
+              "emoji": "🐟"
+            },
+            {
+              "id": "national-park-fly",
+              "name": "River",
+              "keywords": [
+                "tailwater",
+                "spring creek"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "evergreen-fly",
+              "name": "River woods",
+              "keywords": [
+                "canyon creek"
+              ],
+              "emoji": "🌲"
+            },
+            {
+              "id": "fly-pattern",
+              "name": "Fly pattern",
+              "keywords": [
+                "dry fly",
+                "streamer",
+                "nymph"
+              ],
+              "gap": true
+            },
+            {
+              "id": "waders",
+              "name": "Waders",
+              "keywords": [
+                "bootfoot",
+                "stockingfoot"
+              ],
+              "gap": true
+            },
+            {
+              "id": "fly-vest",
+              "name": "Fly vest / pack",
+              "keywords": [
+                "sling pack"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "fish-species",
+          "name": "Species",
+          "items": [
+            {
+              "id": "fish",
+              "name": "Fish",
+              "keywords": [
+                "bass",
+                "trout",
+                "salmon",
+                "pike"
+              ],
+              "emoji": "🐟"
+            },
+            {
+              "id": "tropical-fish-sp",
+              "name": "Tropical fish",
+              "keywords": [
+                "snapper",
+                "permit stand-in"
+              ],
+              "emoji": "🐠"
+            },
+            {
+              "id": "blowfish-sp",
+              "name": "Blowfish",
+              "keywords": [
+                "puffer"
+              ],
+              "emoji": "🐡"
+            },
+            {
+              "id": "shark-sp",
+              "name": "Shark",
+              "keywords": [
+                "mako"
+              ],
+              "emoji": "🦈"
+            },
+            {
+              "id": "octopus-sp",
+              "name": "Octopus",
+              "keywords": [
+                "cephalopod"
+              ],
+              "emoji": "🐙"
+            },
+            {
+              "id": "squid",
+              "name": "Squid",
+              "keywords": [
+                "calamari"
+              ],
+              "emoji": "🦑"
+            },
+            {
+              "id": "shrimp",
+              "name": "Shrimp",
+              "keywords": [
+                "prawn"
+              ],
+              "emoji": "🦐"
+            },
+            {
+              "id": "lobster",
+              "name": "Lobster",
+              "keywords": [
+                "bug"
+              ],
+              "emoji": "🦞"
+            },
+            {
+              "id": "crab",
+              "name": "Crab",
+              "keywords": [
+                "blue crab"
+              ],
+              "emoji": "🦀"
+            },
+            {
+              "id": "seal",
+              "name": "Seal",
+              "keywords": [
+                "pinniped"
+              ],
+              "emoji": "🦭"
+            }
+          ]
+        },
+        {
+          "id": "fishing-equipment",
+          "name": "Equipment",
+          "items": [
+            {
+              "id": "fishing-pole",
+              "name": "Fishing pole",
+              "keywords": [
+                "rod",
+                "reel"
+              ],
+              "emoji": "🎣"
+            },
+            {
+              "id": "bucket",
+              "name": "Bucket / livewell stand-in",
+              "keywords": [
+                "bait bucket"
+              ],
+              "emoji": "🪣"
+            },
+            {
+              "id": "canoe-eq",
+              "name": "Canoe",
+              "keywords": [
+                "small craft"
+              ],
+              "emoji": "🛶"
+            },
+            {
+              "id": "motor-boat-eq",
+              "name": "Boat",
+              "keywords": [
+                "bass boat stand-in"
+              ],
+              "emoji": "🛥️"
+            },
+            {
+              "id": "knife-fish",
+              "name": "Filet knife stand-in",
+              "keywords": [
+                "filet"
+              ],
+              "emoji": "🔪"
+            },
+            {
+              "id": "worm-eq",
+              "name": "Bait",
+              "keywords": [
+                "soft plastic stand-in"
+              ],
+              "emoji": "🪱"
+            },
+            {
+              "id": "hook-gap",
+              "name": "Hook / lure",
+              "keywords": [
+                "jig",
+                "crankbait",
+                "soft plastic"
+              ],
+              "gap": true
+            },
+            {
+              "id": "tackle-box",
+              "name": "Tackle box",
+              "keywords": [
+                "tray",
+                "bag"
+              ],
+              "gap": true
+            },
+            {
+              "id": "landing-net",
+              "name": "Landing net",
+              "keywords": [
+                "net",
+                "rubber net"
+              ],
+              "gap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "name": "Wildlife",
+      "symbol": "pawprint",
+      "summary": "Mammals, birds, fish, and reptiles you may actually see",
+      "subcategories": [
+        {
+          "id": "mammals",
+          "name": "Mammals",
+          "items": [
+            {
+              "id": "deer-wl",
+              "name": "Deer",
+              "keywords": [
+                "ungulate"
+              ],
+              "emoji": "🦌"
+            },
+            {
+              "id": "moose-wl",
+              "name": "Moose",
+              "keywords": [
+                "moose"
+              ],
+              "emoji": "🫎"
+            },
+            {
+              "id": "bear-wl",
+              "name": "Bear",
+              "keywords": [
+                "bear"
+              ],
+              "emoji": "🐻"
+            },
+            {
+              "id": "polar-bear",
+              "name": "Polar bear",
+              "keywords": [
+                "arctic"
+              ],
+              "emoji": "🐻‍❄️"
+            },
+            {
+              "id": "fox",
+              "name": "Fox",
+              "keywords": [
+                "red fox"
+              ],
+              "emoji": "🦊"
+            },
+            {
+              "id": "wolf-wl",
+              "name": "Wolf",
+              "keywords": [
+                "coyote stand-in"
+              ],
+              "emoji": "🐺"
+            },
+            {
+              "id": "boar-wl",
+              "name": "Boar",
+              "keywords": [
+                "hog"
+              ],
+              "emoji": "🐗"
+            },
+            {
+              "id": "bison-wl",
+              "name": "Bison",
+              "keywords": [
+                "buffalo"
+              ],
+              "emoji": "🦬"
+            },
+            {
+              "id": "rabbit",
+              "name": "Rabbit",
+              "keywords": [
+                "cottontail",
+                "hare"
+              ],
+              "emoji": "🐇"
+            },
+            {
+              "id": "chipmunk-squirrel",
+              "name": "Chipmunk / squirrel",
+              "keywords": [
+                "ground squirrel",
+                "chipmunk"
+              ],
+              "emoji": "🐿️"
+            },
+            {
+              "id": "beaver",
+              "name": "Beaver",
+              "keywords": [
+                "rodent"
+              ],
+              "emoji": "🦫"
+            },
+            {
+              "id": "otter",
+              "name": "Otter",
+              "keywords": [
+                "river otter"
+              ],
+              "emoji": "🦦"
+            },
+            {
+              "id": "raccoon",
+              "name": "Raccoon",
+              "keywords": [
+                "procyon"
+              ],
+              "emoji": "🦝"
+            },
+            {
+              "id": "skunk",
+              "name": "Skunk",
+              "keywords": [
+                "mephitid"
+              ],
+              "emoji": "🦨"
+            },
+            {
+              "id": "hedgehog",
+              "name": "Hedgehog / porcupine stand-in",
+              "keywords": [
+                "porcupine"
+              ],
+              "emoji": "🦔"
+            },
+            {
+              "id": "bat",
+              "name": "Bat",
+              "keywords": [
+                "chiroptera"
+              ],
+              "emoji": "🦇"
+            },
+            {
+              "id": "elk-wl",
+              "name": "Elk",
+              "keywords": [
+                "wapiti"
+              ],
+              "gap": true
+            },
+            {
+              "id": "coyote",
+              "name": "Coyote",
+              "keywords": [
+                "song dog"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "birds",
+          "name": "Birds",
+          "items": [
+            {
+              "id": "duck-wl",
+              "name": "Duck",
+              "keywords": [
+                "waterfowl"
+              ],
+              "emoji": "🦆"
+            },
+            {
+              "id": "goose-wl",
+              "name": "Goose",
+              "keywords": [
+                "goose"
+              ],
+              "emoji": "🪿"
+            },
+            {
+              "id": "turkey-wl",
+              "name": "Turkey",
+              "keywords": [
+                "galliform"
+              ],
+              "emoji": "🦃"
+            },
+            {
+              "id": "eagle",
+              "name": "Eagle",
+              "keywords": [
+                "raptor",
+                "bald eagle"
+              ],
+              "emoji": "🦅"
+            },
+            {
+              "id": "owl",
+              "name": "Owl",
+              "keywords": [
+                "nocturnal"
+              ],
+              "emoji": "🦉"
+            },
+            {
+              "id": "bird-wl",
+              "name": "Bird",
+              "keywords": [
+                "passerine"
+              ],
+              "emoji": "🐦"
+            },
+            {
+              "id": "swan-wl",
+              "name": "Swan",
+              "keywords": [
+                "swan"
+              ],
+              "emoji": "🦢"
+            },
+            {
+              "id": "flamingo",
+              "name": "Flamingo",
+              "keywords": [
+                "wader"
+              ],
+              "emoji": "🦩"
+            },
+            {
+              "id": "peacock",
+              "name": "Peacock",
+              "keywords": [
+                "display"
+              ],
+              "emoji": "🦚"
+            },
+            {
+              "id": "parrot",
+              "name": "Parrot",
+              "keywords": [
+                "tropical"
+              ],
+              "emoji": "🦜"
+            },
+            {
+              "id": "penguin",
+              "name": "Penguin",
+              "keywords": [
+                "seabird"
+              ],
+              "emoji": "🐧"
+            },
+            {
+              "id": "chicken",
+              "name": "Chicken / grouse stand-in",
+              "keywords": [
+                "upland"
+              ],
+              "emoji": "🐔"
+            },
+            {
+              "id": "feather-wl",
+              "name": "Feather",
+              "keywords": [
+                "plumage"
+              ],
+              "emoji": "🪶"
+            },
+            {
+              "id": "nest",
+              "name": "Nest",
+              "keywords": [
+                "eggs"
+              ],
+              "emoji": "🪺"
+            },
+            {
+              "id": "pheasant-wl",
+              "name": "Pheasant",
+              "keywords": [
+                "ringneck"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "wildlife-fish",
+          "name": "Fish",
+          "items": [
+            {
+              "id": "fish-wl",
+              "name": "Fish",
+              "keywords": [
+                "bony fish"
+              ],
+              "emoji": "🐟"
+            },
+            {
+              "id": "tropical-fish-wl",
+              "name": "Tropical fish",
+              "keywords": [
+                "reef"
+              ],
+              "emoji": "🐠"
+            },
+            {
+              "id": "blowfish-wl",
+              "name": "Blowfish",
+              "keywords": [
+                "tetraodontid"
+              ],
+              "emoji": "🐡"
+            },
+            {
+              "id": "shark-wl",
+              "name": "Shark",
+              "keywords": [
+                "chondrichthyan"
+              ],
+              "emoji": "🦈"
+            },
+            {
+              "id": "whale-wl",
+              "name": "Whale",
+              "keywords": [
+                "mysticete"
+              ],
+              "emoji": "🐋"
+            },
+            {
+              "id": "dolphin-wl",
+              "name": "Dolphin",
+              "keywords": [
+                "odontocete"
+              ],
+              "emoji": "🐬"
+            },
+            {
+              "id": "seal-wl",
+              "name": "Seal",
+              "keywords": [
+                "harbor seal"
+              ],
+              "emoji": "🦭"
+            },
+            {
+              "id": "octopus-wl",
+              "name": "Octopus",
+              "keywords": [
+                "octopus"
+              ],
+              "emoji": "🐙"
+            },
+            {
+              "id": "coral-wl",
+              "name": "Coral",
+              "keywords": [
+                "cnidarian"
+              ],
+              "emoji": "🪸"
+            },
+            {
+              "id": "shell-wl",
+              "name": "Shell",
+              "keywords": [
+                "gastropod"
+              ],
+              "emoji": "🐚"
+            }
+          ]
+        },
+        {
+          "id": "reptiles",
+          "name": "Reptiles",
+          "items": [
+            {
+              "id": "snake",
+              "name": "Snake",
+              "keywords": [
+                "serpent"
+              ],
+              "emoji": "🐍"
+            },
+            {
+              "id": "turtle",
+              "name": "Turtle",
+              "keywords": [
+                "tortoise"
+              ],
+              "emoji": "🐢"
+            },
+            {
+              "id": "lizard",
+              "name": "Lizard",
+              "keywords": [
+                "skink"
+              ],
+              "emoji": "🦎"
+            },
+            {
+              "id": "crocodile",
+              "name": "Crocodile / alligator",
+              "keywords": [
+                "gator"
+              ],
+              "emoji": "🐊"
+            },
+            {
+              "id": "sauropod-wl",
+              "name": "Sauropod (extinct)",
+              "keywords": [
+                "paleo"
+              ],
+              "emoji": "🦕"
+            },
+            {
+              "id": "trex-wl",
+              "name": "T-Rex (extinct)",
+              "keywords": [
+                "paleo"
+              ],
+              "emoji": "🦖"
+            },
+            {
+              "id": "frog",
+              "name": "Frog / amphibian",
+              "keywords": [
+                "amphibian"
+              ],
+              "emoji": "🐸"
+            },
+            {
+              "id": "dragon",
+              "name": "Folklore dragon",
+              "keywords": [
+                "not a field ID"
+              ],
+              "emoji": "🐉"
+            },
+            {
+              "id": "trilobite-wl",
+              "name": "Trilobite (extinct)",
+              "keywords": [
+                "fossil"
+              ],
+              "gap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "name": "Places",
+      "symbol": "map",
+      "summary": "Parks, a few states, countries, and famous destinations",
+      "subcategories": [
+        {
+          "id": "national-parks",
+          "name": "National Parks",
+          "items": [
+            {
+              "id": "park-generic",
+              "name": "National park",
+              "keywords": [
+                "nps",
+                "park"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "park-camp",
+              "name": "Park campground",
+              "keywords": [
+                "camp"
+              ],
+              "emoji": "🏕️"
+            },
+            {
+              "id": "park-peak",
+              "name": "Alpine park",
+              "keywords": [
+                "yosemite",
+                "tetons",
+                "denali",
+                "glacier"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "park-volcano",
+              "name": "Volcanic park",
+              "keywords": [
+                "yellowstone",
+                "hawaii volcanoes",
+                "lassen"
+              ],
+              "emoji": "🌋"
+            },
+            {
+              "id": "park-hotspring",
+              "name": "Hydrothermal park",
+              "keywords": [
+                "yellowstone",
+                "hot springs"
+              ],
+              "emoji": "♨️"
+            },
+            {
+              "id": "park-forest",
+              "name": "Forest park",
+              "keywords": [
+                "smokies",
+                "redwoods",
+                "olympic"
+              ],
+              "emoji": "🌲"
+            },
+            {
+              "id": "park-desert",
+              "name": "Desert park",
+              "keywords": [
+                "arches",
+                "canyonlands",
+                "saguaro",
+                "death valley"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "park-beach",
+              "name": "Seashore / lakeshore",
+              "keywords": [
+                "acadia",
+                "olympic coast"
+              ],
+              "emoji": "🏖️"
+            },
+            {
+              "id": "park-island",
+              "name": "Island park",
+              "keywords": [
+                "virgin islands",
+                "dry tortugas"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "park-bison",
+              "name": "Bison range / plains park",
+              "keywords": [
+                "yellowstone",
+                "badlands",
+                "wind cave"
+              ],
+              "emoji": "🦬"
+            },
+            {
+              "id": "park-bear",
+              "name": "Bear country",
+              "keywords": [
+                "katmai",
+                "yellowstone"
+              ],
+              "emoji": "🐻"
+            },
+            {
+              "id": "park-gator",
+              "name": "Everglades stand-in",
+              "keywords": [
+                "everglades"
+              ],
+              "emoji": "🐊"
+            },
+            {
+              "id": "park-wave",
+              "name": "Coastal park",
+              "keywords": [
+                "acadia",
+                "olympic",
+                "channel islands"
+              ],
+              "emoji": "🌊"
+            },
+            {
+              "id": "grand-canyon",
+              "name": "Grand Canyon",
+              "keywords": [
+                "canyon",
+                "arizona"
+              ],
+              "gap": true
+            },
+            {
+              "id": "mesa-verde",
+              "name": "Cliff dwelling park",
+              "keywords": [
+                "mesa verde"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "states",
+          "name": "States",
+          "items": [
+            {
+              "id": "hawaii",
+              "name": "Hawaii",
+              "keywords": [
+                "hi",
+                "aloha"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "alaska",
+              "name": "Alaska",
+              "keywords": [
+                "ak",
+                "denali"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "arizona",
+              "name": "Arizona",
+              "keywords": [
+                "az",
+                "sonoran"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "colorado",
+              "name": "Colorado",
+              "keywords": [
+                "co",
+                "rockies"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "florida",
+              "name": "Florida",
+              "keywords": [
+                "fl",
+                "everglades"
+              ],
+              "emoji": "🐊"
+            },
+            {
+              "id": "california",
+              "name": "California",
+              "keywords": [
+                "ca",
+                "pacific"
+              ],
+              "emoji": "🌅"
+            },
+            {
+              "id": "maine",
+              "name": "Maine",
+              "keywords": [
+                "me",
+                "acadia"
+              ],
+              "emoji": "🦞"
+            },
+            {
+              "id": "montana",
+              "name": "Montana",
+              "keywords": [
+                "mt",
+                "big sky"
+              ],
+              "emoji": "🦬"
+            },
+            {
+              "id": "utah",
+              "name": "Utah",
+              "keywords": [
+                "ut",
+                "canyon country"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "us-flag",
+              "name": "United States",
+              "keywords": [
+                "usa",
+                "america"
+              ],
+              "emoji": "🇺🇸"
+            },
+            {
+              "id": "texas",
+              "name": "Texas",
+              "keywords": [
+                "tx",
+                "lone star"
+              ],
+              "gap": true
+            },
+            {
+              "id": "louisiana",
+              "name": "Louisiana",
+              "keywords": [
+                "la",
+                "bayou"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "countries",
+          "name": "Countries",
+          "items": [
+            {
+              "id": "flag-us",
+              "name": "United States",
+              "keywords": [
+                "usa"
+              ],
+              "emoji": "🇺🇸"
+            },
+            {
+              "id": "flag-ca",
+              "name": "Canada",
+              "keywords": [
+                "canada"
+              ],
+              "emoji": "🇨🇦"
+            },
+            {
+              "id": "flag-mx",
+              "name": "Mexico",
+              "keywords": [
+                "mexico"
+              ],
+              "emoji": "🇲🇽"
+            },
+            {
+              "id": "flag-gb",
+              "name": "United Kingdom",
+              "keywords": [
+                "uk",
+                "britain"
+              ],
+              "emoji": "🇬🇧"
+            },
+            {
+              "id": "flag-fr",
+              "name": "France",
+              "keywords": [
+                "france"
+              ],
+              "emoji": "🇫🇷"
+            },
+            {
+              "id": "flag-it",
+              "name": "Italy",
+              "keywords": [
+                "italy"
+              ],
+              "emoji": "🇮🇹"
+            },
+            {
+              "id": "flag-es",
+              "name": "Spain",
+              "keywords": [
+                "spain"
+              ],
+              "emoji": "🇪🇸"
+            },
+            {
+              "id": "flag-de",
+              "name": "Germany",
+              "keywords": [
+                "germany"
+              ],
+              "emoji": "🇩🇪"
+            },
+            {
+              "id": "flag-ch",
+              "name": "Switzerland",
+              "keywords": [
+                "alps"
+              ],
+              "emoji": "🇨🇭"
+            },
+            {
+              "id": "flag-is",
+              "name": "Iceland",
+              "keywords": [
+                "iceland"
+              ],
+              "emoji": "🇮🇸"
+            },
+            {
+              "id": "flag-no",
+              "name": "Norway",
+              "keywords": [
+                "fjords"
+              ],
+              "emoji": "🇳🇴"
+            },
+            {
+              "id": "flag-jp",
+              "name": "Japan",
+              "keywords": [
+                "japan"
+              ],
+              "emoji": "🇯🇵"
+            },
+            {
+              "id": "flag-au",
+              "name": "Australia",
+              "keywords": [
+                "australia"
+              ],
+              "emoji": "🇦🇺"
+            },
+            {
+              "id": "flag-nz",
+              "name": "New Zealand",
+              "keywords": [
+                "nz"
+              ],
+              "emoji": "🇳🇿"
+            },
+            {
+              "id": "flag-cr",
+              "name": "Costa Rica",
+              "keywords": [
+                "costa rica"
+              ],
+              "emoji": "🇨🇷"
+            },
+            {
+              "id": "flag-pe",
+              "name": "Peru",
+              "keywords": [
+                "peru"
+              ],
+              "emoji": "🇵🇪"
+            },
+            {
+              "id": "flag-ke",
+              "name": "Kenya",
+              "keywords": [
+                "kenya"
+              ],
+              "emoji": "🇰🇪"
+            },
+            {
+              "id": "flag-tz",
+              "name": "Tanzania",
+              "keywords": [
+                "tanzania"
+              ],
+              "emoji": "🇹🇿"
+            },
+            {
+              "id": "flag-eg",
+              "name": "Egypt",
+              "keywords": [
+                "egypt"
+              ],
+              "emoji": "🇪🇬"
+            },
+            {
+              "id": "flag-gr",
+              "name": "Greece",
+              "keywords": [
+                "greece"
+              ],
+              "emoji": "🇬🇷"
+            },
+            {
+              "id": "flag-za",
+              "name": "South Africa",
+              "keywords": [
+                "south africa"
+              ],
+              "emoji": "🇿🇦"
+            },
+            {
+              "id": "flag-br",
+              "name": "Brazil",
+              "keywords": [
+                "brazil"
+              ],
+              "emoji": "🇧🇷"
+            }
+          ]
+        },
+        {
+          "id": "destinations",
+          "name": "Famous destinations",
+          "items": [
+            {
+              "id": "statue-of-liberty",
+              "name": "Statue of Liberty",
+              "keywords": [
+                "new york",
+                "nyc"
+              ],
+              "emoji": "🗽"
+            },
+            {
+              "id": "tokyo-tower",
+              "name": "Tokyo Tower",
+              "keywords": [
+                "tokyo",
+                "japan"
+              ],
+              "emoji": "🗼"
+            },
+            {
+              "id": "classical-building",
+              "name": "Classical building / ruins",
+              "keywords": [
+                "rome",
+                "athens",
+                "museum"
+              ],
+              "emoji": "🏛️"
+            },
+            {
+              "id": "castle",
+              "name": "Castle",
+              "keywords": [
+                "europe"
+              ],
+              "emoji": "🏰"
+            },
+            {
+              "id": "japanese-castle",
+              "name": "Japanese castle",
+              "keywords": [
+                "osaka",
+                "himeji"
+              ],
+              "emoji": "🏯"
+            },
+            {
+              "id": "shinto-shrine",
+              "name": "Shinto shrine",
+              "keywords": [
+                "torii",
+                "kyoto"
+              ],
+              "emoji": "⛩️"
+            },
+            {
+              "id": "bridge",
+              "name": "Bridge at night",
+              "keywords": [
+                "golden gate stand-in"
+              ],
+              "emoji": "🌉"
+            },
+            {
+              "id": "fountain",
+              "name": "Fountain",
+              "keywords": [
+                "plaza"
+              ],
+              "emoji": "⛲"
+            },
+            {
+              "id": "cityscape",
+              "name": "City skyline",
+              "keywords": [
+                "city"
+              ],
+              "emoji": "🏙️"
+            },
+            {
+              "id": "mount-fuji-dest",
+              "name": "Mount Fuji",
+              "keywords": [
+                "japan"
+              ],
+              "emoji": "🗻"
+            },
+            {
+              "id": "volcano-dest",
+              "name": "Volcanic destination",
+              "keywords": [
+                "iceland",
+                "hawaii",
+                "sicily"
+              ],
+              "emoji": "🌋"
+            },
+            {
+              "id": "desert-dest",
+              "name": "Desert destination",
+              "keywords": [
+                "sahara",
+                "moab"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "island-dest",
+              "name": "Tropical destination",
+              "keywords": [
+                "caribbean",
+                "maldives"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "beach-dest",
+              "name": "Beach destination",
+              "keywords": [
+                "coast"
+              ],
+              "emoji": "🏖️"
+            },
+            {
+              "id": "hot-springs-dest",
+              "name": "Hot springs destination",
+              "keywords": [
+                "iceland",
+                "japan"
+              ],
+              "emoji": "♨️"
+            },
+            {
+              "id": "moai-dest",
+              "name": "Easter Island",
+              "keywords": [
+                "rapa nui"
+              ],
+              "emoji": "🗿"
+            },
+            {
+              "id": "circus-tent",
+              "name": "Festival / fair",
+              "keywords": [
+                "event"
+              ],
+              "emoji": "🎪"
+            },
+            {
+              "id": "eiffel-tower",
+              "name": "Eiffel Tower",
+              "keywords": [
+                "paris"
+              ],
+              "gap": true
+            },
+            {
+              "id": "pyramids",
+              "name": "Pyramids of Giza",
+              "keywords": [
+                "egypt",
+                "giza"
+              ],
+              "gap": true
+            },
+            {
+              "id": "machu-picchu",
+              "name": "Machu Picchu",
+              "keywords": [
+                "peru",
+                "andes"
+              ],
+              "gap": true
+            },
+            {
+              "id": "big-ben",
+              "name": "Big Ben / Parliament",
+              "keywords": [
+                "london"
+              ],
+              "gap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "emoji": 379,
+    "gaps": 75,
+    "total": 454
+  }
+}
