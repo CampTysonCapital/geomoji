@@ -1,0 +1,478 @@
+{
+  "id": "outdoors",
+  "name": "Outdoors",
+  "symbol": "figure.hiking",
+  "summary": "Hiking, camping, climbing, paddling, and cycling",
+  "subcategories": [
+    {
+      "id": "hiking",
+      "name": "Hiking",
+      "items": [
+        {
+          "id": "hiking-boot",
+          "name": "Hiking boot",
+          "keywords": [
+            "boot",
+            "trail"
+          ],
+          "emoji": "🥾"
+        },
+        {
+          "id": "running-shoe",
+          "name": "Trail shoe",
+          "keywords": [
+            "sneaker"
+          ],
+          "emoji": "👟"
+        },
+        {
+          "id": "backpack-hike",
+          "name": "Daypack",
+          "keywords": [
+            "pack"
+          ],
+          "emoji": "🎒"
+        },
+        {
+          "id": "compass-hike",
+          "name": "Compass",
+          "keywords": [
+            "navigation"
+          ],
+          "emoji": "🧭"
+        },
+        {
+          "id": "map-hike",
+          "name": "Trail map",
+          "keywords": [
+            "map"
+          ],
+          "emoji": "🗺️"
+        },
+        {
+          "id": "evergreen",
+          "name": "Evergreen tree",
+          "keywords": [
+            "pine",
+            "fir",
+            "spruce"
+          ],
+          "emoji": "🌲"
+        },
+        {
+          "id": "deciduous",
+          "name": "Deciduous tree",
+          "keywords": [
+            "oak",
+            "maple"
+          ],
+          "emoji": "🌳"
+        },
+        {
+          "id": "fallen-leaf",
+          "name": "Fallen leaf",
+          "keywords": [
+            "trail"
+          ],
+          "emoji": "🍃"
+        },
+        {
+          "id": "maple-leaf",
+          "name": "Maple leaf",
+          "keywords": [
+            "autumn"
+          ],
+          "emoji": "🍁"
+        },
+        {
+          "id": "hiker",
+          "name": "Walker / hiker",
+          "keywords": [
+            "trek",
+            "hike"
+          ],
+          "emoji": "🚶"
+        },
+        {
+          "id": "person-walking",
+          "name": "Person walking",
+          "keywords": [
+            "hike"
+          ],
+          "emoji": "🚶‍♂️"
+        },
+        {
+          "id": "national-park-hike",
+          "name": "Park trail",
+          "keywords": [
+            "trail"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "flashlight-hike",
+          "name": "Flashlight",
+          "keywords": [
+            "torch",
+            "headlamp stand-in"
+          ],
+          "emoji": "🔦"
+        },
+        {
+          "id": "sun-hike",
+          "name": "Fair weather",
+          "keywords": [
+            "sunshine"
+          ],
+          "emoji": "☀️"
+        },
+        {
+          "id": "mountain-hike",
+          "name": "Mountain trail",
+          "keywords": [
+            "peak"
+          ],
+          "emoji": "⛰️"
+        },
+        {
+          "id": "snow-peak-hike",
+          "name": "Alpine peak",
+          "keywords": [
+            "alpine"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "star-hike",
+          "name": "Night hike star",
+          "keywords": [
+            "stargaze"
+          ],
+          "emoji": "⭐"
+        }
+      ]
+    },
+    {
+      "id": "camping",
+      "name": "Camping",
+      "items": [
+        {
+          "id": "campsite",
+          "name": "Camping",
+          "keywords": [
+            "campground"
+          ],
+          "emoji": "🏕️"
+        },
+        {
+          "id": "tent",
+          "name": "Tent",
+          "keywords": [
+            "shelter"
+          ],
+          "emoji": "⛺"
+        },
+        {
+          "id": "fire",
+          "name": "Campfire",
+          "keywords": [
+            "fire",
+            "bonfire"
+          ],
+          "emoji": "🔥"
+        },
+        {
+          "id": "wood",
+          "name": "Firewood",
+          "keywords": [
+            "log"
+          ],
+          "emoji": "🪵"
+        },
+        {
+          "id": "flashlight",
+          "name": "Flashlight",
+          "keywords": [
+            "lantern stand-in"
+          ],
+          "emoji": "🔦"
+        },
+        {
+          "id": "candle",
+          "name": "Candle / lantern glow",
+          "keywords": [
+            "lantern"
+          ],
+          "emoji": "🕯️"
+        },
+        {
+          "id": "cooking",
+          "name": "Camp cooking",
+          "keywords": [
+            "skillet",
+            "breakfast"
+          ],
+          "emoji": "🍳"
+        },
+        {
+          "id": "hot-beverage",
+          "name": "Camp coffee",
+          "keywords": [
+            "mug",
+            "coffee"
+          ],
+          "emoji": "☕"
+        },
+        {
+          "id": "hut-camp",
+          "name": "Camp cabin",
+          "keywords": [
+            "lean-to"
+          ],
+          "emoji": "🛖"
+        },
+        {
+          "id": "sleeping",
+          "name": "Sleeping / bedroll stand-in",
+          "keywords": [
+            "sleeping bag"
+          ],
+          "emoji": "🛏️"
+        },
+        {
+          "id": "mosquito",
+          "name": "Mosquito",
+          "keywords": [
+            "bug"
+          ],
+          "emoji": "🦟"
+        },
+        {
+          "id": "mushroom",
+          "name": "Mushroom",
+          "keywords": [
+            "forage"
+          ],
+          "emoji": "🍄"
+        },
+        {
+          "id": "herb",
+          "name": "Herb / understory",
+          "keywords": [
+            "plant"
+          ],
+          "emoji": "🌿"
+        },
+        {
+          "id": "four-leaf-clover",
+          "name": "Clover",
+          "keywords": [
+            "meadow"
+          ],
+          "emoji": "🍀"
+        }
+      ]
+    },
+    {
+      "id": "climbing",
+      "name": "Climbing",
+      "items": [
+        {
+          "id": "person-climbing",
+          "name": "Person climbing",
+          "keywords": [
+            "climber",
+            "boulder"
+          ],
+          "emoji": "🧗"
+        },
+        {
+          "id": "woman-climbing",
+          "name": "Climber",
+          "keywords": [
+            "lead",
+            "sport"
+          ],
+          "emoji": "🧗‍♀️"
+        },
+        {
+          "id": "mountain-climb",
+          "name": "Mountain",
+          "keywords": [
+            "trad",
+            "alpine"
+          ],
+          "emoji": "⛰️"
+        },
+        {
+          "id": "snow-mountain-climb",
+          "name": "Alpine face",
+          "keywords": [
+            "ice"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "knot",
+          "name": "Rope / knot",
+          "keywords": [
+            "rope",
+            "belay"
+          ],
+          "emoji": "🪢"
+        },
+        {
+          "id": "gloves",
+          "name": "Gloves",
+          "keywords": [
+            "crack gloves"
+          ],
+          "emoji": "🧤"
+        },
+        {
+          "id": "pick-climb",
+          "name": "Ice tool stand-in",
+          "keywords": [
+            "ice axe"
+          ],
+          "emoji": "⛏️"
+        }
+      ]
+    },
+    {
+      "id": "paddling",
+      "name": "Paddling",
+      "items": [
+        {
+          "id": "canoe-paddle",
+          "name": "Canoe",
+          "keywords": [
+            "paddle",
+            "canoe"
+          ],
+          "emoji": "🛶"
+        },
+        {
+          "id": "rowboat",
+          "name": "Rowboat / raft stand-in",
+          "keywords": [
+            "raft",
+            "row"
+          ],
+          "emoji": "🚣"
+        },
+        {
+          "id": "person-rowing",
+          "name": "Person rowing",
+          "keywords": [
+            "crew"
+          ],
+          "emoji": "🚣‍♂️"
+        },
+        {
+          "id": "sailboat-paddle",
+          "name": "Sailboat",
+          "keywords": [
+            "sail"
+          ],
+          "emoji": "⛵"
+        },
+        {
+          "id": "speedboat",
+          "name": "Speedboat",
+          "keywords": [
+            "runabout"
+          ],
+          "emoji": "🚤"
+        },
+        {
+          "id": "wave-paddle",
+          "name": "Waves",
+          "keywords": [
+            "whitewater"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "national-park-water",
+          "name": "Lake / park water",
+          "keywords": [
+            "lake"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "swimmer",
+          "name": "Swimmer",
+          "keywords": [
+            "swim"
+          ],
+          "emoji": "🏊"
+        },
+        {
+          "id": "person-surfing",
+          "name": "Surfing",
+          "keywords": [
+            "surf"
+          ],
+          "emoji": "🏄"
+        }
+      ]
+    },
+    {
+      "id": "cycling",
+      "name": "Cycling",
+      "items": [
+        {
+          "id": "bicycle",
+          "name": "Bicycle",
+          "keywords": [
+            "bike"
+          ],
+          "emoji": "🚲"
+        },
+        {
+          "id": "cyclist",
+          "name": "Cyclist",
+          "keywords": [
+            "road bike"
+          ],
+          "emoji": "🚴"
+        },
+        {
+          "id": "mountain-biker",
+          "name": "Mountain biker",
+          "keywords": [
+            "mtb",
+            "trail"
+          ],
+          "emoji": "🚵"
+        },
+        {
+          "id": "woman-mountain-biking",
+          "name": "Trail rider",
+          "keywords": [
+            "mtb"
+          ],
+          "emoji": "🚵‍♀️"
+        },
+        {
+          "id": "helmet",
+          "name": "Helmet stand-in",
+          "keywords": [
+            "lid"
+          ],
+          "emoji": "⛑️"
+        },
+        {
+          "id": "kick-scooter",
+          "name": "Kick scooter",
+          "keywords": [
+            "scooter"
+          ],
+          "emoji": "🛴"
+        }
+      ]
+    }
+  ]
+}

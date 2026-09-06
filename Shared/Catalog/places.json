@@ -1,0 +1,638 @@
+{
+  "id": "places",
+  "name": "Places",
+  "symbol": "map",
+  "summary": "Parks, a few states, countries, and famous destinations",
+  "subcategories": [
+    {
+      "id": "national-parks",
+      "name": "National Parks",
+      "items": [
+        {
+          "id": "park-generic",
+          "name": "National park",
+          "keywords": [
+            "nps",
+            "park"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "park-camp",
+          "name": "Park campground",
+          "keywords": [
+            "camp"
+          ],
+          "emoji": "🏕️"
+        },
+        {
+          "id": "park-peak",
+          "name": "Alpine park",
+          "keywords": [
+            "yosemite",
+            "tetons",
+            "denali",
+            "glacier"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "park-volcano",
+          "name": "Volcanic park",
+          "keywords": [
+            "yellowstone",
+            "hawaii volcanoes",
+            "lassen"
+          ],
+          "emoji": "🌋"
+        },
+        {
+          "id": "park-hotspring",
+          "name": "Hydrothermal park",
+          "keywords": [
+            "yellowstone",
+            "hot springs"
+          ],
+          "emoji": "♨️"
+        },
+        {
+          "id": "park-forest",
+          "name": "Forest park",
+          "keywords": [
+            "smokies",
+            "redwoods",
+            "olympic"
+          ],
+          "emoji": "🌲"
+        },
+        {
+          "id": "park-desert",
+          "name": "Desert park",
+          "keywords": [
+            "arches",
+            "canyonlands",
+            "saguaro",
+            "death valley"
+          ],
+          "emoji": "🏜️"
+        },
+        {
+          "id": "park-beach",
+          "name": "Seashore / lakeshore",
+          "keywords": [
+            "acadia",
+            "olympic coast"
+          ],
+          "emoji": "🏖️"
+        },
+        {
+          "id": "park-island",
+          "name": "Island park",
+          "keywords": [
+            "virgin islands",
+            "dry tortugas"
+          ],
+          "emoji": "🏝️"
+        },
+        {
+          "id": "park-bison",
+          "name": "Bison range / plains park",
+          "keywords": [
+            "yellowstone",
+            "badlands",
+            "wind cave"
+          ],
+          "emoji": "🦬"
+        },
+        {
+          "id": "park-bear",
+          "name": "Bear country",
+          "keywords": [
+            "katmai",
+            "yellowstone"
+          ],
+          "emoji": "🐻"
+        },
+        {
+          "id": "park-gator",
+          "name": "Everglades stand-in",
+          "keywords": [
+            "everglades"
+          ],
+          "emoji": "🐊"
+        },
+        {
+          "id": "park-wave",
+          "name": "Coastal park",
+          "keywords": [
+            "acadia",
+            "olympic",
+            "channel islands"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "grand-canyon",
+          "name": "Grand Canyon",
+          "keywords": [
+            "canyon",
+            "arizona"
+          ],
+          "gap": true
+        },
+        {
+          "id": "mesa-verde",
+          "name": "Cliff dwelling park",
+          "keywords": [
+            "mesa verde"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "states",
+      "name": "States",
+      "items": [
+        {
+          "id": "hawaii",
+          "name": "Hawaii",
+          "keywords": [
+            "hi",
+            "aloha"
+          ],
+          "emoji": "🏝️"
+        },
+        {
+          "id": "alaska",
+          "name": "Alaska",
+          "keywords": [
+            "ak",
+            "denali"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "arizona",
+          "name": "Arizona",
+          "keywords": [
+            "az",
+            "sonoran"
+          ],
+          "emoji": "🏜️"
+        },
+        {
+          "id": "colorado",
+          "name": "Colorado",
+          "keywords": [
+            "co",
+            "rockies"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "florida",
+          "name": "Florida",
+          "keywords": [
+            "fl",
+            "everglades"
+          ],
+          "emoji": "🐊"
+        },
+        {
+          "id": "california",
+          "name": "California",
+          "keywords": [
+            "ca",
+            "pacific"
+          ],
+          "emoji": "🌅"
+        },
+        {
+          "id": "maine",
+          "name": "Maine",
+          "keywords": [
+            "me",
+            "acadia"
+          ],
+          "emoji": "🦞"
+        },
+        {
+          "id": "montana",
+          "name": "Montana",
+          "keywords": [
+            "mt",
+            "big sky"
+          ],
+          "emoji": "🦬"
+        },
+        {
+          "id": "utah",
+          "name": "Utah",
+          "keywords": [
+            "ut",
+            "canyon country"
+          ],
+          "emoji": "🏜️"
+        },
+        {
+          "id": "us-flag",
+          "name": "United States",
+          "keywords": [
+            "usa",
+            "america"
+          ],
+          "emoji": "🇺🇸"
+        },
+        {
+          "id": "texas",
+          "name": "Texas",
+          "keywords": [
+            "tx",
+            "lone star"
+          ],
+          "gap": true
+        },
+        {
+          "id": "louisiana",
+          "name": "Louisiana",
+          "keywords": [
+            "la",
+            "bayou"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "countries",
+      "name": "Countries",
+      "items": [
+        {
+          "id": "flag-us",
+          "name": "United States",
+          "keywords": [
+            "usa"
+          ],
+          "emoji": "🇺🇸"
+        },
+        {
+          "id": "flag-ca",
+          "name": "Canada",
+          "keywords": [
+            "canada"
+          ],
+          "emoji": "🇨🇦"
+        },
+        {
+          "id": "flag-mx",
+          "name": "Mexico",
+          "keywords": [
+            "mexico"
+          ],
+          "emoji": "🇲🇽"
+        },
+        {
+          "id": "flag-gb",
+          "name": "United Kingdom",
+          "keywords": [
+            "uk",
+            "britain"
+          ],
+          "emoji": "🇬🇧"
+        },
+        {
+          "id": "flag-fr",
+          "name": "France",
+          "keywords": [
+            "france"
+          ],
+          "emoji": "🇫🇷"
+        },
+        {
+          "id": "flag-it",
+          "name": "Italy",
+          "keywords": [
+            "italy"
+          ],
+          "emoji": "🇮🇹"
+        },
+        {
+          "id": "flag-es",
+          "name": "Spain",
+          "keywords": [
+            "spain"
+          ],
+          "emoji": "🇪🇸"
+        },
+        {
+          "id": "flag-de",
+          "name": "Germany",
+          "keywords": [
+            "germany"
+          ],
+          "emoji": "🇩🇪"
+        },
+        {
+          "id": "flag-ch",
+          "name": "Switzerland",
+          "keywords": [
+            "alps"
+          ],
+          "emoji": "🇨🇭"
+        },
+        {
+          "id": "flag-is",
+          "name": "Iceland",
+          "keywords": [
+            "iceland"
+          ],
+          "emoji": "🇮🇸"
+        },
+        {
+          "id": "flag-no",
+          "name": "Norway",
+          "keywords": [
+            "fjords"
+          ],
+          "emoji": "🇳🇴"
+        },
+        {
+          "id": "flag-jp",
+          "name": "Japan",
+          "keywords": [
+            "japan"
+          ],
+          "emoji": "🇯🇵"
+        },
+        {
+          "id": "flag-au",
+          "name": "Australia",
+          "keywords": [
+            "australia"
+          ],
+          "emoji": "🇦🇺"
+        },
+        {
+          "id": "flag-nz",
+          "name": "New Zealand",
+          "keywords": [
+            "nz"
+          ],
+          "emoji": "🇳🇿"
+        },
+        {
+          "id": "flag-cr",
+          "name": "Costa Rica",
+          "keywords": [
+            "costa rica"
+          ],
+          "emoji": "🇨🇷"
+        },
+        {
+          "id": "flag-pe",
+          "name": "Peru",
+          "keywords": [
+            "peru"
+          ],
+          "emoji": "🇵🇪"
+        },
+        {
+          "id": "flag-ke",
+          "name": "Kenya",
+          "keywords": [
+            "kenya"
+          ],
+          "emoji": "🇰🇪"
+        },
+        {
+          "id": "flag-tz",
+          "name": "Tanzania",
+          "keywords": [
+            "tanzania"
+          ],
+          "emoji": "🇹🇿"
+        },
+        {
+          "id": "flag-eg",
+          "name": "Egypt",
+          "keywords": [
+            "egypt"
+          ],
+          "emoji": "🇪🇬"
+        },
+        {
+          "id": "flag-gr",
+          "name": "Greece",
+          "keywords": [
+            "greece"
+          ],
+          "emoji": "🇬🇷"
+        },
+        {
+          "id": "flag-za",
+          "name": "South Africa",
+          "keywords": [
+            "south africa"
+          ],
+          "emoji": "🇿🇦"
+        },
+        {
+          "id": "flag-br",
+          "name": "Brazil",
+          "keywords": [
+            "brazil"
+          ],
+          "emoji": "🇧🇷"
+        }
+      ]
+    },
+    {
+      "id": "destinations",
+      "name": "Famous destinations",
+      "items": [
+        {
+          "id": "statue-of-liberty",
+          "name": "Statue of Liberty",
+          "keywords": [
+            "new york",
+            "nyc"
+          ],
+          "emoji": "🗽"
+        },
+        {
+          "id": "tokyo-tower",
+          "name": "Tokyo Tower",
+          "keywords": [
+            "tokyo",
+            "japan"
+          ],
+          "emoji": "🗼"
+        },
+        {
+          "id": "classical-building",
+          "name": "Classical building / ruins",
+          "keywords": [
+            "rome",
+            "athens",
+            "museum"
+          ],
+          "emoji": "🏛️"
+        },
+        {
+          "id": "castle",
+          "name": "Castle",
+          "keywords": [
+            "europe"
+          ],
+          "emoji": "🏰"
+        },
+        {
+          "id": "japanese-castle",
+          "name": "Japanese castle",
+          "keywords": [
+            "osaka",
+            "himeji"
+          ],
+          "emoji": "🏯"
+        },
+        {
+          "id": "shinto-shrine",
+          "name": "Shinto shrine",
+          "keywords": [
+            "torii",
+            "kyoto"
+          ],
+          "emoji": "⛩️"
+        },
+        {
+          "id": "bridge",
+          "name": "Bridge at night",
+          "keywords": [
+            "golden gate stand-in"
+          ],
+          "emoji": "🌉"
+        },
+        {
+          "id": "fountain",
+          "name": "Fountain",
+          "keywords": [
+            "plaza"
+          ],
+          "emoji": "⛲"
+        },
+        {
+          "id": "cityscape",
+          "name": "City skyline",
+          "keywords": [
+            "city"
+          ],
+          "emoji": "🏙️"
+        },
+        {
+          "id": "mount-fuji-dest",
+          "name": "Mount Fuji",
+          "keywords": [
+            "japan"
+          ],
+          "emoji": "🗻"
+        },
+        {
+          "id": "volcano-dest",
+          "name": "Volcanic destination",
+          "keywords": [
+            "iceland",
+            "hawaii",
+            "sicily"
+          ],
+          "emoji": "🌋"
+        },
+        {
+          "id": "desert-dest",
+          "name": "Desert destination",
+          "keywords": [
+            "sahara",
+            "moab"
+          ],
+          "emoji": "🏜️"
+        },
+        {
+          "id": "island-dest",
+          "name": "Tropical destination",
+          "keywords": [
+            "caribbean",
+            "maldives"
+          ],
+          "emoji": "🏝️"
+        },
+        {
+          "id": "beach-dest",
+          "name": "Beach destination",
+          "keywords": [
+            "coast"
+          ],
+          "emoji": "🏖️"
+        },
+        {
+          "id": "hot-springs-dest",
+          "name": "Hot springs destination",
+          "keywords": [
+            "iceland",
+            "japan"
+          ],
+          "emoji": "♨️"
+        },
+        {
+          "id": "moai-dest",
+          "name": "Easter Island",
+          "keywords": [
+            "rapa nui"
+          ],
+          "emoji": "🗿"
+        },
+        {
+          "id": "circus-tent",
+          "name": "Festival / fair",
+          "keywords": [
+            "event"
+          ],
+          "emoji": "🎪"
+        },
+        {
+          "id": "eiffel-tower",
+          "name": "Eiffel Tower",
+          "keywords": [
+            "paris"
+          ],
+          "gap": true
+        },
+        {
+          "id": "pyramids",
+          "name": "Pyramids of Giza",
+          "keywords": [
+            "egypt",
+            "giza"
+          ],
+          "gap": true
+        },
+        {
+          "id": "machu-picchu",
+          "name": "Machu Picchu",
+          "keywords": [
+            "peru",
+            "andes"
+          ],
+          "gap": true
+        },
+        {
+          "id": "big-ben",
+          "name": "Big Ben / Parliament",
+          "keywords": [
+            "london"
+          ],
+          "gap": true
+        }
+      ]
+    }
+  ]
+}

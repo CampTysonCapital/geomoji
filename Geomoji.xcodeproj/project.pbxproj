@@ -62,6 +62,15 @@
 		C00000000000000000000003 /* EmojiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiStore.swift; sourceTree = "<group>"; };
 		C00000000000000000000004 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		C00000000000000000000005 /* Catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Catalog.json; sourceTree = "<group>"; };
+		C00000000000000000000014 /* travel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = travel.json; sourceTree = "<group>"; };
+		C00000000000000000000015 /* geography.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = geography.json; sourceTree = "<group>"; };
+		C00000000000000000000016 /* outdoors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = outdoors.json; sourceTree = "<group>"; };
+		C00000000000000000000017 /* hunting.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hunting.json; sourceTree = "<group>"; };
+		C00000000000000000000018 /* fishing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fishing.json; sourceTree = "<group>"; };
+		C00000000000000000000019 /* wildlife.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wildlife.json; sourceTree = "<group>"; };
+		C0000000000000000000001A /* places.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		C0000000000000000000001B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C0000000000000000000001C /* INDEX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INDEX.md; sourceTree = "<group>"; };
 		C00000000000000000000006 /* GeomojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomojiApp.swift; sourceTree = "<group>"; };
 		C00000000000000000000007 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		C00000000000000000000008 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
@@ -119,12 +128,29 @@
 			isa = PBXGroup;
 			children = (
 				C00000000000000000000005 /* Catalog.json */,
+				A0000000000000000000000A /* Catalog */,
 				C00000000000000000000004 /* AppConstants.swift */,
 				C00000000000000000000001 /* EmojiModels.swift */,
 				C00000000000000000000002 /* CatalogLoader.swift */,
 				C00000000000000000000003 /* EmojiStore.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000000A /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000001C /* INDEX.md */,
+				C0000000000000000000001B /* manifest.json */,
+				C00000000000000000000014 /* travel.json */,
+				C00000000000000000000015 /* geography.json */,
+				C00000000000000000000016 /* outdoors.json */,
+				C00000000000000000000017 /* hunting.json */,
+				C00000000000000000000018 /* fishing.json */,
+				C00000000000000000000019 /* wildlife.json */,
+				C0000000000000000000001A /* places.json */,
+			);
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 		A00000000000000000000007 /* Geomoji */ = {

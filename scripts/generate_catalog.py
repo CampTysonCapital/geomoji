@@ -13,6 +13,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "Shared" / "Catalog.json"
+CATALOG_DIR = ROOT / "Shared" / "Catalog"
+INDEX = CATALOG_DIR / "INDEX.md"
 
 
 def item(item_id: str, name: str, emoji: str | None, *keywords: str, gap: bool = False) -> dict:
@@ -62,17 +64,20 @@ CATEGORIES = [
                     item("seat", "Airplane seat", "💺", "window seat", "cabin"),
                     item("parachute", "Parachute", "🪂", "skydiving"),
                     item("airport-shuttle", "Airport shuttle", "🚌", "shuttle", "bus", "airport"),
+                    item("rental-car-airport", "Rental car", "🚗", "rental", "hertz stand-in"),
                     item("ticket", "Ticket / boarding pass", "🎫", "boarding pass", "boarding", "gate pass"),
                     item("airport-terminal", "Airport terminal", None, "airport", "terminal", "concourse"),
                     item("control-tower", "Control tower", None, "tower", "atc", "airport"),
                     item("boarding-gate", "Boarding gate", None, "gate", "boarding"),
+                    item("boarding-pass-detail", "Boarding pass (no unique glyph)", None, "boarding pass", "gate pass"),
                 ],
             ),
             sub(
                 "road-trips",
                 "Road Trips",
                 [
-                    item("car", "Road-trip car", "🚗", "car", "auto", "sedan", "rental car"),
+                    item("car", "Road-trip car", "🚗", "car", "auto", "sedan"),
+                    item("rental-car", "Rental car", "🚗", "rental car", "hire car"),
                     item("suv", "SUV / family car", "🚙", "suv", "road trip"),
                     item("pickup", "Pickup truck", "🛻", "truck", "pickup"),
                     item("taxi", "Taxi / cab", "🚕", "cab", "taxi"),
@@ -97,6 +102,7 @@ CATEGORIES = [
                     item("rest-stop", "Highway rest stop", None, "rest area", "rest stop"),
                     item("exit-sign", "Highway exit sign", None, "exit", "off ramp"),
                     item("winding-road", "Winding mountain road", None, "switchback", "hairpin"),
+                    item("scenic-route-sign", "Scenic-route sign", None, "byway", "scenic route"),
                 ],
             ),
             sub(
@@ -128,14 +134,6 @@ CATEGORIES = [
                     item("left-luggage", "Left luggage", "🛅", "locker", "storage"),
                     item("id-card", "ID card", "🪪", "identification", "license"),
                     item("currency-exchange", "Currency exchange", "💱", "forex", "money"),
-                    item("duty-free", "Shopping / duty-free", "🛍️", "souvenir", "shop"),
-                    item("postcard", "Mail / postcard", "✉️", "postcard", "letter"),
-                    item("window-seat-view", "Window view", "🪟", "window seat", "porthole"),
-                    item("selfie", "Vacation selfie", "🤳", "photo", "selfie"),
-                    item("camera", "Travel photography", "📷", "camera", "photo"),
-                    item("sunrise", "Sunrise destination", "🌅", "sunrise", "dawn"),
-                    item("sunrise-mountains", "Sunrise over mountains", "🌄", "sunrise", "alpenglow"),
-                    item("sunset", "Sunset destination", "🌇", "sunset", "dusk"),
                     item("night-stars", "Night skyline", "🌃", "night", "city"),
                     item("milky-way", "Milky Way", "🌌", "stars", "night"),
                     item("star", "Star", "⭐", "night", "wish"),
@@ -146,17 +144,20 @@ CATEGORIES = [
                 "Luggage",
                 [
                     item("suitcase", "Rolling suitcase", "🧳", "suitcase", "luggage", "checked bag"),
+                    item("carry-on", "Carry-on", "👜", "carry-on", "cabin bag"),
                     item("backpack", "Travel backpack", "🎒", "backpack", "daypack", "rucksack"),
-                    item("handbag", "Carry bag", "👜", "bag", "carry-on"),
                     item("label", "Luggage tag", "🏷️", "tag", "label"),
                     item("closed-umbrella", "Travel umbrella", "🌂", "umbrella", "rain"),
                     item("key", "Key / keycard", "🔑", "key", "keycard"),
                     item("duffel", "Duffel bag", None, "duffel", "weekender"),
+                    item("luggage-stack", "Luggage stack", None, "pile", "many bags"),
+                    item("sticker-suitcase", "Sticker-covered suitcase", None, "stickers", "decals"),
                     item("neck-pillow", "Neck pillow", None, "pillow", "travel pillow"),
+                    item("travel-wallet", "Travel wallet", None, "document wallet"),
+                    item("passport-wallet", "Passport wallet", None, "travel wallet", "document holder"),
                     item("packing-cubes", "Packing cubes", None, "organizer", "cubes"),
                     item("toiletry-bag", "Toiletry bag", None, "dop kit", "toiletries"),
                     item("camera-bag", "Camera bag", None, "camera bag"),
-                    item("passport-wallet", "Passport wallet", None, "travel wallet", "document holder"),
                 ],
             ),
             sub(
@@ -164,19 +165,79 @@ CATEGORIES = [
                 "Lodging",
                 [
                     item("hotel", "Hotel", "🏨", "hotel", "inn"),
-                    item("bellhop", "Bellhop / room service", "🛎️", "concierge", "service"),
-                    item("bed", "Bed / hostel bunk", "🛏️", "bed", "hostel", "bunk"),
-                    item("couch", "Couch / rental living room", "🛋️", "vacation rental", "airbnb"),
-                    item("hut", "Cabin / hut", "🛖", "cabin", "lodge", "bungalow"),
-                    item("house", "House / vacation rental", "🏠", "rental", "home"),
+                    item("boutique-hotel", "Boutique hotel", "🏨", "boutique"),
+                    item("motel", "Motel", "🏨", "roadside motel", "motor lodge"),
+                    item("bellhop", "Bellhop", "🛎️", "concierge"),
+                    item("room-service", "Room-service tray", "🍽️", "room service", "tray"),
+                    item("hotel-keycard", "Hotel keycard", "🔑", "keycard", "key"),
+                    item("bed", "Hostel / bunk room", "🛏️", "bed", "hostel", "bunk"),
+                    item("couch", "Vacation rental living room", "🛋️", "vacation rental", "airbnb"),
+                    item("hut", "Cabin", "🛖", "cabin", "lodge", "bungalow"),
+                    item("house", "Vacation rental", "🏠", "rental", "home"),
+                    item("resort", "Resort", "🏝️", "all inclusive"),
                     item("camping-lodging", "Camp lodging", "🏕️", "campground"),
                     item("tent-lodging", "Tent stay", "⛺", "tent"),
                     item("hot-springs", "Hot springs", "♨️", "onsen", "spa"),
-                    item("beach-umbrella", "Beach umbrella", "⛱️", "beach chair", "shade"),
-                    item("desert-island", "Island resort", "🏝️", "resort", "atoll"),
-                    item("beach", "Beach vacation", "🏖️", "beach"),
                     item("do-not-disturb", "Do Not Disturb hanger", None, "dnd", "privacy"),
                     item("luggage-cart", "Luggage cart", None, "bell cart", "trolley"),
+                ],
+            ),
+            sub(
+                "navigation",
+                "Navigation",
+                [
+                    item("folded-map", "Folded road map", "🗺️", "road map", "glovebox"),
+                    item("map-with-route", "Map with route", "🗺️", "route", "directions"),
+                    item("pin-travel", "Destination pin", "📍", "pin", "drop"),
+                    item("compass-travel", "Compass", "🧭", "bearing", "navigation"),
+                    item("signpost", "Directional signpost", "🪧", "wayfinding", "sign"),
+                    item("guidebook", "Travel guidebook", "📖", "lonely planet stand-in", "guide"),
+                    item("itinerary", "Itinerary / checklist", "📋", "checklist", "plan"),
+                    item("nav-arrow", "Navigation arrow", "➡️", "turn", "navigate"),
+                    item("check-mark", "Checklist done", "✅", "done", "packed"),
+                    item("topo-map-travel", "Topo map", None, "contour", "usgs"),
+                    item("binoculars-travel", "Binoculars", None, "binos", "optics"),
+                ],
+            ),
+            sub(
+                "travel-destinations",
+                "Destinations",
+                [
+                    item("tropical-island", "Tropical island", "🏝️", "atoll", "caribbean"),
+                    item("mountain-destination", "Mountain destination", "🏔️", "alps", "rockies"),
+                    item("beach-vacation", "Beach vacation", "🏖️", "beach"),
+                    item("beach-bungalow", "Beach bungalow", "🛖", "bungalow", "overwater"),
+                    item("beach-chair", "Beach chair / umbrella", "⛱️", "lounge chair"),
+                    item("desert-destination", "Desert destination", "🏜️", "dunes"),
+                    item("snowy-destination", "Snowy destination", "❄️", "ski", "winter"),
+                    item("ski-destination", "Ski destination", "🎿", "ski trip"),
+                    item("city-skyline", "City skyline", "🏙️", "city"),
+                    item("classical-street", "Old European street", "🏛️", "europe", "old town"),
+                    item("tropical-resort", "Tropical resort", "🌴", "palm", "resort"),
+                    item("mountain-lodge", "Mountain lodge", "🏔️", "lodge"),
+                    item("cabin-getaway", "Cabin getaway", "🛖", "cabin"),
+                    item("scenic-viewpoint", "Scenic viewpoint", "🏞️", "overlook"),
+                    item("observation-deck", "Observation deck", None, "lookout", "tower view"),
+                ],
+            ),
+            sub(
+                "trip-moments",
+                "Trip Moments",
+                [
+                    item("packed-ready", "Packed and ready", "🧳", "packed"),
+                    item("leaving-home", "Leaving home", "🏠", "departure from home"),
+                    item("airport-waiting", "Airport waiting", "💺", "layover", "gate"),
+                    item("window-seat-view", "Window-seat view", "🪟", "window seat", "porthole"),
+                    item("road-trip-snacks", "Road-trip snacks", "🥨", "snacks", "gas station food"),
+                    item("popcorn-snacks", "Snack bag stand-in", "🍿", "snacks"),
+                    item("selfie", "Vacation selfie", "🤳", "photo", "selfie"),
+                    item("camera", "Travel photography", "📷", "camera", "photo"),
+                    item("sunrise", "Sunrise destination", "🌅", "sunrise", "dawn"),
+                    item("sunrise-mountains", "Sunrise over mountains", "🌄", "sunrise", "alpenglow"),
+                    item("sunset", "Sunset destination", "🌇", "sunset", "dusk"),
+                    item("sightseeing", "Sightseeing", "👀", "looking", "tour"),
+                    item("duty-free", "Souvenir shopping", "🛍️", "souvenir", "shop"),
+                    item("postcard", "Postcard", "✉️", "postcard", "letter"),
                 ],
             ),
         ],
@@ -415,9 +476,12 @@ CATEGORIES = [
                 "deer",
                 "Deer",
                 [
-                    item("whitetail", "Whitetail / deer", "🦌", "whitetail", "mule deer", "buck", "doe"),
+                    item("whitetail", "Whitetail", "🦌", "whitetail", "buck", "doe"),
+                    item("buck", "Buck", "🦌", "antlers", "whitetail buck"),
+                    item("doe", "Doe", "🦌", "doe", "nanny"),
                     item("mule-deer", "Mule deer", None, "muley"),
                     item("fawn", "Fawn", None, "young deer"),
+                    item("shed-antler", "Shed antler", None, "shed", "antler"),
                 ],
             ),
             sub(
@@ -435,12 +499,27 @@ CATEGORIES = [
                     item("pintail", "Pintail", None, "sprig"),
                     item("wood-duck", "Wood duck", None, "woodie"),
                     item("canvasback", "Canvasback", None, "can"),
-                    item("teal", "Teal", None, "greenwing", "bluewing"),
+                    item("teal", "Teal", None, "greenwing", "bluewing", "cinnamon teal"),
+                    item("gadwall", "Gadwall", None, "gadwall"),
+                    item("wigeon", "American wigeon", None, "baldpate"),
+                    item("shoveler", "Northern shoveler", None, "spoonbill"),
+                    item("black-duck", "American black duck", None, "black duck"),
+                    item("redhead-duck", "Redhead", None, "redhead"),
+                    item("scaup", "Scaup", None, "bluebill"),
+                    item("ring-necked-duck", "Ring-necked duck", None, "ringneck duck"),
+                    item("goldeneye", "Goldeneye", None, "whistler"),
+                    item("bufflehead", "Bufflehead", None, "bufflehead"),
+                    item("merganser", "Merganser", None, "sawbill"),
                     item("canada-goose", "Canada goose", None, "honker"),
                     item("snow-goose", "Snow goose", None, "speck"),
+                    item("brant", "Brant", None, "brant"),
+                    item("specklebelly", "Greater white-fronted goose", None, "specklebelly"),
                     item("decoy", "Decoy", None, "decoys", "spread"),
+                    item("duck-decoy", "Duck decoy", None, "mallard decoy"),
+                    item("goose-decoy", "Goose decoy", None, "full body", "shell"),
                     item("duck-call", "Duck / goose call", None, "call", "lanyard"),
-                    item("layout-blind", "Blind", None, "layout blind", "A-frame"),
+                    item("layout-blind", "Layout / A-frame blind", None, "layout blind", "A-frame"),
+                    item("duck-flag", "Waterfowl flag", None, "flagging"),
                 ],
             ),
             sub(
@@ -489,6 +568,8 @@ CATEGORIES = [
                     item("treestand", "Treestand", None, "stand", "saddle", "hang-on"),
                     item("ground-blind", "Ground blind", None, "blind"),
                     item("game-call", "Game call", None, "grunt", "bleat", "call"),
+                    item("grunt-call", "Grunt call", None, "buck grunt"),
+                    item("rattling-antlers", "Rattling antlers", None, "rattle"),
                     item("binoculars-hunt", "Binoculars", None, "binos", "10x42"),
                     item("rifle", "Rifle / shotgun", None, "firearm", "slug"),
                     item("camouflage", "Camouflage", None, "camo", "pattern"),
@@ -803,7 +884,48 @@ def main() -> None:
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    CATALOG_DIR.mkdir(parents=True, exist_ok=True)
+    manifest = {
+        "version": 1,
+        "title": "Geomoji",
+        "note": "Per-category slices of Shared/Catalog.json. The app loads the merged file.",
+        "files": [f"{category['id']}.json" for category in CATEGORIES],
+    }
+    (CATALOG_DIR / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    for category in CATEGORIES:
+        (CATALOG_DIR / f"{category['id']}.json").write_text(
+            json.dumps(category, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+
+    lines = [
+        "# Geomoji catalog index",
+        "",
+        "Unicode emoji first. `gap` means there is no good character yet — the app shows",
+        "“No emoji yet” instead of custom sticker art.",
+        "",
+        f"**{real} emoji · {gaps} gaps · {real + gaps} items**",
+        "",
+    ]
+    for category in CATEGORIES:
+        lines.append(f"## {category['name']}")
+        lines.append("")
+        lines.append(f"File: `Shared/Catalog/{category['id']}.json`")
+        lines.append("")
+        for subcategory in category["subcategories"]:
+            lines.append(f"### {category['name']} → {subcategory['name']}")
+            lines.append("")
+            for entry in subcategory["items"]:
+                if entry.get("gap"):
+                    lines.append(f"- {entry['name']} — *no emoji yet*")
+                else:
+                    lines.append(f"- {entry['emoji']} {entry['name']}")
+            lines.append("")
+    INDEX.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {OUT} ({real} emoji, {gaps} gaps, {real + gaps} items)")
+    print(f"Wrote {CATALOG_DIR}/*.json and {INDEX}")
 
 
 if __name__ == "__main__":

@@ -10,7 +10,9 @@ Examples:
     travel/air-travel | ✈️ | Passenger jet | airplane, jet, plane
     geography/geology | | Trilobite | cambrian, fossil
 
-Then rebuild the Geomoji scheme in Xcode.
+Then rebuild the Geomoji scheme in Xcode. Optionally run
+`python3 scripts/generate_catalog.py` only if you are editing the Python
+taxonomy; that command overwrites Catalog.json from scripts/generate_catalog.py.
 """
 
 from __future__ import annotations

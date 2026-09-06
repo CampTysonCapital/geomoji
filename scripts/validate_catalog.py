@@ -12,7 +12,17 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "Shared" / "Catalog.json"
 
 REQUIRED_CATEGORIES = {
-    "travel": ["air-travel", "road-trips", "cruises", "international", "luggage", "lodging"],
+    "travel": [
+        "air-travel",
+        "road-trips",
+        "cruises",
+        "international",
+        "luggage",
+        "lodging",
+        "navigation",
+        "travel-destinations",
+        "trip-moments",
+    ],
     "geography": ["landforms", "maps", "weather", "geology", "oceans"],
     "outdoors": ["hiking", "camping", "climbing", "paddling", "cycling"],
     "hunting": ["big-game", "deer", "waterfowl", "turkey", "upland", "hunting-equipment"],

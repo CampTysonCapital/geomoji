@@ -37,34 +37,43 @@ The keyboard skips gap rows. It is not a system emoji replacement and does not n
 
 ## Category map
 
-Mapped to the closest unicode emoji where a reasonable glyph exists. Distinctive misses stay as gaps.
+Mapped to the closest unicode emoji where a reasonable glyph exists. Distinctive misses stay as **gaps** (not custom sticker drawings). Full line-by-line listing: [`Shared/Catalog/INDEX.md`](Shared/Catalog/INDEX.md). Per-category JSON lives in [`Shared/Catalog/`](Shared/Catalog/). The app loads the merged [`Shared/Catalog.json`](Shared/Catalog.json).
 
-| Category | Subcategories | Examples |
+| Category | Subcategories | File |
 | --- | --- | --- |
-| Travel | Air Travel, Road Trips, Cruises, International, Luggage, Lodging | ✈️ 🛫 🛬 🛩️ 🧳 🧭 🏨 🛳️ 🚗 |
-| Geography | Landforms, Maps, Weather, Geology, Oceans | ⛰️ 🌋 🪨 💎 🦕 🦖 🗺️ 🌡️ 🔬 |
-| Outdoors | Hiking, Camping, Climbing, Paddling, Cycling | 🥾 🏕️ 🧗 🛶 🚲 🌲 🔥 |
-| Hunting | Big Game, Deer, Waterfowl, Turkey, Upland, Equipment | 🦌 🦆 🪿 🦃 🐻 🫎 🏹 |
-| Fishing | Freshwater, Saltwater, Fly Fishing, Species, Equipment | 🎣 🐟 🐠 🦈 🪱 |
-| Wildlife | Mammals, Birds, Fish, Reptiles | 🦊 🐺 🦅 🦉 🐊 🦕 |
-| Places | National Parks, States, Countries, Famous destinations | 🏞️ 🇺🇸 🗽 🗻 |
+| Travel | Air Travel, Road Trips, Cruises, International, Luggage, Lodging, Navigation, Destinations, Trip Moments | `Shared/Catalog/travel.json` |
+| Geography | Landforms, Maps, Weather, Geology, Oceans | `Shared/Catalog/geography.json` |
+| Outdoors | Hiking, Camping, Climbing, Paddling, Cycling | `Shared/Catalog/outdoors.json` |
+| Hunting | Big Game, Deer, Waterfowl, Turkey, Upland, Equipment | `Shared/Catalog/hunting.json` |
+| Fishing | Freshwater, Saltwater, Fly Fishing, Species, Equipment | `Shared/Catalog/fishing.json` |
+| Wildlife | Mammals, Birds, Fish, Reptiles | `Shared/Catalog/wildlife.json` |
+| Places | National Parks, States, Countries, Famous destinations | `Shared/Catalog/places.json` |
 
-Starter geology / adventure glyphs from the original brief are in **Geography → Geology** and **Outdoors** (rock, gem, volcano, bone, dinosaurs, globes, pick, flashlight, tent, and so on). Trilobite has no unicode emoji; it is a gap.
+This build: **414 unicode emoji** and **101 gaps**.
 
-Travel list mappings (closest glyph, not a unique icon per marketing name):
+Starter geology / adventure glyphs are in **Geography → Geology** and **Outdoors** (rock, gem, volcano, bone, dinosaurs, globes, pick, flashlight, tent, …). Trilobite has no unicode emoji; it is a gap.
 
-- Passenger jet / takeoff / landing → ✈️ 🛫 🛬
-- Private jet / small prop → 🛩️
-- Suitcase → 🧳 · backpack → 🎒 · luggage tag → 🏷️
-- Compass → 🧭 · world map → 🗺️ · pin → 📍
-- Boarding pass → 🎫 (ticket). Airport terminal, control tower, and gate are gaps.
-- Camper van → 🚐. Class C RV, travel trailer, and teardrop camper are gaps.
+### Travel list → unicode
 
-Hunting list mappings:
+- Passenger jet / takeoff / landing → ✈️ 🛫 🛬 · private / small plane → 🛩️ · helicopter → 🚁
+- Ticket / boarding pass → 🎫. Airport terminal, control tower, gate, and a dedicated boarding-pass glyph are gaps.
+- Airport shuttle → 🚌 · rental car → 🚗 · road-trip car → 🚗 · SUV → 🚙
+- Passenger / scenic train → 🚆 🚞 · cruise / ferry / water taxi → 🛳️ ⛴️ 🚤
+- Rolling suitcase → 🧳 · carry-on → 👜 · backpack → 🎒 · luggage tag → 🏷️
+- Duffel, luggage stack, sticker suitcase, neck pillow, wallets, packing cubes, toiletry / camera bags are gaps
+- Highway → 🛣️ · camper van → 🚐. Class C RV, trailer, teardrop, roof luggage, rest stop, exit / scenic-route signs, winding road are gaps
+- Compass → 🧭 · folded / route map → 🗺️ · pin → 📍 · signpost → 🪧 · guidebook → 📖 · itinerary → 📋. Topo map and binoculars are gaps
+- Island / mountain / beach / desert / snow / city → 🏝️ 🏔️ 🏖️ 🏜️ ❄️ 🏙️. Observation deck is a gap
+- Hotel / motel / cabin / resort → 🏨 🛖 🏝️. Do Not Disturb hanger and luggage cart are gaps
+- Packed / leaving / window seat / snacks / selfie / camera / sunrise / sunset / sightseeing / postcard → 🧳 🏠 🪟 🥨 🤳 📷 🌅 🌇 👀 ✉️
 
-- Whitetail / generic deer → 🦌 · moose → 🫎 · bear → 🐻 · bison → 🦬
-- Duck → 🦆 · goose → 🪿 · turkey → 🦃 · retriever → 🐕
-- Bow → 🏹. Elk as its own animal, mule deer vs whitetail, waterfowl species, decoys, blinds, calls, treestand, binoculars, and firearms are gaps.
+### Hunting list → unicode
+
+- Whitetail / buck / doe → 🦌 · moose → 🫎 · bear → 🐻 · bison → 🦬 · turkey → 🦃
+- Duck → 🦆 · goose → 🪿 · retriever → 🐕 · bow → 🏹
+- Elk, mule deer, fawn, shed antler, pheasant, quail, grouse are gaps
+- Waterfowl pack species (mallard drake/hen, pintail, wood duck, canvasback, teal, gadwall, wigeon, shoveler, black duck, redhead, scaup, ring-neck, goldeneye, bufflehead, merganser, Canada / snow / brant / white-front) are gaps — unicode has only generic 🦆 🪿
+- Treestand, blinds, decoys, calls, flag, binoculars, rifle, camo are gaps
 
 ## Add more emoji
 
@@ -93,7 +102,13 @@ python3 scripts/import_emoji_list.py my_new_emoji.txt
 python3 scripts/validate_catalog.py
 ```
 
-Then rebuild in Xcode. To regenerate the whole catalog from the Python taxonomy, run `python3 scripts/generate_catalog.py` (this overwrites `Catalog.json`).
+Then rebuild in Xcode. To regenerate the merged file, per-category slices, and `Shared/Catalog/INDEX.md` from the Python taxonomy:
+
+```bash
+python3 scripts/generate_catalog.py
+```
+
+That overwrites `Shared/Catalog.json` and `Shared/Catalog/*`.
 
 ## Bundle IDs
 
@@ -113,7 +128,8 @@ Update Signing in Xcode and `PRODUCT_BUNDLE_IDENTIFIER` on both targets. App Gro
 Geomoji.xcodeproj/          Xcode project + shared Geomoji scheme
 Geomoji/                    SwiftUI app
 GeomojiKeyboard/            Optional keyboard extension
-Shared/Catalog.json         Taxonomy and mappings
+Shared/Catalog.json         Merged taxonomy the app loads
+Shared/Catalog/             Per-category JSON + INDEX.md
 Shared/*.swift              Models, loader, favorites/recents
 scripts/                    Catalog generate / import / validate
 ```

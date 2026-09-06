@@ -93,6 +93,15 @@
               "emoji": "🚌"
             },
             {
+              "id": "rental-car-airport",
+              "name": "Rental car",
+              "keywords": [
+                "rental",
+                "hertz stand-in"
+              ],
+              "emoji": "🚗"
+            },
+            {
               "id": "ticket",
               "name": "Ticket / boarding pass",
               "keywords": [
@@ -130,6 +139,15 @@
                 "boarding"
               ],
               "gap": true
+            },
+            {
+              "id": "boarding-pass-detail",
+              "name": "Boarding pass (no unique glyph)",
+              "keywords": [
+                "boarding pass",
+                "gate pass"
+              ],
+              "gap": true
             }
           ]
         },
@@ -143,8 +161,16 @@
               "keywords": [
                 "car",
                 "auto",
-                "sedan",
-                "rental car"
+                "sedan"
+              ],
+              "emoji": "🚗"
+            },
+            {
+              "id": "rental-car",
+              "name": "Rental car",
+              "keywords": [
+                "rental car",
+                "hire car"
               ],
               "emoji": "🚗"
             },
@@ -366,6 +392,15 @@
                 "hairpin"
               ],
               "gap": true
+            },
+            {
+              "id": "scenic-route-sign",
+              "name": "Scenic-route sign",
+              "keywords": [
+                "byway",
+                "scenic route"
+              ],
+              "gap": true
             }
           ]
         },
@@ -552,31 +587,614 @@
               "emoji": "💱"
             },
             {
-              "id": "duty-free",
-              "name": "Shopping / duty-free",
+              "id": "night-stars",
+              "name": "Night skyline",
               "keywords": [
-                "souvenir",
-                "shop"
+                "night",
+                "city"
               ],
-              "emoji": "🛍️"
+              "emoji": "🌃"
             },
             {
-              "id": "postcard",
-              "name": "Mail / postcard",
+              "id": "milky-way",
+              "name": "Milky Way",
               "keywords": [
-                "postcard",
-                "letter"
+                "stars",
+                "night"
               ],
-              "emoji": "✉️"
+              "emoji": "🌌"
+            },
+            {
+              "id": "star",
+              "name": "Star",
+              "keywords": [
+                "night",
+                "wish"
+              ],
+              "emoji": "⭐"
+            }
+          ]
+        },
+        {
+          "id": "luggage",
+          "name": "Luggage",
+          "items": [
+            {
+              "id": "suitcase",
+              "name": "Rolling suitcase",
+              "keywords": [
+                "suitcase",
+                "luggage",
+                "checked bag"
+              ],
+              "emoji": "🧳"
+            },
+            {
+              "id": "carry-on",
+              "name": "Carry-on",
+              "keywords": [
+                "carry-on",
+                "cabin bag"
+              ],
+              "emoji": "👜"
+            },
+            {
+              "id": "backpack",
+              "name": "Travel backpack",
+              "keywords": [
+                "backpack",
+                "daypack",
+                "rucksack"
+              ],
+              "emoji": "🎒"
+            },
+            {
+              "id": "label",
+              "name": "Luggage tag",
+              "keywords": [
+                "tag",
+                "label"
+              ],
+              "emoji": "🏷️"
+            },
+            {
+              "id": "closed-umbrella",
+              "name": "Travel umbrella",
+              "keywords": [
+                "umbrella",
+                "rain"
+              ],
+              "emoji": "🌂"
+            },
+            {
+              "id": "key",
+              "name": "Key / keycard",
+              "keywords": [
+                "key",
+                "keycard"
+              ],
+              "emoji": "🔑"
+            },
+            {
+              "id": "duffel",
+              "name": "Duffel bag",
+              "keywords": [
+                "duffel",
+                "weekender"
+              ],
+              "gap": true
+            },
+            {
+              "id": "luggage-stack",
+              "name": "Luggage stack",
+              "keywords": [
+                "pile",
+                "many bags"
+              ],
+              "gap": true
+            },
+            {
+              "id": "sticker-suitcase",
+              "name": "Sticker-covered suitcase",
+              "keywords": [
+                "stickers",
+                "decals"
+              ],
+              "gap": true
+            },
+            {
+              "id": "neck-pillow",
+              "name": "Neck pillow",
+              "keywords": [
+                "pillow",
+                "travel pillow"
+              ],
+              "gap": true
+            },
+            {
+              "id": "travel-wallet",
+              "name": "Travel wallet",
+              "keywords": [
+                "document wallet"
+              ],
+              "gap": true
+            },
+            {
+              "id": "passport-wallet",
+              "name": "Passport wallet",
+              "keywords": [
+                "travel wallet",
+                "document holder"
+              ],
+              "gap": true
+            },
+            {
+              "id": "packing-cubes",
+              "name": "Packing cubes",
+              "keywords": [
+                "organizer",
+                "cubes"
+              ],
+              "gap": true
+            },
+            {
+              "id": "toiletry-bag",
+              "name": "Toiletry bag",
+              "keywords": [
+                "dop kit",
+                "toiletries"
+              ],
+              "gap": true
+            },
+            {
+              "id": "camera-bag",
+              "name": "Camera bag",
+              "keywords": [
+                "camera bag"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "name": "Lodging",
+          "items": [
+            {
+              "id": "hotel",
+              "name": "Hotel",
+              "keywords": [
+                "hotel",
+                "inn"
+              ],
+              "emoji": "🏨"
+            },
+            {
+              "id": "boutique-hotel",
+              "name": "Boutique hotel",
+              "keywords": [
+                "boutique"
+              ],
+              "emoji": "🏨"
+            },
+            {
+              "id": "motel",
+              "name": "Motel",
+              "keywords": [
+                "roadside motel",
+                "motor lodge"
+              ],
+              "emoji": "🏨"
+            },
+            {
+              "id": "bellhop",
+              "name": "Bellhop",
+              "keywords": [
+                "concierge"
+              ],
+              "emoji": "🛎️"
+            },
+            {
+              "id": "room-service",
+              "name": "Room-service tray",
+              "keywords": [
+                "room service",
+                "tray"
+              ],
+              "emoji": "🍽️"
+            },
+            {
+              "id": "hotel-keycard",
+              "name": "Hotel keycard",
+              "keywords": [
+                "keycard",
+                "key"
+              ],
+              "emoji": "🔑"
+            },
+            {
+              "id": "bed",
+              "name": "Hostel / bunk room",
+              "keywords": [
+                "bed",
+                "hostel",
+                "bunk"
+              ],
+              "emoji": "🛏️"
+            },
+            {
+              "id": "couch",
+              "name": "Vacation rental living room",
+              "keywords": [
+                "vacation rental",
+                "airbnb"
+              ],
+              "emoji": "🛋️"
+            },
+            {
+              "id": "hut",
+              "name": "Cabin",
+              "keywords": [
+                "cabin",
+                "lodge",
+                "bungalow"
+              ],
+              "emoji": "🛖"
+            },
+            {
+              "id": "house",
+              "name": "Vacation rental",
+              "keywords": [
+                "rental",
+                "home"
+              ],
+              "emoji": "🏠"
+            },
+            {
+              "id": "resort",
+              "name": "Resort",
+              "keywords": [
+                "all inclusive"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "camping-lodging",
+              "name": "Camp lodging",
+              "keywords": [
+                "campground"
+              ],
+              "emoji": "🏕️"
+            },
+            {
+              "id": "tent-lodging",
+              "name": "Tent stay",
+              "keywords": [
+                "tent"
+              ],
+              "emoji": "⛺"
+            },
+            {
+              "id": "hot-springs",
+              "name": "Hot springs",
+              "keywords": [
+                "onsen",
+                "spa"
+              ],
+              "emoji": "♨️"
+            },
+            {
+              "id": "do-not-disturb",
+              "name": "Do Not Disturb hanger",
+              "keywords": [
+                "dnd",
+                "privacy"
+              ],
+              "gap": true
+            },
+            {
+              "id": "luggage-cart",
+              "name": "Luggage cart",
+              "keywords": [
+                "bell cart",
+                "trolley"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "name": "Navigation",
+          "items": [
+            {
+              "id": "folded-map",
+              "name": "Folded road map",
+              "keywords": [
+                "road map",
+                "glovebox"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "map-with-route",
+              "name": "Map with route",
+              "keywords": [
+                "route",
+                "directions"
+              ],
+              "emoji": "🗺️"
+            },
+            {
+              "id": "pin-travel",
+              "name": "Destination pin",
+              "keywords": [
+                "pin",
+                "drop"
+              ],
+              "emoji": "📍"
+            },
+            {
+              "id": "compass-travel",
+              "name": "Compass",
+              "keywords": [
+                "bearing",
+                "navigation"
+              ],
+              "emoji": "🧭"
+            },
+            {
+              "id": "signpost",
+              "name": "Directional signpost",
+              "keywords": [
+                "wayfinding",
+                "sign"
+              ],
+              "emoji": "🪧"
+            },
+            {
+              "id": "guidebook",
+              "name": "Travel guidebook",
+              "keywords": [
+                "lonely planet stand-in",
+                "guide"
+              ],
+              "emoji": "📖"
+            },
+            {
+              "id": "itinerary",
+              "name": "Itinerary / checklist",
+              "keywords": [
+                "checklist",
+                "plan"
+              ],
+              "emoji": "📋"
+            },
+            {
+              "id": "nav-arrow",
+              "name": "Navigation arrow",
+              "keywords": [
+                "turn",
+                "navigate"
+              ],
+              "emoji": "➡️"
+            },
+            {
+              "id": "check-mark",
+              "name": "Checklist done",
+              "keywords": [
+                "done",
+                "packed"
+              ],
+              "emoji": "✅"
+            },
+            {
+              "id": "topo-map-travel",
+              "name": "Topo map",
+              "keywords": [
+                "contour",
+                "usgs"
+              ],
+              "gap": true
+            },
+            {
+              "id": "binoculars-travel",
+              "name": "Binoculars",
+              "keywords": [
+                "binos",
+                "optics"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "travel-destinations",
+          "name": "Destinations",
+          "items": [
+            {
+              "id": "tropical-island",
+              "name": "Tropical island",
+              "keywords": [
+                "atoll",
+                "caribbean"
+              ],
+              "emoji": "🏝️"
+            },
+            {
+              "id": "mountain-destination",
+              "name": "Mountain destination",
+              "keywords": [
+                "alps",
+                "rockies"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "beach-vacation",
+              "name": "Beach vacation",
+              "keywords": [
+                "beach"
+              ],
+              "emoji": "🏖️"
+            },
+            {
+              "id": "beach-bungalow",
+              "name": "Beach bungalow",
+              "keywords": [
+                "bungalow",
+                "overwater"
+              ],
+              "emoji": "🛖"
+            },
+            {
+              "id": "beach-chair",
+              "name": "Beach chair / umbrella",
+              "keywords": [
+                "lounge chair"
+              ],
+              "emoji": "⛱️"
+            },
+            {
+              "id": "desert-destination",
+              "name": "Desert destination",
+              "keywords": [
+                "dunes"
+              ],
+              "emoji": "🏜️"
+            },
+            {
+              "id": "snowy-destination",
+              "name": "Snowy destination",
+              "keywords": [
+                "ski",
+                "winter"
+              ],
+              "emoji": "❄️"
+            },
+            {
+              "id": "ski-destination",
+              "name": "Ski destination",
+              "keywords": [
+                "ski trip"
+              ],
+              "emoji": "🎿"
+            },
+            {
+              "id": "city-skyline",
+              "name": "City skyline",
+              "keywords": [
+                "city"
+              ],
+              "emoji": "🏙️"
+            },
+            {
+              "id": "classical-street",
+              "name": "Old European street",
+              "keywords": [
+                "europe",
+                "old town"
+              ],
+              "emoji": "🏛️"
+            },
+            {
+              "id": "tropical-resort",
+              "name": "Tropical resort",
+              "keywords": [
+                "palm",
+                "resort"
+              ],
+              "emoji": "🌴"
+            },
+            {
+              "id": "mountain-lodge",
+              "name": "Mountain lodge",
+              "keywords": [
+                "lodge"
+              ],
+              "emoji": "🏔️"
+            },
+            {
+              "id": "cabin-getaway",
+              "name": "Cabin getaway",
+              "keywords": [
+                "cabin"
+              ],
+              "emoji": "🛖"
+            },
+            {
+              "id": "scenic-viewpoint",
+              "name": "Scenic viewpoint",
+              "keywords": [
+                "overlook"
+              ],
+              "emoji": "🏞️"
+            },
+            {
+              "id": "observation-deck",
+              "name": "Observation deck",
+              "keywords": [
+                "lookout",
+                "tower view"
+              ],
+              "gap": true
+            }
+          ]
+        },
+        {
+          "id": "trip-moments",
+          "name": "Trip Moments",
+          "items": [
+            {
+              "id": "packed-ready",
+              "name": "Packed and ready",
+              "keywords": [
+                "packed"
+              ],
+              "emoji": "🧳"
+            },
+            {
+              "id": "leaving-home",
+              "name": "Leaving home",
+              "keywords": [
+                "departure from home"
+              ],
+              "emoji": "🏠"
+            },
+            {
+              "id": "airport-waiting",
+              "name": "Airport waiting",
+              "keywords": [
+                "layover",
+                "gate"
+              ],
+              "emoji": "💺"
             },
             {
               "id": "window-seat-view",
-              "name": "Window view",
+              "name": "Window-seat view",
               "keywords": [
                 "window seat",
                 "porthole"
               ],
               "emoji": "🪟"
+            },
+            {
+              "id": "road-trip-snacks",
+              "name": "Road-trip snacks",
+              "keywords": [
+                "snacks",
+                "gas station food"
+              ],
+              "emoji": "🥨"
+            },
+            {
+              "id": "popcorn-snacks",
+              "name": "Snack bag stand-in",
+              "keywords": [
+                "snacks"
+              ],
+              "emoji": "🍿"
             },
             {
               "id": "selfie",
@@ -624,277 +1242,31 @@
               "emoji": "🌇"
             },
             {
-              "id": "night-stars",
-              "name": "Night skyline",
+              "id": "sightseeing",
+              "name": "Sightseeing",
               "keywords": [
-                "night",
-                "city"
+                "looking",
+                "tour"
               ],
-              "emoji": "🌃"
+              "emoji": "👀"
             },
             {
-              "id": "milky-way",
-              "name": "Milky Way",
+              "id": "duty-free",
+              "name": "Souvenir shopping",
               "keywords": [
-                "stars",
-                "night"
+                "souvenir",
+                "shop"
               ],
-              "emoji": "🌌"
+              "emoji": "🛍️"
             },
             {
-              "id": "star",
-              "name": "Star",
+              "id": "postcard",
+              "name": "Postcard",
               "keywords": [
-                "night",
-                "wish"
+                "postcard",
+                "letter"
               ],
-              "emoji": "⭐"
-            }
-          ]
-        },
-        {
-          "id": "luggage",
-          "name": "Luggage",
-          "items": [
-            {
-              "id": "suitcase",
-              "name": "Rolling suitcase",
-              "keywords": [
-                "suitcase",
-                "luggage",
-                "checked bag"
-              ],
-              "emoji": "🧳"
-            },
-            {
-              "id": "backpack",
-              "name": "Travel backpack",
-              "keywords": [
-                "backpack",
-                "daypack",
-                "rucksack"
-              ],
-              "emoji": "🎒"
-            },
-            {
-              "id": "handbag",
-              "name": "Carry bag",
-              "keywords": [
-                "bag",
-                "carry-on"
-              ],
-              "emoji": "👜"
-            },
-            {
-              "id": "label",
-              "name": "Luggage tag",
-              "keywords": [
-                "tag",
-                "label"
-              ],
-              "emoji": "🏷️"
-            },
-            {
-              "id": "closed-umbrella",
-              "name": "Travel umbrella",
-              "keywords": [
-                "umbrella",
-                "rain"
-              ],
-              "emoji": "🌂"
-            },
-            {
-              "id": "key",
-              "name": "Key / keycard",
-              "keywords": [
-                "key",
-                "keycard"
-              ],
-              "emoji": "🔑"
-            },
-            {
-              "id": "duffel",
-              "name": "Duffel bag",
-              "keywords": [
-                "duffel",
-                "weekender"
-              ],
-              "gap": true
-            },
-            {
-              "id": "neck-pillow",
-              "name": "Neck pillow",
-              "keywords": [
-                "pillow",
-                "travel pillow"
-              ],
-              "gap": true
-            },
-            {
-              "id": "packing-cubes",
-              "name": "Packing cubes",
-              "keywords": [
-                "organizer",
-                "cubes"
-              ],
-              "gap": true
-            },
-            {
-              "id": "toiletry-bag",
-              "name": "Toiletry bag",
-              "keywords": [
-                "dop kit",
-                "toiletries"
-              ],
-              "gap": true
-            },
-            {
-              "id": "camera-bag",
-              "name": "Camera bag",
-              "keywords": [
-                "camera bag"
-              ],
-              "gap": true
-            },
-            {
-              "id": "passport-wallet",
-              "name": "Passport wallet",
-              "keywords": [
-                "travel wallet",
-                "document holder"
-              ],
-              "gap": true
-            }
-          ]
-        },
-        {
-          "id": "lodging",
-          "name": "Lodging",
-          "items": [
-            {
-              "id": "hotel",
-              "name": "Hotel",
-              "keywords": [
-                "hotel",
-                "inn"
-              ],
-              "emoji": "🏨"
-            },
-            {
-              "id": "bellhop",
-              "name": "Bellhop / room service",
-              "keywords": [
-                "concierge",
-                "service"
-              ],
-              "emoji": "🛎️"
-            },
-            {
-              "id": "bed",
-              "name": "Bed / hostel bunk",
-              "keywords": [
-                "bed",
-                "hostel",
-                "bunk"
-              ],
-              "emoji": "🛏️"
-            },
-            {
-              "id": "couch",
-              "name": "Couch / rental living room",
-              "keywords": [
-                "vacation rental",
-                "airbnb"
-              ],
-              "emoji": "🛋️"
-            },
-            {
-              "id": "hut",
-              "name": "Cabin / hut",
-              "keywords": [
-                "cabin",
-                "lodge",
-                "bungalow"
-              ],
-              "emoji": "🛖"
-            },
-            {
-              "id": "house",
-              "name": "House / vacation rental",
-              "keywords": [
-                "rental",
-                "home"
-              ],
-              "emoji": "🏠"
-            },
-            {
-              "id": "camping-lodging",
-              "name": "Camp lodging",
-              "keywords": [
-                "campground"
-              ],
-              "emoji": "🏕️"
-            },
-            {
-              "id": "tent-lodging",
-              "name": "Tent stay",
-              "keywords": [
-                "tent"
-              ],
-              "emoji": "⛺"
-            },
-            {
-              "id": "hot-springs",
-              "name": "Hot springs",
-              "keywords": [
-                "onsen",
-                "spa"
-              ],
-              "emoji": "♨️"
-            },
-            {
-              "id": "beach-umbrella",
-              "name": "Beach umbrella",
-              "keywords": [
-                "beach chair",
-                "shade"
-              ],
-              "emoji": "⛱️"
-            },
-            {
-              "id": "desert-island",
-              "name": "Island resort",
-              "keywords": [
-                "resort",
-                "atoll"
-              ],
-              "emoji": "🏝️"
-            },
-            {
-              "id": "beach",
-              "name": "Beach vacation",
-              "keywords": [
-                "beach"
-              ],
-              "emoji": "🏖️"
-            },
-            {
-              "id": "do-not-disturb",
-              "name": "Do Not Disturb hanger",
-              "keywords": [
-                "dnd",
-                "privacy"
-              ],
-              "gap": true
-            },
-            {
-              "id": "luggage-cart",
-              "name": "Luggage cart",
-              "keywords": [
-                "bell cart",
-                "trolley"
-              ],
-              "gap": true
+              "emoji": "✉️"
             }
           ]
         }
@@ -2216,12 +2588,29 @@
           "items": [
             {
               "id": "whitetail",
-              "name": "Whitetail / deer",
+              "name": "Whitetail",
               "keywords": [
                 "whitetail",
-                "mule deer",
                 "buck",
                 "doe"
+              ],
+              "emoji": "🦌"
+            },
+            {
+              "id": "buck",
+              "name": "Buck",
+              "keywords": [
+                "antlers",
+                "whitetail buck"
+              ],
+              "emoji": "🦌"
+            },
+            {
+              "id": "doe",
+              "name": "Doe",
+              "keywords": [
+                "doe",
+                "nanny"
               ],
               "emoji": "🦌"
             },
@@ -2238,6 +2627,15 @@
               "name": "Fawn",
               "keywords": [
                 "young deer"
+              ],
+              "gap": true
+            },
+            {
+              "id": "shed-antler",
+              "name": "Shed antler",
+              "keywords": [
+                "shed",
+                "antler"
               ],
               "gap": true
             }
@@ -2347,7 +2745,88 @@
               "name": "Teal",
               "keywords": [
                 "greenwing",
-                "bluewing"
+                "bluewing",
+                "cinnamon teal"
+              ],
+              "gap": true
+            },
+            {
+              "id": "gadwall",
+              "name": "Gadwall",
+              "keywords": [
+                "gadwall"
+              ],
+              "gap": true
+            },
+            {
+              "id": "wigeon",
+              "name": "American wigeon",
+              "keywords": [
+                "baldpate"
+              ],
+              "gap": true
+            },
+            {
+              "id": "shoveler",
+              "name": "Northern shoveler",
+              "keywords": [
+                "spoonbill"
+              ],
+              "gap": true
+            },
+            {
+              "id": "black-duck",
+              "name": "American black duck",
+              "keywords": [
+                "black duck"
+              ],
+              "gap": true
+            },
+            {
+              "id": "redhead-duck",
+              "name": "Redhead",
+              "keywords": [
+                "redhead"
+              ],
+              "gap": true
+            },
+            {
+              "id": "scaup",
+              "name": "Scaup",
+              "keywords": [
+                "bluebill"
+              ],
+              "gap": true
+            },
+            {
+              "id": "ring-necked-duck",
+              "name": "Ring-necked duck",
+              "keywords": [
+                "ringneck duck"
+              ],
+              "gap": true
+            },
+            {
+              "id": "goldeneye",
+              "name": "Goldeneye",
+              "keywords": [
+                "whistler"
+              ],
+              "gap": true
+            },
+            {
+              "id": "bufflehead",
+              "name": "Bufflehead",
+              "keywords": [
+                "bufflehead"
+              ],
+              "gap": true
+            },
+            {
+              "id": "merganser",
+              "name": "Merganser",
+              "keywords": [
+                "sawbill"
               ],
               "gap": true
             },
@@ -2368,11 +2847,44 @@
               "gap": true
             },
             {
+              "id": "brant",
+              "name": "Brant",
+              "keywords": [
+                "brant"
+              ],
+              "gap": true
+            },
+            {
+              "id": "specklebelly",
+              "name": "Greater white-fronted goose",
+              "keywords": [
+                "specklebelly"
+              ],
+              "gap": true
+            },
+            {
               "id": "decoy",
               "name": "Decoy",
               "keywords": [
                 "decoys",
                 "spread"
+              ],
+              "gap": true
+            },
+            {
+              "id": "duck-decoy",
+              "name": "Duck decoy",
+              "keywords": [
+                "mallard decoy"
+              ],
+              "gap": true
+            },
+            {
+              "id": "goose-decoy",
+              "name": "Goose decoy",
+              "keywords": [
+                "full body",
+                "shell"
               ],
               "gap": true
             },
@@ -2387,10 +2899,18 @@
             },
             {
               "id": "layout-blind",
-              "name": "Blind",
+              "name": "Layout / A-frame blind",
               "keywords": [
                 "layout blind",
                 "A-frame"
+              ],
+              "gap": true
+            },
+            {
+              "id": "duck-flag",
+              "name": "Waterfowl flag",
+              "keywords": [
+                "flagging"
               ],
               "gap": true
             }
@@ -2671,6 +3191,22 @@
                 "grunt",
                 "bleat",
                 "call"
+              ],
+              "gap": true
+            },
+            {
+              "id": "grunt-call",
+              "name": "Grunt call",
+              "keywords": [
+                "buck grunt"
+              ],
+              "gap": true
+            },
+            {
+              "id": "rattling-antlers",
+              "name": "Rattling antlers",
+              "keywords": [
+                "rattle"
               ],
               "gap": true
             },
@@ -4210,8 +4746,8 @@
     }
   ],
   "stats": {
-    "emoji": 379,
-    "gaps": 75,
-    "total": 454
+    "emoji": 414,
+    "gaps": 101,
+    "total": 515
   }
 }
