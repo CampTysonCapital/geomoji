@@ -5,10 +5,10 @@
   "files": [
     "travel.json",
     "geography.json",
+    "places.json",
     "outdoors.json",
-    "hunting.json",
-    "fishing.json",
     "wildlife.json",
-    "places.json"
+    "hunting.json",
+    "fishing.json"
   ]
 }

@@ -16,6 +16,18 @@ OUT = ROOT / "Shared" / "Catalog.json"
 CATALOG_DIR = ROOT / "Shared" / "Catalog"
 INDEX = CATALOG_DIR / "INDEX.md"
 
+# Browse / keyboard chip order. Keep this list as the single source of
+# top-level display order when writing Catalog.json and INDEX.md.
+CATEGORY_DISPLAY_ORDER = [
+    "travel",
+    "geography",
+    "places",
+    "outdoors",
+    "wildlife",
+    "hunting",
+    "fishing",
+]
+
 
 def item(item_id: str, name: str, emoji: str | None, *keywords: str, gap: bool = False) -> dict:
     data: dict = {
@@ -859,15 +871,25 @@ def flatten_ids(categories: list[dict]) -> list[str]:
     return ids
 
 
+def ordered_categories() -> list[dict]:
+    by_id = {category["id"]: category for category in CATEGORIES}
+    missing = [cat_id for cat_id in CATEGORY_DISPLAY_ORDER if cat_id not in by_id]
+    extra = [cat_id for cat_id in by_id if cat_id not in CATEGORY_DISPLAY_ORDER]
+    if missing or extra:
+        raise SystemExit(f"Category order mismatch: missing={missing} extra={extra}")
+    return [by_id[cat_id] for cat_id in CATEGORY_DISPLAY_ORDER]
+
+
 def main() -> None:
-    ids = flatten_ids(CATEGORIES)
+    categories = ordered_categories()
+    ids = flatten_ids(categories)
     dupes = [i for i in ids if ids.count(i) > 1]
     if dupes:
         raise SystemExit(f"Duplicate ids: {sorted(set(dupes))}")
 
     real = 0
     gaps = 0
-    for category in CATEGORIES:
+    for category in categories:
         for subcategory in category["subcategories"]:
             for entry in subcategory["items"]:
                 if entry.get("gap"):
@@ -879,7 +901,7 @@ def main() -> None:
         "version": 1,
         "title": "Geomoji",
         "note": "Unicode emoji catalog. gap=true means there is no good emoji yet.",
-        "categories": CATEGORIES,
+        "categories": categories,
         "stats": {"emoji": real, "gaps": gaps, "total": real + gaps},
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -890,12 +912,12 @@ def main() -> None:
         "version": 1,
         "title": "Geomoji",
         "note": "Per-category slices of Shared/Catalog.json. The app loads the merged file.",
-        "files": [f"{category['id']}.json" for category in CATEGORIES],
+        "files": [f"{category['id']}.json" for category in categories],
     }
     (CATALOG_DIR / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    for category in CATEGORIES:
+    for category in categories:
         (CATALOG_DIR / f"{category['id']}.json").write_text(
             json.dumps(category, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
@@ -903,13 +925,15 @@ def main() -> None:
     lines = [
         "# Geomoji catalog index",
         "",
+        "Browse order: Travel, Geography, Places, Outdoors, Wildlife, Hunting, Fishing.",
+        "",
         "Unicode emoji first. `gap` means there is no good character yet — the app shows",
         "“No emoji yet” instead of custom sticker art.",
         "",
         f"**{real} emoji · {gaps} gaps · {real + gaps} items**",
         "",
     ]
-    for category in CATEGORIES:
+    for category in categories:
         lines.append(f"## {category['name']}")
         lines.append("")
         lines.append(f"File: `Shared/Catalog/{category['id']}.json`")

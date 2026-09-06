@@ -15,7 +15,7 @@ On the simulator, tap an emoji, then paste into Notes or Messages to confirm the
 
 ## How to use the app
 
-- **Browse** — Travel, Geography, Outdoors, Hunting, Fishing, Wildlife, Places. Each category has subcategories (Air Travel, Geology, Waterfowl, and so on).
+- **Browse** — categories appear in this order: Travel, Geography, Places, Outdoors, Wildlife, Hunting, Fishing. Each has subcategories (Air Travel, Geology, Waterfowl, and so on).
 - **Tap an emoji** — copies the real unicode character and shows a short “Copied” banner.
 - **Star** — long-press (or use the star) to save **Favorites**.
 - **Recents** — last ~40 emoji you copied or inserted.
@@ -39,15 +39,15 @@ The keyboard skips gap rows. It is not a system emoji replacement and does not n
 
 Mapped to the closest unicode emoji where a reasonable glyph exists. Distinctive misses stay as **gaps** (not custom sticker drawings). Full line-by-line listing: [`Shared/Catalog/INDEX.md`](Shared/Catalog/INDEX.md). Per-category JSON lives in [`Shared/Catalog/`](Shared/Catalog/). The app loads the merged [`Shared/Catalog.json`](Shared/Catalog.json).
 
-| Category | Subcategories | File |
-| --- | --- | --- |
-| Travel | Air Travel, Road Trips, Cruises, International, Luggage, Lodging, Navigation, Destinations, Trip Moments | `Shared/Catalog/travel.json` |
-| Geography | Landforms, Maps, Weather, Geology, Oceans | `Shared/Catalog/geography.json` |
-| Outdoors | Hiking, Camping, Climbing, Paddling, Cycling | `Shared/Catalog/outdoors.json` |
-| Hunting | Big Game, Deer, Waterfowl, Turkey, Upland, Equipment | `Shared/Catalog/hunting.json` |
-| Fishing | Freshwater, Saltwater, Fly Fishing, Species, Equipment | `Shared/Catalog/fishing.json` |
-| Wildlife | Mammals, Birds, Fish, Reptiles | `Shared/Catalog/wildlife.json` |
-| Places | National Parks, States, Countries, Famous destinations | `Shared/Catalog/places.json` |
+| # | Category | Subcategories | File |
+| --- | --- | --- | --- |
+| 1 | Travel | Air Travel, Road Trips, Cruises, International, Luggage, Lodging, Navigation, Destinations, Trip Moments | `Shared/Catalog/travel.json` |
+| 2 | Geography | Landforms, Maps, Weather, Geology, Oceans | `Shared/Catalog/geography.json` |
+| 3 | Places | National Parks, States, Countries, Famous destinations | `Shared/Catalog/places.json` |
+| 4 | Outdoors | Hiking, Camping, Climbing, Paddling, Cycling | `Shared/Catalog/outdoors.json` |
+| 5 | Wildlife | Mammals, Birds, Fish, Reptiles | `Shared/Catalog/wildlife.json` |
+| 6 | Hunting | Big Game, Deer, Waterfowl, Turkey, Upland, Equipment | `Shared/Catalog/hunting.json` |
+| 7 | Fishing | Freshwater, Saltwater, Fly Fishing, Species, Equipment | `Shared/Catalog/fishing.json` |
 
 This build: **414 unicode emoji** and **101 gaps**.
 

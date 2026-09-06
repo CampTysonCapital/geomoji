@@ -11,6 +11,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "Shared" / "Catalog.json"
 
+# Must match Browse display order in Shared/Catalog.json.
+CATEGORY_DISPLAY_ORDER = [
+    "travel",
+    "geography",
+    "places",
+    "outdoors",
+    "wildlife",
+    "hunting",
+    "fishing",
+]
+
 REQUIRED_CATEGORIES = {
     "travel": [
         "air-travel",
@@ -44,6 +55,10 @@ def main() -> int:
     data = json.loads(CATALOG.read_text(encoding="utf-8"))
     categories = {c["id"]: c for c in data["categories"]}
     errors: list[str] = []
+
+    actual_order = [c["id"] for c in data["categories"]]
+    if actual_order != CATEGORY_DISPLAY_ORDER:
+        errors.append(f"category order {actual_order} != {CATEGORY_DISPLAY_ORDER}")
 
     for cat_id, subs in REQUIRED_CATEGORIES.items():
         if cat_id not in categories:

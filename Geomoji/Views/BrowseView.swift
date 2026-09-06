@@ -7,6 +7,8 @@ struct BrowseView: View {
         NavigationStack {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                    // Order comes from Shared/Catalog.json: Travel, Geography,
+                    // Places, Outdoors, Wildlife, Hunting, Fishing.
                     ForEach(catalog.categories) { category in
                         NavigationLink(value: category) {
                             CategoryCard(category: category)

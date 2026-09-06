@@ -1,5 +1,7 @@
 # Geomoji catalog index
 
+Browse order: Travel, Geography, Places, Outdoors, Wildlife, Hunting, Fishing.
+
 Unicode emoji first. `gap` means there is no good character yet — the app shows
 “No emoji yet” instead of custom sticker art.
 
@@ -266,6 +268,92 @@ File: `Shared/Catalog/geography.json`
 - ⚓ Anchor
 - 🏝️ Island
 
+## Places
+
+File: `Shared/Catalog/places.json`
+
+### Places → National Parks
+
+- 🏞️ National park
+- 🏕️ Park campground
+- 🏔️ Alpine park
+- 🌋 Volcanic park
+- ♨️ Hydrothermal park
+- 🌲 Forest park
+- 🏜️ Desert park
+- 🏖️ Seashore / lakeshore
+- 🏝️ Island park
+- 🦬 Bison range / plains park
+- 🐻 Bear country
+- 🐊 Everglades stand-in
+- 🌊 Coastal park
+- Grand Canyon — *no emoji yet*
+- Cliff dwelling park — *no emoji yet*
+
+### Places → States
+
+- 🏝️ Hawaii
+- 🏔️ Alaska
+- 🏜️ Arizona
+- 🏔️ Colorado
+- 🐊 Florida
+- 🌅 California
+- 🦞 Maine
+- 🦬 Montana
+- 🏜️ Utah
+- 🇺🇸 United States
+- Texas — *no emoji yet*
+- Louisiana — *no emoji yet*
+
+### Places → Countries
+
+- 🇺🇸 United States
+- 🇨🇦 Canada
+- 🇲🇽 Mexico
+- 🇬🇧 United Kingdom
+- 🇫🇷 France
+- 🇮🇹 Italy
+- 🇪🇸 Spain
+- 🇩🇪 Germany
+- 🇨🇭 Switzerland
+- 🇮🇸 Iceland
+- 🇳🇴 Norway
+- 🇯🇵 Japan
+- 🇦🇺 Australia
+- 🇳🇿 New Zealand
+- 🇨🇷 Costa Rica
+- 🇵🇪 Peru
+- 🇰🇪 Kenya
+- 🇹🇿 Tanzania
+- 🇪🇬 Egypt
+- 🇬🇷 Greece
+- 🇿🇦 South Africa
+- 🇧🇷 Brazil
+
+### Places → Famous destinations
+
+- 🗽 Statue of Liberty
+- 🗼 Tokyo Tower
+- 🏛️ Classical building / ruins
+- 🏰 Castle
+- 🏯 Japanese castle
+- ⛩️ Shinto shrine
+- 🌉 Bridge at night
+- ⛲ Fountain
+- 🏙️ City skyline
+- 🗻 Mount Fuji
+- 🌋 Volcanic destination
+- 🏜️ Desert destination
+- 🏝️ Tropical destination
+- 🏖️ Beach destination
+- ♨️ Hot springs destination
+- 🗿 Easter Island
+- 🎪 Festival / fair
+- Eiffel Tower — *no emoji yet*
+- Pyramids of Giza — *no emoji yet*
+- Machu Picchu — *no emoji yet*
+- Big Ben / Parliament — *no emoji yet*
+
 ## Outdoors
 
 File: `Shared/Catalog/outdoors.json`
@@ -337,6 +425,74 @@ File: `Shared/Catalog/outdoors.json`
 - 🚵‍♀️ Trail rider
 - ⛑️ Helmet stand-in
 - 🛴 Kick scooter
+
+## Wildlife
+
+File: `Shared/Catalog/wildlife.json`
+
+### Wildlife → Mammals
+
+- 🦌 Deer
+- 🫎 Moose
+- 🐻 Bear
+- 🐻‍❄️ Polar bear
+- 🦊 Fox
+- 🐺 Wolf
+- 🐗 Boar
+- 🦬 Bison
+- 🐇 Rabbit
+- 🐿️ Chipmunk / squirrel
+- 🦫 Beaver
+- 🦦 Otter
+- 🦝 Raccoon
+- 🦨 Skunk
+- 🦔 Hedgehog / porcupine stand-in
+- 🦇 Bat
+- Elk — *no emoji yet*
+- Coyote — *no emoji yet*
+
+### Wildlife → Birds
+
+- 🦆 Duck
+- 🪿 Goose
+- 🦃 Turkey
+- 🦅 Eagle
+- 🦉 Owl
+- 🐦 Bird
+- 🦢 Swan
+- 🦩 Flamingo
+- 🦚 Peacock
+- 🦜 Parrot
+- 🐧 Penguin
+- 🐔 Chicken / grouse stand-in
+- 🪶 Feather
+- 🪺 Nest
+- Pheasant — *no emoji yet*
+
+### Wildlife → Fish
+
+- 🐟 Fish
+- 🐠 Tropical fish
+- 🐡 Blowfish
+- 🦈 Shark
+- 🐋 Whale
+- 🐬 Dolphin
+- 🦭 Seal
+- 🐙 Octopus
+- 🪸 Coral
+- 🐚 Shell
+
+### Wildlife → Reptiles
+
+- 🐍 Snake
+- 🐢 Turtle
+- 🦎 Lizard
+- 🐊 Crocodile / alligator
+- 🦕 Sauropod (extinct)
+- 🦖 T-Rex (extinct)
+- 🐸 Frog / amphibian
+- 🐉 Folklore dragon
+- Trilobite (extinct) — *no emoji yet*
 
 ## Hunting
 
@@ -507,157 +663,3 @@ File: `Shared/Catalog/fishing.json`
 - Hook / lure — *no emoji yet*
 - Tackle box — *no emoji yet*
 - Landing net — *no emoji yet*
-
-## Wildlife
-
-File: `Shared/Catalog/wildlife.json`
-
-### Wildlife → Mammals
-
-- 🦌 Deer
-- 🫎 Moose
-- 🐻 Bear
-- 🐻‍❄️ Polar bear
-- 🦊 Fox
-- 🐺 Wolf
-- 🐗 Boar
-- 🦬 Bison
-- 🐇 Rabbit
-- 🐿️ Chipmunk / squirrel
-- 🦫 Beaver
-- 🦦 Otter
-- 🦝 Raccoon
-- 🦨 Skunk
-- 🦔 Hedgehog / porcupine stand-in
-- 🦇 Bat
-- Elk — *no emoji yet*
-- Coyote — *no emoji yet*
-
-### Wildlife → Birds
-
-- 🦆 Duck
-- 🪿 Goose
-- 🦃 Turkey
-- 🦅 Eagle
-- 🦉 Owl
-- 🐦 Bird
-- 🦢 Swan
-- 🦩 Flamingo
-- 🦚 Peacock
-- 🦜 Parrot
-- 🐧 Penguin
-- 🐔 Chicken / grouse stand-in
-- 🪶 Feather
-- 🪺 Nest
-- Pheasant — *no emoji yet*
-
-### Wildlife → Fish
-
-- 🐟 Fish
-- 🐠 Tropical fish
-- 🐡 Blowfish
-- 🦈 Shark
-- 🐋 Whale
-- 🐬 Dolphin
-- 🦭 Seal
-- 🐙 Octopus
-- 🪸 Coral
-- 🐚 Shell
-
-### Wildlife → Reptiles
-
-- 🐍 Snake
-- 🐢 Turtle
-- 🦎 Lizard
-- 🐊 Crocodile / alligator
-- 🦕 Sauropod (extinct)
-- 🦖 T-Rex (extinct)
-- 🐸 Frog / amphibian
-- 🐉 Folklore dragon
-- Trilobite (extinct) — *no emoji yet*
-
-## Places
-
-File: `Shared/Catalog/places.json`
-
-### Places → National Parks
-
-- 🏞️ National park
-- 🏕️ Park campground
-- 🏔️ Alpine park
-- 🌋 Volcanic park
-- ♨️ Hydrothermal park
-- 🌲 Forest park
-- 🏜️ Desert park
-- 🏖️ Seashore / lakeshore
-- 🏝️ Island park
-- 🦬 Bison range / plains park
-- 🐻 Bear country
-- 🐊 Everglades stand-in
-- 🌊 Coastal park
-- Grand Canyon — *no emoji yet*
-- Cliff dwelling park — *no emoji yet*
-
-### Places → States
-
-- 🏝️ Hawaii
-- 🏔️ Alaska
-- 🏜️ Arizona
-- 🏔️ Colorado
-- 🐊 Florida
-- 🌅 California
-- 🦞 Maine
-- 🦬 Montana
-- 🏜️ Utah
-- 🇺🇸 United States
-- Texas — *no emoji yet*
-- Louisiana — *no emoji yet*
-
-### Places → Countries
-
-- 🇺🇸 United States
-- 🇨🇦 Canada
-- 🇲🇽 Mexico
-- 🇬🇧 United Kingdom
-- 🇫🇷 France
-- 🇮🇹 Italy
-- 🇪🇸 Spain
-- 🇩🇪 Germany
-- 🇨🇭 Switzerland
-- 🇮🇸 Iceland
-- 🇳🇴 Norway
-- 🇯🇵 Japan
-- 🇦🇺 Australia
-- 🇳🇿 New Zealand
-- 🇨🇷 Costa Rica
-- 🇵🇪 Peru
-- 🇰🇪 Kenya
-- 🇹🇿 Tanzania
-- 🇪🇬 Egypt
-- 🇬🇷 Greece
-- 🇿🇦 South Africa
-- 🇧🇷 Brazil
-
-### Places → Famous destinations
-
-- 🗽 Statue of Liberty
-- 🗼 Tokyo Tower
-- 🏛️ Classical building / ruins
-- 🏰 Castle
-- 🏯 Japanese castle
-- ⛩️ Shinto shrine
-- 🌉 Bridge at night
-- ⛲ Fountain
-- 🏙️ City skyline
-- 🗻 Mount Fuji
-- 🌋 Volcanic destination
-- 🏜️ Desert destination
-- 🏝️ Tropical destination
-- 🏖️ Beach destination
-- ♨️ Hot springs destination
-- 🗿 Easter Island
-- 🎪 Festival / fair
-- Eiffel Tower — *no emoji yet*
-- Pyramids of Giza — *no emoji yet*
-- Machu Picchu — *no emoji yet*
-- Big Ben / Parliament — *no emoji yet*
