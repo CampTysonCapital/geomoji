@@ -1,0 +1,451 @@
+{
+  "id": "wildlife",
+  "name": "Wildlife",
+  "symbol": "pawprint",
+  "summary": "Mammals, birds, fish, and reptiles you may actually see",
+  "subcategories": [
+    {
+      "id": "mammals",
+      "name": "Mammals",
+      "items": [
+        {
+          "id": "deer-wl",
+          "name": "Deer",
+          "keywords": [
+            "ungulate"
+          ],
+          "emoji": "🦌"
+        },
+        {
+          "id": "moose-wl",
+          "name": "Moose",
+          "keywords": [
+            "moose"
+          ],
+          "emoji": "🫎"
+        },
+        {
+          "id": "bear-wl",
+          "name": "Bear",
+          "keywords": [
+            "bear"
+          ],
+          "emoji": "🐻"
+        },
+        {
+          "id": "polar-bear",
+          "name": "Polar bear",
+          "keywords": [
+            "arctic"
+          ],
+          "emoji": "🐻‍❄️"
+        },
+        {
+          "id": "fox",
+          "name": "Fox",
+          "keywords": [
+            "red fox"
+          ],
+          "emoji": "🦊"
+        },
+        {
+          "id": "wolf-wl",
+          "name": "Wolf",
+          "keywords": [
+            "coyote stand-in"
+          ],
+          "emoji": "🐺"
+        },
+        {
+          "id": "boar-wl",
+          "name": "Boar",
+          "keywords": [
+            "hog"
+          ],
+          "emoji": "🐗"
+        },
+        {
+          "id": "bison-wl",
+          "name": "Bison",
+          "keywords": [
+            "buffalo"
+          ],
+          "emoji": "🦬"
+        },
+        {
+          "id": "rabbit",
+          "name": "Rabbit",
+          "keywords": [
+            "cottontail",
+            "hare"
+          ],
+          "emoji": "🐇"
+        },
+        {
+          "id": "chipmunk-squirrel",
+          "name": "Chipmunk / squirrel",
+          "keywords": [
+            "ground squirrel",
+            "chipmunk"
+          ],
+          "emoji": "🐿️"
+        },
+        {
+          "id": "beaver",
+          "name": "Beaver",
+          "keywords": [
+            "rodent"
+          ],
+          "emoji": "🦫"
+        },
+        {
+          "id": "otter",
+          "name": "Otter",
+          "keywords": [
+            "river otter"
+          ],
+          "emoji": "🦦"
+        },
+        {
+          "id": "raccoon",
+          "name": "Raccoon",
+          "keywords": [
+            "procyon"
+          ],
+          "emoji": "🦝"
+        },
+        {
+          "id": "skunk",
+          "name": "Skunk",
+          "keywords": [
+            "mephitid"
+          ],
+          "emoji": "🦨"
+        },
+        {
+          "id": "hedgehog",
+          "name": "Hedgehog / porcupine stand-in",
+          "keywords": [
+            "porcupine"
+          ],
+          "emoji": "🦔"
+        },
+        {
+          "id": "bat",
+          "name": "Bat",
+          "keywords": [
+            "chiroptera"
+          ],
+          "emoji": "🦇"
+        },
+        {
+          "id": "elk-wl",
+          "name": "Elk",
+          "keywords": [
+            "wapiti"
+          ],
+          "gap": true
+        },
+        {
+          "id": "coyote",
+          "name": "Coyote",
+          "keywords": [
+            "song dog"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "items": [
+        {
+          "id": "duck-wl",
+          "name": "Duck",
+          "keywords": [
+            "waterfowl"
+          ],
+          "emoji": "🦆"
+        },
+        {
+          "id": "goose-wl",
+          "name": "Goose",
+          "keywords": [
+            "goose"
+          ],
+          "emoji": "🪿"
+        },
+        {
+          "id": "turkey-wl",
+          "name": "Turkey",
+          "keywords": [
+            "galliform"
+          ],
+          "emoji": "🦃"
+        },
+        {
+          "id": "eagle",
+          "name": "Eagle",
+          "keywords": [
+            "raptor",
+            "bald eagle"
+          ],
+          "emoji": "🦅"
+        },
+        {
+          "id": "owl",
+          "name": "Owl",
+          "keywords": [
+            "nocturnal"
+          ],
+          "emoji": "🦉"
+        },
+        {
+          "id": "bird-wl",
+          "name": "Bird",
+          "keywords": [
+            "passerine"
+          ],
+          "emoji": "🐦"
+        },
+        {
+          "id": "swan-wl",
+          "name": "Swan",
+          "keywords": [
+            "swan"
+          ],
+          "emoji": "🦢"
+        },
+        {
+          "id": "flamingo",
+          "name": "Flamingo",
+          "keywords": [
+            "wader"
+          ],
+          "emoji": "🦩"
+        },
+        {
+          "id": "peacock",
+          "name": "Peacock",
+          "keywords": [
+            "display"
+          ],
+          "emoji": "🦚"
+        },
+        {
+          "id": "parrot",
+          "name": "Parrot",
+          "keywords": [
+            "tropical"
+          ],
+          "emoji": "🦜"
+        },
+        {
+          "id": "penguin",
+          "name": "Penguin",
+          "keywords": [
+            "seabird"
+          ],
+          "emoji": "🐧"
+        },
+        {
+          "id": "chicken",
+          "name": "Chicken / grouse stand-in",
+          "keywords": [
+            "upland"
+          ],
+          "emoji": "🐔"
+        },
+        {
+          "id": "feather-wl",
+          "name": "Feather",
+          "keywords": [
+            "plumage"
+          ],
+          "emoji": "🪶"
+        },
+        {
+          "id": "nest",
+          "name": "Nest",
+          "keywords": [
+            "eggs"
+          ],
+          "emoji": "🪺"
+        },
+        {
+          "id": "pheasant-wl",
+          "name": "Pheasant",
+          "keywords": [
+            "ringneck"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "wildlife-fish",
+      "name": "Fish",
+      "items": [
+        {
+          "id": "fish-wl",
+          "name": "Fish",
+          "keywords": [
+            "bony fish"
+          ],
+          "emoji": "🐟"
+        },
+        {
+          "id": "tropical-fish-wl",
+          "name": "Tropical fish",
+          "keywords": [
+            "reef"
+          ],
+          "emoji": "🐠"
+        },
+        {
+          "id": "blowfish-wl",
+          "name": "Blowfish",
+          "keywords": [
+            "tetraodontid"
+          ],
+          "emoji": "🐡"
+        },
+        {
+          "id": "shark-wl",
+          "name": "Shark",
+          "keywords": [
+            "chondrichthyan"
+          ],
+          "emoji": "🦈"
+        },
+        {
+          "id": "whale-wl",
+          "name": "Whale",
+          "keywords": [
+            "mysticete"
+          ],
+          "emoji": "🐋"
+        },
+        {
+          "id": "dolphin-wl",
+          "name": "Dolphin",
+          "keywords": [
+            "odontocete"
+          ],
+          "emoji": "🐬"
+        },
+        {
+          "id": "seal-wl",
+          "name": "Seal",
+          "keywords": [
+            "harbor seal"
+          ],
+          "emoji": "🦭"
+        },
+        {
+          "id": "octopus-wl",
+          "name": "Octopus",
+          "keywords": [
+            "octopus"
+          ],
+          "emoji": "🐙"
+        },
+        {
+          "id": "coral-wl",
+          "name": "Coral",
+          "keywords": [
+            "cnidarian"
+          ],
+          "emoji": "🪸"
+        },
+        {
+          "id": "shell-wl",
+          "name": "Shell",
+          "keywords": [
+            "gastropod"
+          ],
+          "emoji": "🐚"
+        }
+      ]
+    },
+    {
+      "id": "reptiles",
+      "name": "Reptiles",
+      "items": [
+        {
+          "id": "snake",
+          "name": "Snake",
+          "keywords": [
+            "serpent"
+          ],
+          "emoji": "🐍"
+        },
+        {
+          "id": "turtle",
+          "name": "Turtle",
+          "keywords": [
+            "tortoise"
+          ],
+          "emoji": "🐢"
+        },
+        {
+          "id": "lizard",
+          "name": "Lizard",
+          "keywords": [
+            "skink"
+          ],
+          "emoji": "🦎"
+        },
+        {
+          "id": "crocodile",
+          "name": "Crocodile / alligator",
+          "keywords": [
+            "gator"
+          ],
+          "emoji": "🐊"
+        },
+        {
+          "id": "sauropod-wl",
+          "name": "Sauropod (extinct)",
+          "keywords": [
+            "paleo"
+          ],
+          "emoji": "🦕"
+        },
+        {
+          "id": "trex-wl",
+          "name": "T-Rex (extinct)",
+          "keywords": [
+            "paleo"
+          ],
+          "emoji": "🦖"
+        },
+        {
+          "id": "frog",
+          "name": "Frog / amphibian",
+          "keywords": [
+            "amphibian"
+          ],
+          "emoji": "🐸"
+        },
+        {
+          "id": "dragon",
+          "name": "Folklore dragon",
+          "keywords": [
+            "not a field ID"
+          ],
+          "emoji": "🐉"
+        },
+        {
+          "id": "trilobite-wl",
+          "name": "Trilobite (extinct)",
+          "keywords": [
+            "fossil"
+          ],
+          "gap": true
+        }
+      ]
+    }
+  ]
+}

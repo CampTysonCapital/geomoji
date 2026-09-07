@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "title": "Geomoji",
+  "note": "Per-category slices of Shared/Catalog.json. The app loads the merged file.",
+  "files": [
+    "travel.json",
+    "geography.json",
+    "places.json",
+    "outdoors.json",
+    "wildlife.json",
+    "hunting.json",
+    "fishing.json"
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "id": "fishing",
+  "name": "Fishing",
+  "symbol": "fish",
+  "summary": "Freshwater, saltwater, fly fishing, species, and tackle",
+  "subcategories": [
+    {
+      "id": "freshwater",
+      "name": "Freshwater",
+      "items": [
+        {
+          "id": "fishing-pole-fw",
+          "name": "Fishing pole",
+          "keywords": [
+            "rod",
+            "reel",
+            "angler"
+          ],
+          "emoji": "🎣"
+        },
+        {
+          "id": "fish-fw",
+          "name": "Fish",
+          "keywords": [
+            "bass",
+            "trout",
+            "walleye",
+            "panfish"
+          ],
+          "emoji": "🐟"
+        },
+        {
+          "id": "canoe-fish",
+          "name": "Fishing canoe",
+          "keywords": [
+            "jon boat stand-in"
+          ],
+          "emoji": "🛶"
+        },
+        {
+          "id": "rowboat-fish",
+          "name": "Rowboat",
+          "keywords": [
+            "lake boat"
+          ],
+          "emoji": "🚣"
+        },
+        {
+          "id": "national-park-fish",
+          "name": "Lake / river park",
+          "keywords": [
+            "reservoir"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "worm",
+          "name": "Worm / bait",
+          "keywords": [
+            "nightcrawler",
+            "bait"
+          ],
+          "emoji": "🪱"
+        },
+        {
+          "id": "droplet-fw",
+          "name": "Fresh water",
+          "keywords": [
+            "river"
+          ],
+          "emoji": "💧"
+        }
+      ]
+    },
+    {
+      "id": "saltwater",
+      "name": "Saltwater",
+      "items": [
+        {
+          "id": "tropical-fish",
+          "name": "Tropical / inshore fish",
+          "keywords": [
+            "inshore",
+            "reef"
+          ],
+          "emoji": "🐠"
+        },
+        {
+          "id": "blowfish",
+          "name": "Puffer / blowfish",
+          "keywords": [
+            "puffer"
+          ],
+          "emoji": "🐡"
+        },
+        {
+          "id": "shark-fish",
+          "name": "Shark",
+          "keywords": [
+            "offshore"
+          ],
+          "emoji": "🦈"
+        },
+        {
+          "id": "whale-fish",
+          "name": "Whale",
+          "keywords": [
+            "bluewater"
+          ],
+          "emoji": "🐋"
+        },
+        {
+          "id": "wave-salt",
+          "name": "Ocean",
+          "keywords": [
+            "surf",
+            "jetty"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "ship-fish",
+          "name": "Charter boat stand-in",
+          "keywords": [
+            "head boat"
+          ],
+          "emoji": "🚢"
+        },
+        {
+          "id": "speedboat-fish",
+          "name": "Skiff / center console stand-in",
+          "keywords": [
+            "skiff"
+          ],
+          "emoji": "🚤"
+        },
+        {
+          "id": "anchor-fish",
+          "name": "Anchor",
+          "keywords": [
+            "flats"
+          ],
+          "emoji": "⚓"
+        },
+        {
+          "id": "island-fish",
+          "name": "Island / flats",
+          "keywords": [
+            "keys"
+          ],
+          "emoji": "🏝️"
+        }
+      ]
+    },
+    {
+      "id": "fly-fishing",
+      "name": "Fly Fishing",
+      "items": [
+        {
+          "id": "fishing-pole-fly",
+          "name": "Rod / fly rod stand-in",
+          "keywords": [
+            "fly rod",
+            "4-weight"
+          ],
+          "emoji": "🎣"
+        },
+        {
+          "id": "feather-fly",
+          "name": "Feather / fly material",
+          "keywords": [
+            "hackle",
+            "fly"
+          ],
+          "emoji": "🪶"
+        },
+        {
+          "id": "worm-fly",
+          "name": "Bait (not fly)",
+          "keywords": [
+            "nymph stand-in"
+          ],
+          "emoji": "🪱"
+        },
+        {
+          "id": "fish-fly",
+          "name": "Trout stand-in",
+          "keywords": [
+            "trout",
+            "steelhead"
+          ],
+          "emoji": "🐟"
+        },
+        {
+          "id": "national-park-fly",
+          "name": "River",
+          "keywords": [
+            "tailwater",
+            "spring creek"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "evergreen-fly",
+          "name": "River woods",
+          "keywords": [
+            "canyon creek"
+          ],
+          "emoji": "🌲"
+        },
+        {
+          "id": "fly-pattern",
+          "name": "Fly pattern",
+          "keywords": [
+            "dry fly",
+            "streamer",
+            "nymph"
+          ],
+          "gap": true
+        },
+        {
+          "id": "waders",
+          "name": "Waders",
+          "keywords": [
+            "bootfoot",
+            "stockingfoot"
+          ],
+          "gap": true
+        },
+        {
+          "id": "fly-vest",
+          "name": "Fly vest / pack",
+          "keywords": [
+            "sling pack"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "fish-species",
+      "name": "Species",
+      "items": [
+        {
+          "id": "fish",
+          "name": "Fish",
+          "keywords": [
+            "bass",
+            "trout",
+            "salmon",
+            "pike"
+          ],
+          "emoji": "🐟"
+        },
+        {
+          "id": "tropical-fish-sp",
+          "name": "Tropical fish",
+          "keywords": [
+            "snapper",
+            "permit stand-in"
+          ],
+          "emoji": "🐠"
+        },
+        {
+          "id": "blowfish-sp",
+          "name": "Blowfish",
+          "keywords": [
+            "puffer"
+          ],
+          "emoji": "🐡"
+        },
+        {
+          "id": "shark-sp",
+          "name": "Shark",
+          "keywords": [
+            "mako"
+          ],
+          "emoji": "🦈"
+        },
+        {
+          "id": "octopus-sp",
+          "name": "Octopus",
+          "keywords": [
+            "cephalopod"
+          ],
+          "emoji": "🐙"
+        },
+        {
+          "id": "squid",
+          "name": "Squid",
+          "keywords": [
+            "calamari"
+          ],
+          "emoji": "🦑"
+        },
+        {
+          "id": "shrimp",
+          "name": "Shrimp",
+          "keywords": [
+            "prawn"
+          ],
+          "emoji": "🦐"
+        },
+        {
+          "id": "lobster",
+          "name": "Lobster",
+          "keywords": [
+            "bug"
+          ],
+          "emoji": "🦞"
+        },
+        {
+          "id": "crab",
+          "name": "Crab",
+          "keywords": [
+            "blue crab"
+          ],
+          "emoji": "🦀"
+        },
+        {
+          "id": "seal",
+          "name": "Seal",
+          "keywords": [
+            "pinniped"
+          ],
+          "emoji": "🦭"
+        }
+      ]
+    },
+    {
+      "id": "fishing-equipment",
+      "name": "Equipment",
+      "items": [
+        {
+          "id": "fishing-pole",
+          "name": "Fishing pole",
+          "keywords": [
+            "rod",
+            "reel"
+          ],
+          "emoji": "🎣"
+        },
+        {
+          "id": "bucket",
+          "name": "Bucket / livewell stand-in",
+          "keywords": [
+            "bait bucket"
+          ],
+          "emoji": "🪣"
+        },
+        {
+          "id": "canoe-eq",
+          "name": "Canoe",
+          "keywords": [
+            "small craft"
+          ],
+          "emoji": "🛶"
+        },
+        {
+          "id": "motor-boat-eq",
+          "name": "Boat",
+          "keywords": [
+            "bass boat stand-in"
+          ],
+          "emoji": "🛥️"
+        },
+        {
+          "id": "knife-fish",
+          "name": "Filet knife stand-in",
+          "keywords": [
+            "filet"
+          ],
+          "emoji": "🔪"
+        },
+        {
+          "id": "worm-eq",
+          "name": "Bait",
+          "keywords": [
+            "soft plastic stand-in"
+          ],
+          "emoji": "🪱"
+        },
+        {
+          "id": "hook-gap",
+          "name": "Hook / lure",
+          "keywords": [
+            "jig",
+            "crankbait",
+            "soft plastic"
+          ],
+          "gap": true
+        },
+        {
+          "id": "tackle-box",
+          "name": "Tackle box",
+          "keywords": [
+            "tray",
+            "bag"
+          ],
+          "gap": true
+        },
+        {
+          "id": "landing-net",
+          "name": "Landing net",
+          "keywords": [
+            "net",
+            "rubber net"
+          ],
+          "gap": true
+        }
+      ]
+    }
+  ]
+}

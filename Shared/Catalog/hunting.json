@@ -1,0 +1,778 @@
+{
+  "id": "hunting",
+  "name": "Hunting",
+  "symbol": "hare",
+  "summary": "Big game, deer, waterfowl, turkey, upland, and field gear",
+  "subcategories": [
+    {
+      "id": "big-game",
+      "name": "Big Game",
+      "items": [
+        {
+          "id": "bear",
+          "name": "Bear",
+          "keywords": [
+            "black bear",
+            "grizzly",
+            "ursid"
+          ],
+          "emoji": "🐻"
+        },
+        {
+          "id": "moose",
+          "name": "Moose",
+          "keywords": [
+            "alces",
+            "bull moose"
+          ],
+          "emoji": "🫎"
+        },
+        {
+          "id": "bison",
+          "name": "Bison / buffalo",
+          "keywords": [
+            "buffalo"
+          ],
+          "emoji": "🦬"
+        },
+        {
+          "id": "boar",
+          "name": "Wild boar / hog",
+          "keywords": [
+            "hog",
+            "pig"
+          ],
+          "emoji": "🐗"
+        },
+        {
+          "id": "deer-big",
+          "name": "Deer (elk stand-in)",
+          "keywords": [
+            "elk",
+            "wapiti",
+            "caribou"
+          ],
+          "emoji": "🦌"
+        },
+        {
+          "id": "wolf",
+          "name": "Wolf",
+          "keywords": [
+            "canid"
+          ],
+          "emoji": "🐺"
+        },
+        {
+          "id": "goat",
+          "name": "Mountain goat stand-in",
+          "keywords": [
+            "goat",
+            "ibex"
+          ],
+          "emoji": "🐐"
+        },
+        {
+          "id": "ram",
+          "name": "Ram / sheep",
+          "keywords": [
+            "bighorn",
+            "sheep"
+          ],
+          "emoji": "🐏"
+        },
+        {
+          "id": "elk",
+          "name": "Elk",
+          "keywords": [
+            "wapiti",
+            "bugle"
+          ],
+          "gap": true
+        },
+        {
+          "id": "caribou",
+          "name": "Caribou / reindeer",
+          "keywords": [
+            "caribou",
+            "reindeer"
+          ],
+          "gap": true
+        },
+        {
+          "id": "pronghorn",
+          "name": "Pronghorn",
+          "keywords": [
+            "antelope"
+          ],
+          "gap": true
+        },
+        {
+          "id": "cougar",
+          "name": "Cougar / mountain lion",
+          "keywords": [
+            "puma",
+            "catamount"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "deer",
+      "name": "Deer",
+      "items": [
+        {
+          "id": "whitetail",
+          "name": "Whitetail",
+          "keywords": [
+            "whitetail",
+            "buck",
+            "doe"
+          ],
+          "emoji": "🦌"
+        },
+        {
+          "id": "buck",
+          "name": "Buck",
+          "keywords": [
+            "antlers",
+            "whitetail buck"
+          ],
+          "emoji": "🦌"
+        },
+        {
+          "id": "doe",
+          "name": "Doe",
+          "keywords": [
+            "doe",
+            "nanny"
+          ],
+          "emoji": "🦌"
+        },
+        {
+          "id": "mule-deer",
+          "name": "Mule deer",
+          "keywords": [
+            "muley"
+          ],
+          "gap": true
+        },
+        {
+          "id": "fawn",
+          "name": "Fawn",
+          "keywords": [
+            "young deer"
+          ],
+          "gap": true
+        },
+        {
+          "id": "shed-antler",
+          "name": "Shed antler",
+          "keywords": [
+            "shed",
+            "antler"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "waterfowl",
+      "name": "Waterfowl",
+      "items": [
+        {
+          "id": "duck",
+          "name": "Duck / mallard stand-in",
+          "keywords": [
+            "mallard",
+            "drake",
+            "hen",
+            "dabbler"
+          ],
+          "emoji": "🦆"
+        },
+        {
+          "id": "goose",
+          "name": "Goose",
+          "keywords": [
+            "canada goose",
+            "snow goose",
+            "honker"
+          ],
+          "emoji": "🪿"
+        },
+        {
+          "id": "swan",
+          "name": "Swan",
+          "keywords": [
+            "tundra swan"
+          ],
+          "emoji": "🦢"
+        },
+        {
+          "id": "feather",
+          "name": "Feather",
+          "keywords": [
+            "wing"
+          ],
+          "emoji": "🪶"
+        },
+        {
+          "id": "water-wave-fowl",
+          "name": "Marsh / water",
+          "keywords": [
+            "wetland"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "dog-retriever",
+          "name": "Retriever",
+          "keywords": [
+            "lab",
+            "retriever",
+            "dog"
+          ],
+          "emoji": "🐕"
+        },
+        {
+          "id": "mallard-drake",
+          "name": "Mallard drake",
+          "keywords": [
+            "mallard"
+          ],
+          "gap": true
+        },
+        {
+          "id": "mallard-hen",
+          "name": "Mallard hen",
+          "keywords": [
+            "hen"
+          ],
+          "gap": true
+        },
+        {
+          "id": "pintail",
+          "name": "Pintail",
+          "keywords": [
+            "sprig"
+          ],
+          "gap": true
+        },
+        {
+          "id": "wood-duck",
+          "name": "Wood duck",
+          "keywords": [
+            "woodie"
+          ],
+          "gap": true
+        },
+        {
+          "id": "canvasback",
+          "name": "Canvasback",
+          "keywords": [
+            "can"
+          ],
+          "gap": true
+        },
+        {
+          "id": "teal",
+          "name": "Teal",
+          "keywords": [
+            "greenwing",
+            "bluewing",
+            "cinnamon teal"
+          ],
+          "gap": true
+        },
+        {
+          "id": "gadwall",
+          "name": "Gadwall",
+          "keywords": [
+            "gadwall"
+          ],
+          "gap": true
+        },
+        {
+          "id": "wigeon",
+          "name": "American wigeon",
+          "keywords": [
+            "baldpate"
+          ],
+          "gap": true
+        },
+        {
+          "id": "shoveler",
+          "name": "Northern shoveler",
+          "keywords": [
+            "spoonbill"
+          ],
+          "gap": true
+        },
+        {
+          "id": "black-duck",
+          "name": "American black duck",
+          "keywords": [
+            "black duck"
+          ],
+          "gap": true
+        },
+        {
+          "id": "redhead-duck",
+          "name": "Redhead",
+          "keywords": [
+            "redhead"
+          ],
+          "gap": true
+        },
+        {
+          "id": "scaup",
+          "name": "Scaup",
+          "keywords": [
+            "bluebill"
+          ],
+          "gap": true
+        },
+        {
+          "id": "ring-necked-duck",
+          "name": "Ring-necked duck",
+          "keywords": [
+            "ringneck duck"
+          ],
+          "gap": true
+        },
+        {
+          "id": "goldeneye",
+          "name": "Goldeneye",
+          "keywords": [
+            "whistler"
+          ],
+          "gap": true
+        },
+        {
+          "id": "bufflehead",
+          "name": "Bufflehead",
+          "keywords": [
+            "bufflehead"
+          ],
+          "gap": true
+        },
+        {
+          "id": "merganser",
+          "name": "Merganser",
+          "keywords": [
+            "sawbill"
+          ],
+          "gap": true
+        },
+        {
+          "id": "canada-goose",
+          "name": "Canada goose",
+          "keywords": [
+            "honker"
+          ],
+          "gap": true
+        },
+        {
+          "id": "snow-goose",
+          "name": "Snow goose",
+          "keywords": [
+            "speck"
+          ],
+          "gap": true
+        },
+        {
+          "id": "brant",
+          "name": "Brant",
+          "keywords": [
+            "brant"
+          ],
+          "gap": true
+        },
+        {
+          "id": "specklebelly",
+          "name": "Greater white-fronted goose",
+          "keywords": [
+            "specklebelly"
+          ],
+          "gap": true
+        },
+        {
+          "id": "decoy",
+          "name": "Decoy",
+          "keywords": [
+            "decoys",
+            "spread"
+          ],
+          "gap": true
+        },
+        {
+          "id": "duck-decoy",
+          "name": "Duck decoy",
+          "keywords": [
+            "mallard decoy"
+          ],
+          "gap": true
+        },
+        {
+          "id": "goose-decoy",
+          "name": "Goose decoy",
+          "keywords": [
+            "full body",
+            "shell"
+          ],
+          "gap": true
+        },
+        {
+          "id": "duck-call",
+          "name": "Duck / goose call",
+          "keywords": [
+            "call",
+            "lanyard"
+          ],
+          "gap": true
+        },
+        {
+          "id": "layout-blind",
+          "name": "Layout / A-frame blind",
+          "keywords": [
+            "layout blind",
+            "A-frame"
+          ],
+          "gap": true
+        },
+        {
+          "id": "duck-flag",
+          "name": "Waterfowl flag",
+          "keywords": [
+            "flagging"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "items": [
+        {
+          "id": "wild-turkey",
+          "name": "Wild turkey",
+          "keywords": [
+            "gobbler",
+            "jake",
+            "hen turkey"
+          ],
+          "emoji": "🦃"
+        },
+        {
+          "id": "feather-turkey",
+          "name": "Turkey feather",
+          "keywords": [
+            "beard",
+            "fan"
+          ],
+          "emoji": "🪶"
+        },
+        {
+          "id": "evergreen-turkey",
+          "name": "Woods",
+          "keywords": [
+            "hardwoods",
+            "roost"
+          ],
+          "emoji": "🌲"
+        },
+        {
+          "id": "turkey-call",
+          "name": "Turkey call",
+          "keywords": [
+            "box call",
+            "slate",
+            "diaphragm"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "upland",
+      "name": "Upland",
+      "items": [
+        {
+          "id": "turkey-upland",
+          "name": "Turkey",
+          "keywords": [
+            "upland"
+          ],
+          "emoji": "🦃"
+        },
+        {
+          "id": "bird",
+          "name": "Upland bird stand-in",
+          "keywords": [
+            "pheasant",
+            "quail",
+            "grouse"
+          ],
+          "emoji": "🐦"
+        },
+        {
+          "id": "feather-upland",
+          "name": "Feather",
+          "keywords": [
+            "plume"
+          ],
+          "emoji": "🪶"
+        },
+        {
+          "id": "dog-upland",
+          "name": "Bird dog",
+          "keywords": [
+            "pointer",
+            "setter",
+            "spaniel"
+          ],
+          "emoji": "🐕"
+        },
+        {
+          "id": "deciduous-upland",
+          "name": "Cover / hedgerow",
+          "keywords": [
+            "crp",
+            "cover"
+          ],
+          "emoji": "🌳"
+        },
+        {
+          "id": "pheasant",
+          "name": "Pheasant",
+          "keywords": [
+            "ringneck",
+            "rooster"
+          ],
+          "gap": true
+        },
+        {
+          "id": "quail",
+          "name": "Quail",
+          "keywords": [
+            "bobwhite"
+          ],
+          "gap": true
+        },
+        {
+          "id": "grouse",
+          "name": "Grouse",
+          "keywords": [
+            "ruffed",
+            "sage"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "hunting-equipment",
+      "name": "Equipment",
+      "items": [
+        {
+          "id": "bow-arrow",
+          "name": "Bow and arrow",
+          "keywords": [
+            "bow",
+            "archery",
+            "compound"
+          ],
+          "emoji": "🏹"
+        },
+        {
+          "id": "direct-hit",
+          "name": "Target",
+          "keywords": [
+            "bullseye",
+            "sight"
+          ],
+          "emoji": "🎯"
+        },
+        {
+          "id": "flashlight-hunt",
+          "name": "Flashlight",
+          "keywords": [
+            "headlamp"
+          ],
+          "emoji": "🔦"
+        },
+        {
+          "id": "knife",
+          "name": "Knife",
+          "keywords": [
+            "skinning",
+            "blade"
+          ],
+          "emoji": "🔪"
+        },
+        {
+          "id": "axe-hunt",
+          "name": "Axe / hatchet",
+          "keywords": [
+            "camp axe"
+          ],
+          "emoji": "🪓"
+        },
+        {
+          "id": "camping-hunt",
+          "name": "Camp",
+          "keywords": [
+            "spike camp"
+          ],
+          "emoji": "🏕️"
+        },
+        {
+          "id": "tent-hunt",
+          "name": "Tent",
+          "keywords": [
+            "wall tent"
+          ],
+          "emoji": "⛺"
+        },
+        {
+          "id": "boot-hunt",
+          "name": "Boot",
+          "keywords": [
+            "pac boot"
+          ],
+          "emoji": "🥾"
+        },
+        {
+          "id": "coat",
+          "name": "Coat / jacket",
+          "keywords": [
+            "layer"
+          ],
+          "emoji": "🧥"
+        },
+        {
+          "id": "cap",
+          "name": "Cap",
+          "keywords": [
+            "hat"
+          ],
+          "emoji": "🧢"
+        },
+        {
+          "id": "gloves-hunt",
+          "name": "Gloves",
+          "keywords": [
+            "handwear"
+          ],
+          "emoji": "🧤"
+        },
+        {
+          "id": "dog-hunt",
+          "name": "Hunting dog",
+          "keywords": [
+            "hound"
+          ],
+          "emoji": "🐕"
+        },
+        {
+          "id": "telescope-hunt",
+          "name": "Spotting scope stand-in",
+          "keywords": [
+            "spotter",
+            "glass"
+          ],
+          "emoji": "🔭"
+        },
+        {
+          "id": "compass-hunt",
+          "name": "Compass",
+          "keywords": [
+            "nav"
+          ],
+          "emoji": "🧭"
+        },
+        {
+          "id": "map-hunt",
+          "name": "Map",
+          "keywords": [
+            "onx stand-in"
+          ],
+          "emoji": "🗺️"
+        },
+        {
+          "id": "treestand",
+          "name": "Treestand",
+          "keywords": [
+            "stand",
+            "saddle",
+            "hang-on"
+          ],
+          "gap": true
+        },
+        {
+          "id": "ground-blind",
+          "name": "Ground blind",
+          "keywords": [
+            "blind"
+          ],
+          "gap": true
+        },
+        {
+          "id": "game-call",
+          "name": "Game call",
+          "keywords": [
+            "grunt",
+            "bleat",
+            "call"
+          ],
+          "gap": true
+        },
+        {
+          "id": "grunt-call",
+          "name": "Grunt call",
+          "keywords": [
+            "buck grunt"
+          ],
+          "gap": true
+        },
+        {
+          "id": "rattling-antlers",
+          "name": "Rattling antlers",
+          "keywords": [
+            "rattle"
+          ],
+          "gap": true
+        },
+        {
+          "id": "binoculars-hunt",
+          "name": "Binoculars",
+          "keywords": [
+            "binos",
+            "10x42"
+          ],
+          "gap": true
+        },
+        {
+          "id": "rifle",
+          "name": "Rifle / shotgun",
+          "keywords": [
+            "firearm",
+            "slug"
+          ],
+          "gap": true
+        },
+        {
+          "id": "camouflage",
+          "name": "Camouflage",
+          "keywords": [
+            "camo",
+            "pattern"
+          ],
+          "gap": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "id": "geography",
+  "name": "Geography",
+  "symbol": "globe.americas",
+  "summary": "Landforms, maps, weather, geology, and oceans",
+  "subcategories": [
+    {
+      "id": "landforms",
+      "name": "Landforms",
+      "items": [
+        {
+          "id": "mountain",
+          "name": "Mountain",
+          "keywords": [
+            "peak",
+            "range"
+          ],
+          "emoji": "⛰️"
+        },
+        {
+          "id": "snow-mountain",
+          "name": "Snow-capped mountain",
+          "keywords": [
+            "alps",
+            "summit"
+          ],
+          "emoji": "🏔️"
+        },
+        {
+          "id": "mount-fuji",
+          "name": "Mount Fuji",
+          "keywords": [
+            "fuji",
+            "stratovolcano"
+          ],
+          "emoji": "🗻"
+        },
+        {
+          "id": "volcano",
+          "name": "Volcano",
+          "keywords": [
+            "eruption",
+            "lava"
+          ],
+          "emoji": "🌋"
+        },
+        {
+          "id": "desert",
+          "name": "Desert",
+          "keywords": [
+            "dunes",
+            "arid"
+          ],
+          "emoji": "🏜️"
+        },
+        {
+          "id": "island",
+          "name": "Desert island",
+          "keywords": [
+            "atoll",
+            "cay"
+          ],
+          "emoji": "🏝️"
+        },
+        {
+          "id": "national-park",
+          "name": "National park",
+          "keywords": [
+            "park",
+            "valley"
+          ],
+          "emoji": "🏞️"
+        },
+        {
+          "id": "beach-landform",
+          "name": "Beach",
+          "keywords": [
+            "coast",
+            "shore"
+          ],
+          "emoji": "🏖️"
+        },
+        {
+          "id": "rock",
+          "name": "Rock / boulder",
+          "keywords": [
+            "stone",
+            "outcrop"
+          ],
+          "emoji": "🪨"
+        },
+        {
+          "id": "moai",
+          "name": "Moai / stone monument",
+          "keywords": [
+            "easter island",
+            "statue"
+          ],
+          "emoji": "🗿"
+        },
+        {
+          "id": "waterfall",
+          "name": "Waterfall",
+          "keywords": [
+            "falls",
+            "cascade"
+          ],
+          "gap": true
+        },
+        {
+          "id": "glacier",
+          "name": "Glacier",
+          "keywords": [
+            "icefield",
+            "ice"
+          ],
+          "gap": true
+        },
+        {
+          "id": "canyon",
+          "name": "Canyon",
+          "keywords": [
+            "gorge",
+            "grand canyon"
+          ],
+          "gap": true
+        },
+        {
+          "id": "cave",
+          "name": "Cave",
+          "keywords": [
+            "cavern",
+            "karst"
+          ],
+          "gap": true
+        },
+        {
+          "id": "geyser",
+          "name": "Geyser",
+          "keywords": [
+            "fumarole",
+            "hydrothermal"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "items": [
+        {
+          "id": "world-map-geo",
+          "name": "World map",
+          "keywords": [
+            "map",
+            "atlas",
+            "topo"
+          ],
+          "emoji": "🗺️"
+        },
+        {
+          "id": "japan-map",
+          "name": "Map of Japan",
+          "keywords": [
+            "japan"
+          ],
+          "emoji": "🗾"
+        },
+        {
+          "id": "compass",
+          "name": "Compass",
+          "keywords": [
+            "bearing",
+            "orienteering",
+            "navigation"
+          ],
+          "emoji": "🧭"
+        },
+        {
+          "id": "pin",
+          "name": "Destination pin",
+          "keywords": [
+            "pin",
+            "marker",
+            "drop"
+          ],
+          "emoji": "📍"
+        },
+        {
+          "id": "round-pushpin",
+          "name": "Round pushpin",
+          "keywords": [
+            "pin"
+          ],
+          "emoji": "📌"
+        },
+        {
+          "id": "placard",
+          "name": "Signpost / placard",
+          "keywords": [
+            "sign",
+            "wayfinding"
+          ],
+          "emoji": "🪧"
+        },
+        {
+          "id": "straight-ruler",
+          "name": "Ruler / scale bar",
+          "keywords": [
+            "scale",
+            "measure"
+          ],
+          "emoji": "📏"
+        },
+        {
+          "id": "triangular-ruler",
+          "name": "Triangle ruler",
+          "keywords": [
+            "drafting"
+          ],
+          "emoji": "📐"
+        },
+        {
+          "id": "binoculars",
+          "name": "Binoculars",
+          "keywords": [
+            "binos",
+            "optics",
+            "spotting"
+          ],
+          "gap": true
+        },
+        {
+          "id": "topo-map",
+          "name": "Topo map",
+          "keywords": [
+            "contour",
+            "usgs",
+            "quad"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "items": [
+        {
+          "id": "sun",
+          "name": "Sun",
+          "keywords": [
+            "clear",
+            "sunny"
+          ],
+          "emoji": "☀️"
+        },
+        {
+          "id": "sun-behind-small-cloud",
+          "name": "Mostly sunny",
+          "keywords": [
+            "partly cloudy"
+          ],
+          "emoji": "🌤️"
+        },
+        {
+          "id": "cloud",
+          "name": "Cloud",
+          "keywords": [
+            "overcast"
+          ],
+          "emoji": "☁️"
+        },
+        {
+          "id": "rain-cloud",
+          "name": "Rain",
+          "keywords": [
+            "shower"
+          ],
+          "emoji": "🌧️"
+        },
+        {
+          "id": "storm",
+          "name": "Thunderstorm",
+          "keywords": [
+            "storm"
+          ],
+          "emoji": "⛈️"
+        },
+        {
+          "id": "lightning",
+          "name": "Lightning",
+          "keywords": [
+            "bolt",
+            "electric"
+          ],
+          "emoji": "⚡"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "keywords": [
+            "snow",
+            "winter"
+          ],
+          "emoji": "❄️"
+        },
+        {
+          "id": "snowman",
+          "name": "Snowman",
+          "keywords": [
+            "snow"
+          ],
+          "emoji": "☃️"
+        },
+        {
+          "id": "tornado",
+          "name": "Tornado / cyclone",
+          "keywords": [
+            "twister"
+          ],
+          "emoji": "🌪️"
+        },
+        {
+          "id": "fog",
+          "name": "Fog",
+          "keywords": [
+            "mist"
+          ],
+          "emoji": "🌫️"
+        },
+        {
+          "id": "rainbow",
+          "name": "Rainbow",
+          "keywords": [
+            "prism"
+          ],
+          "emoji": "🌈"
+        },
+        {
+          "id": "thermometer",
+          "name": "Thermometer",
+          "keywords": [
+            "temperature",
+            "heat"
+          ],
+          "emoji": "🌡️"
+        },
+        {
+          "id": "wind-face",
+          "name": "Wind",
+          "keywords": [
+            "gust"
+          ],
+          "emoji": "💨"
+        },
+        {
+          "id": "cyclone",
+          "name": "Cyclone symbol",
+          "keywords": [
+            "hurricane",
+            "typhoon"
+          ],
+          "emoji": "🌀"
+        },
+        {
+          "id": "umbrella-rain",
+          "name": "Umbrella with rain",
+          "keywords": [
+            "rain"
+          ],
+          "emoji": "☔"
+        },
+        {
+          "id": "comet",
+          "name": "Comet",
+          "keywords": [
+            "meteor"
+          ],
+          "emoji": "☄️"
+        },
+        {
+          "id": "water-wave-weather",
+          "name": "Ocean wave",
+          "keywords": [
+            "swell",
+            "surf"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "droplet",
+          "name": "Droplet",
+          "keywords": [
+            "water",
+            "raindrop"
+          ],
+          "emoji": "💧"
+        }
+      ]
+    },
+    {
+      "id": "geology",
+      "name": "Geology",
+      "items": [
+        {
+          "id": "volcano-geo",
+          "name": "Volcano",
+          "keywords": [
+            "igneous",
+            "magma",
+            "eruption"
+          ],
+          "emoji": "🌋"
+        },
+        {
+          "id": "rock-geo",
+          "name": "Rock",
+          "keywords": [
+            "lithic",
+            "outcrop",
+            "clast"
+          ],
+          "emoji": "🪨"
+        },
+        {
+          "id": "gem",
+          "name": "Gem / crystal",
+          "keywords": [
+            "mineral",
+            "diamond",
+            "geode"
+          ],
+          "emoji": "💎"
+        },
+        {
+          "id": "bone",
+          "name": "Bone / fossil bone",
+          "keywords": [
+            "fossil",
+            "osteology"
+          ],
+          "emoji": "🦴"
+        },
+        {
+          "id": "sauropod",
+          "name": "Sauropod",
+          "keywords": [
+            "dinosaur",
+            "jurassic"
+          ],
+          "emoji": "🦕"
+        },
+        {
+          "id": "trex",
+          "name": "T-Rex",
+          "keywords": [
+            "dinosaur",
+            "cretaceous"
+          ],
+          "emoji": "🦖"
+        },
+        {
+          "id": "pick",
+          "name": "Pick / field hammer stand-in",
+          "keywords": [
+            "hammer",
+            "rock hammer",
+            "pickaxe"
+          ],
+          "emoji": "⛏️"
+        },
+        {
+          "id": "axe",
+          "name": "Axe",
+          "keywords": [
+            "hatchet",
+            "field tool"
+          ],
+          "emoji": "🪓"
+        },
+        {
+          "id": "test-tube",
+          "name": "Test tube",
+          "keywords": [
+            "lab",
+            "geochem"
+          ],
+          "emoji": "🧪"
+        },
+        {
+          "id": "microscope",
+          "name": "Microscope",
+          "keywords": [
+            "thin section",
+            "petrography"
+          ],
+          "emoji": "🔬"
+        },
+        {
+          "id": "telescope",
+          "name": "Telescope",
+          "keywords": [
+            "field glass"
+          ],
+          "emoji": "🔭"
+        },
+        {
+          "id": "magnet",
+          "name": "Magnet",
+          "keywords": [
+            "paleomag"
+          ],
+          "emoji": "🧲"
+        },
+        {
+          "id": "thermometer-geo",
+          "name": "Thermometer",
+          "keywords": [
+            "geotherm"
+          ],
+          "emoji": "🌡️"
+        },
+        {
+          "id": "collision",
+          "name": "Impact / eruption burst",
+          "keywords": [
+            "impact",
+            "shock"
+          ],
+          "emoji": "💥"
+        },
+        {
+          "id": "hot-springs-geo",
+          "name": "Hot springs",
+          "keywords": [
+            "hydrothermal",
+            "geothermal"
+          ],
+          "emoji": "♨️"
+        },
+        {
+          "id": "earth-americas",
+          "name": "Earth (Americas)",
+          "keywords": [
+            "planet",
+            "globe"
+          ],
+          "emoji": "🌎"
+        },
+        {
+          "id": "earth-africa",
+          "name": "Earth (Africa–Europe)",
+          "keywords": [
+            "planet"
+          ],
+          "emoji": "🌍"
+        },
+        {
+          "id": "earth-asia",
+          "name": "Earth (Asia)",
+          "keywords": [
+            "planet"
+          ],
+          "emoji": "🌏"
+        },
+        {
+          "id": "trilobite",
+          "name": "Trilobite",
+          "keywords": [
+            "trilobite",
+            "cambrian",
+            "fossil"
+          ],
+          "gap": true
+        },
+        {
+          "id": "geode",
+          "name": "Geode",
+          "keywords": [
+            "vug",
+            "crystal pocket"
+          ],
+          "gap": true
+        },
+        {
+          "id": "strata",
+          "name": "Rock strata / layers",
+          "keywords": [
+            "bedding",
+            "stratigraphy"
+          ],
+          "gap": true
+        },
+        {
+          "id": "core-sample",
+          "name": "Core sample",
+          "keywords": [
+            "core",
+            "drilling"
+          ],
+          "gap": true
+        },
+        {
+          "id": "amber",
+          "name": "Amber",
+          "keywords": [
+            "resin",
+            "inclusion"
+          ],
+          "gap": true
+        }
+      ]
+    },
+    {
+      "id": "oceans",
+      "name": "Oceans",
+      "items": [
+        {
+          "id": "water-wave",
+          "name": "Ocean wave",
+          "keywords": [
+            "sea",
+            "swell"
+          ],
+          "emoji": "🌊"
+        },
+        {
+          "id": "droplet-ocean",
+          "name": "Water",
+          "keywords": [
+            "h2o"
+          ],
+          "emoji": "💧"
+        },
+        {
+          "id": "spouting-whale",
+          "name": "Spouting whale",
+          "keywords": [
+            "whale"
+          ],
+          "emoji": "🐳"
+        },
+        {
+          "id": "whale",
+          "name": "Whale",
+          "keywords": [
+            "cetacean"
+          ],
+          "emoji": "🐋"
+        },
+        {
+          "id": "dolphin",
+          "name": "Dolphin",
+          "keywords": [
+            "porpoise"
+          ],
+          "emoji": "🐬"
+        },
+        {
+          "id": "shark",
+          "name": "Shark",
+          "keywords": [
+            "elasmobranch"
+          ],
+          "emoji": "🦈"
+        },
+        {
+          "id": "octopus",
+          "name": "Octopus",
+          "keywords": [
+            "cephalopod"
+          ],
+          "emoji": "🐙"
+        },
+        {
+          "id": "spiral-shell",
+          "name": "Seashell",
+          "keywords": [
+            "shell",
+            "mollusk"
+          ],
+          "emoji": "🐚"
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "keywords": [
+            "reef"
+          ],
+          "emoji": "🪸"
+        },
+        {
+          "id": "anchor-ocean",
+          "name": "Anchor",
+          "keywords": [
+            "mooring"
+          ],
+          "emoji": "⚓"
+        },
+        {
+          "id": "island-ocean",
+          "name": "Island",
+          "keywords": [
+            "atoll"
+          ],
+          "emoji": "🏝️"
+        }
+      ]
+    }
+  ]
+}
